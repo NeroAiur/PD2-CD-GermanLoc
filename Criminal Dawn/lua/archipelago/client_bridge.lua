@@ -82,6 +82,13 @@ function CrimDawnClient:PollProgression(ItemLog)
   return end
 
   local ProgressionDelta = self.progression_items - data.game.progression_items
+  if ProgressionDelta < 0 then
+    CrimDawn.ChatNotify(
+      "You seem to have lost progression items (ProgressionDelta == " .. ProgressionDelta ..
+      "); please report this issue as soon as possible!\nAttaching your current save and client file" ..
+      " would help a lot in narrowing down the issue.\nPAYDAY 2/mods/saves\ncrimdawn_save.txt & crimdawn_client.txt"
+    )
+  return end
 
   if self.progression_items > data.game.progression_items then
     CrimDawn.state.cap_reached = false
@@ -375,11 +382,7 @@ function CrimDawnClient:PollData()
     CrimDawn:RandomUpgrade(StatsNeeded, "stats")
 
     Global.CrimDawn.data.x.stats = self.data["Stat Boost"]
-    ItemLog = ItemLog .. managers.localization:text("crimdawn_client_new_item", {
-      ITEM = "stat boost",
-      CURRENT = self.data["Stat Boost"],
-      TOTAL = "??"
-    })
+    ItemLog = ItemLog .. managers.localization:text("crimdawn_client_infinite_item", { ITEM = "stat boost" })
     DataChanged = true
   end
 

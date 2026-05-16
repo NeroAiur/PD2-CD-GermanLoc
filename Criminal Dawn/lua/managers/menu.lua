@@ -130,7 +130,9 @@ Hooks:Add("MenuManagerBuildCustomMenus", "CrimDawn_MenuTweaks", function(menu_ma
   if mainmenu ~= nil then
     managers.localization:load_localization_file(CrimDawn.SavePath .. "crimdawn_rooms.txt")
 
-    DelayedCalls:Add("CrimDawn_MenuPoll", 1, function() CrimDawnClient:PollData() end)
+    if Global.CrimDawn.PostBoot then
+      DelayedCalls:Add("CrimDawn_MenuPoll", 1, function() CrimDawnClient:PollData() end)
+    else Global.CrimDawn.PostBoot = true end
 
     local MaxTime = 900 * Global.CrimDawn.data.game.run_length
     if Global.CrimDawn.data.game.run_length == 0 then MaxTime = 6000 end
@@ -153,7 +155,8 @@ Hooks:Add("MenuManagerBuildCustomMenus", "CrimDawn_MenuTweaks", function(menu_ma
         CLOCK = TimeCharacter,
         TIME = math.floor((Global.CrimDawn.data.game.ponr or 0) / 60)
       })
-    }) end
+    })
+    end
 
     local HeistNumText = ""
     local IsEndless = Global.CrimDawn.data.game.heists_won >= Global.CrimDawn.data.game.run_length
@@ -256,37 +259,35 @@ Hooks:Add("MenuManagerBuildCustomMenus", "CrimDawn_MenuTweaks", function(menu_ma
     end
   end
 end)
--- MENU CHANGES END HERE
+-- MENU CHANGES END HERE --
 
 Hooks:PreHook(MenuCallbackHandler, "start_the_game", "CrimDawn_PreStartGame", function(self)
-  if CrimDawn.state.heist_started then return end
+  if Utils:IsInGameState() or CrimDawn.state.heist_started then return end
 
-  if not Utils:IsInGameState() then
-    -- check for any last second items
-    CrimDawnClient:PollProgression()
-    CrimDawnClient:PollData()
+  -- Check for any last second items
+  CrimDawnClient:PollProgression()
+  CrimDawnClient:PollData()
 
-    if NetworkHelper:IsHost() then
-      -- Pick starting heist if no active run
-      if not next(Global.CrimDawn.data.game.heists) then CrimDawn:NextHeist(0) end
+  if NetworkHelper:IsHost() then -- Pick starting heist if no active run
+    if not next(Global.CrimDawn.data.game.heists) then CrimDawn:NextHeist(0) end
 
-      -- If no mutators active, try to enable them
-      dofile(CrimDawn.ModPath .. "lua/tables/mutators.lua")
+    -- Activate mutators
+    dofile(CrimDawn.ModPath .. "lua/tables/mutators.lua")
 
-      -- Drop you straight into a heist
-      local NextHeist = Global.CrimDawn.data.game.heists[#Global.CrimDawn.data.game.heists]
+    -- Setup next heist
+    local NextHeist = Global.CrimDawn.data.game.heists[#Global.CrimDawn.data.game.heists]
 
-      self:start_job({
-        difficulty = tweak_data.difficulties[CrimDawn.DiffIndex()],
-        one_down = true,
-        job_id = NextHeist
-      })
+    self:start_job({
+      difficulty = tweak_data.difficulties[CrimDawn.DiffIndex()],
+      one_down = true,
+      job_id = NextHeist
+    })
 
-      CrimDawn.Log(FileIdent, "Loading " .. NextHeist .. " on " .. tweak_data.difficulties[CrimDawn.DiffIndex()])
-    end
-
-  CrimDawn.state.heist_started = true
+    CrimDawn.Log(FileIdent, "Loading " .. NextHeist .. " on " .. tweak_data.difficulties[CrimDawn.DiffIndex()])
   end
+
+  -- Prevent from running again, otherwise peer mutators become desynced
+  CrimDawn.state.heist_started = true
 end)
 
 Hooks:OverrideFunction(MenuCallbackHandler, "abort_mission", function(self)

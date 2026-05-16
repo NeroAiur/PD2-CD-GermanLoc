@@ -34,7 +34,7 @@ end
 
 if Global.CrimDawn.data.x.permaskills > 0 then PermaUpgrade("permaskills") end
 if Global.CrimDawn.data.x.max_lives > 1 then PermaUpgrade("player_additional_lives_", Global.CrimDawn.data.x.max_lives - 1) end
-if Global.CrimDawn.data.game.progression_items > 0 then PermaUpgrade("player_drill_speed_multiplier", CrimDawn.DiffScale(true, 6)) end
+if Global.CrimDawn.data.game.progression_items > 0 then PermaUpgrade("faster_objectives", "") end
 if PermaHeader then table.insert(upgrades.skills, string.upper("\nRandom Skills:")) end
 
 if Global.CrimDawn.data.x.permaperks > 0 then

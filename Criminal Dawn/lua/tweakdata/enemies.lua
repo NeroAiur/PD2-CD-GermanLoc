@@ -1,5 +1,5 @@
 local function SetStats(self, diff)
-  local flashbang_mult = { 1, 1.25, 1.5, 1.75, 2, 2, 2 }
+  local flashbang_mult = { 1, 1.25, 1.5, 1.75, 2, 2.5, 3 }
   local weapon_preset = { "normal", "normal", "good", "good", "expert", "expert", "deathwish" }
   local cloaker_cooldown = {
     {10, 10}, {8, 10}, {6, 8}, {4, 6}, {3, 4}, {2, 3}, {0, 1}
@@ -37,7 +37,7 @@ local function SetStats(self, diff)
 
   -- Damage fall-off (based on vanilla OVK/Mayhem)
   local expert = self.presets.weapon.expert
-  local skip = { expert = true, gang_member = true, sniper = true }
+  local skip = { expert = true, gang_member = true, sniper = true, bot_weapons = true }
   for preset, preset_data in pairs(self.presets.weapon) do
     if not skip[preset] then
       for weapon_name, weapon_data in pairs(preset_data) do
@@ -87,8 +87,6 @@ local function SetStats(self, diff)
   self.spooc.spooc_attack_timeout = cloaker_cooldown[diff]
   self.spooc.spooc_attack_beating_time[1] = cloaker_cooldown[diff][1]
   self.spooc.spooc_attack_beating_time[2] = cloaker_cooldown[diff][1]
-  self.shadow_spooc.shadow_spooc_attack_timeout = self.spooc.spooc_attack_timeout
-  self.shadow_spooc.spooc_attack_beating_time = self.spooc.spooc_attack_beating_time
 
   for _, npc in pairs(self) do -- Enemies can't move bags
     if type(npc) == "table" and npc.steal_loot then npc.steal_loot = nil end

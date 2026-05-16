@@ -1,5 +1,6 @@
 local FileIdent = "SafehouseManager"
 
+Hooks:OverrideFunction(CustomSafehouseManager, "is_being_raided", function() return false end)
 Hooks:OverrideFunction(CustomSafehouseManager, "add_coins_ingore_locked", function() end)
 Hooks:OverrideFunction(CustomSafehouseManager, "give_upgrade_points", function() end)
 Hooks:OverrideFunction(CustomSafehouseManager, "attempt_give_initial_coins", function() end)

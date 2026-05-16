@@ -81,8 +81,7 @@ function CrimDawn:Init()
 
     self:RandomUpgrade(DeployableUpgrades, "deployable")
 
-    -- Prevent deathlink loopback, setup next run
-    Global.CrimDawn.data.game.deathlink_time = os.time() + 10
+    -- Setup next run
     if NetworkHelper:IsHost() then
       Global.CrimDawn.data.game.run = Global.CrimDawn.data.game.run + 1
       Global.CrimDawn.data.game.ponr = false
@@ -177,9 +176,9 @@ function CrimDawn:Init()
       },
 
       game = {
-        seed = false, slot = false, max_progression_items = false, run_length = 0, inf_time = false,
-        score = 0, f_score = 0, max_score_checks = 0, ponr = false, deathlink = false, previous_run = {},
-        run = 1, heists_won = 0, heists = {}, cash = 0, goal = false, campaign = false, progression_items = 0
+        seed = false, slot = false, max_progression_items = false, run_length = 0, inf_time = false, score = 0, f_score = 0,
+        max_score_checks = 0, ponr = false, deathlink = false, deathlink_time = 0, previous_run = {}, run = 1,
+        heists_won = 0, heists = {}, cash = 0, goal = false, campaign = false, progression_items = 0
       },
 
       chat = { message = "", timestamp = 0 },

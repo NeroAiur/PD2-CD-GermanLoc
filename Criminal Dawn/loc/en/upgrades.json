@@ -15,6 +15,7 @@
   "cd_player_drill_speed_multiplier4_name": "OVKL ToolSys 6.0", "cd_player_drill_speed_multiplier4_desc": "Computer hacks, drills, and saws are $SPEED% faster and can only jam once.",
   "cd_player_drill_speed_multiplier5_name": "OVKL ToolSys 7.0", "cd_player_drill_speed_multiplier5_desc": "Computer hacks, drills, and saws are $SPEED% faster and can only jam once.",
   "cd_player_drill_speed_multiplier6_name": "OVKL ToolSys 8.0", "cd_player_drill_speed_multiplier6_desc": "Computer hacks, drills, and saws are $SPEED% faster and can never jam.",
+  "cd_faster_objectives_name": "Objectivity", "cd_faster_objectives_desc": "Heist objectives progress $SPEED% faster.",
   "cd_player_additional_lives_1_name": "Two Lives", "cd_player_additional_lives_1_desc": "Start each run with two downs.",
   "cd_player_additional_lives_2_name": "Three Lives", "cd_player_additional_lives_2_desc": "Start each run with three downs.",
   "cd_player_additional_lives_3_name": "Four Lives", "cd_player_additional_lives_3_desc": "Start each run with four downs.",

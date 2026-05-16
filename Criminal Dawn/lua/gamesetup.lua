@@ -15,14 +15,13 @@ Hooks:PostHook(GameSetup, "init_finalize", "CrimDawn_GameSetupInit", function()
 
   -- Heist specific timer elements we want to modify
   local TimerTweaks = { big = {},
-
+  
     -- Mandatory meth cooking
     alex_1 = { reChance = "on_executed" },
     rat = { reChance = "on_executed" },
     mex_cooking = { meth_taken = "on_executed", counter_below3 = "on_executed" },
 
     -- Assorted timers
-    -- TimerOperator = "time", Timer = "timer"
     red2 = { logic_link_018 = "on_executed", logic_link_020 = "on_executed" }, -- FWB thermite
     wwh = { ["120_seconds"] = "timer" }, -- Alaskan Deal fuel
     brb = { ["30"] = "timer" }, -- Brooklyn Bank circle cutter
@@ -42,7 +41,53 @@ Hooks:PostHook(GameSetup, "init_finalize", "CrimDawn_GameSetupInit", function()
     spa = { picklock_timer = "timer", after_20sec = "time", after_30sec = "time", after_40sec = "time" },
     mad = { set_EMP_timer_001 = "time", scan_timer = "timer" },
     bph = { control_room_timer = "timer" },
+    moon = { wait_start = "on_executed", bile_there_in_1_min = "on_executed", bile_30s = "on_executed" },
+    pex = { hacking_timer = "timer" },
+    welcome_to_the_jungle_2 = { noGas = "on_executed", needsToFuel = "on_executed", isFueling = "on_executed", doneRefuel = "on_executed",
+                                ["240"] = "on_executed", ["210"] = "on_executed", ["180"] = "on_executed", ["150"] = "on_executed",
+                                ["120"] = "on_executed", ["90"] = "on_executed", ["60"] = "on_executed" },
+
+    arm_hcm = { logic_link_021 = "on_executed", logic_link_022 = "on_executed",
+                logic_link_023 = "on_executed", logic_link_024 = "on_executed" },
+    arm_und = { logic_link_016 = "on_executed", logic_link_017 = "on_executed",
+                logic_link_018 = "on_executed", logic_link_022 = "on_executed" },
+    arm_par = { logic_link_035 = "on_executed", logic_link_036 = "on_executed",
+                logic_link_037 = "on_executed", logic_link_038 = "on_executed" },
+    arm_fac = { logic_link_005 = "on_executed", logic_link_006 = "on_executed",
+                logic_link_007 = "on_executed", logic_link_008 = "on_executed" },
+    arm_cro = { logic_link_005 = "on_executed", logic_link_006 = "on_executed",
+                logic_link_007 = "on_executed", logic_link_008 = "on_executed" },
+
+    escape_park_day = { ["3min"] = "on_executed", ["4min"] = "on_executed", ["5min"] = "on_executed",
+                        ["4minues_remaining"] = "on_executed", ["3minutes_remaining"] = "on_executed",
+                        ["2minutes_remaining"] = "on_executed", ["almost_there_1minute"] = "on_executed",
+                        ["30sec_left"] = "on_executed", ["almost_there_30seconds_2"] = "on_executed" },
+
+    escape_park = { ["3min"] = "on_executed", ["4min"] = "on_executed", ["5min"] = "on_executed",
+                    ["4minues_remaining"] = "on_executed", ["3minutes_remaining"] = "on_executed",
+                    ["2minutes_remaining"] = "on_executed", ["almost_there_1minute"] = "on_executed",
+                    ["30sec_left"] = "on_executed", ["almost_there_30seconds_2"] = "on_executed" },
+
+    escape_cafe_day = { ["3min"] = "on_executed", ["2min"] = "on_executed", ["2min_left"] = "on_executed",
+                        ["1min_left"] = "on_executed", ["30sec_left"] = "on_executed" },
+
+    escape_cafe = { ["3min"] = "on_executed", ["2min"] = "on_executed", ["2min_left"] = "on_executed",
+                    ["1min_left"] = "on_executed", ["30sec_left"] = "on_executed" },
+
+    escape_street = { ["2"] = "on_executed", ["1.5"] = "on_executed", ["1min_left"] = "on_executed",
+                      ["30secs_left"] = "on_executed", ["10secs_left"] = "on_executed" },
+
+    escape_overpass = { ["4min"] = "on_executed", ["3min"] = "on_executed", ["3min_left"] = "on_executed",
+                        ["2min_left"] = "on_executed", ["1min_left"] = "on_executed", ["30sec"] = "on_executed" },
+
+    escape_overpass_night = { ["4min"] = "on_executed", ["3min"] = "on_executed", ["3min_left"] = "on_executed",
+                              ["2min_left"] = "on_executed", ["1min_left"] = "on_executed", ["30sec"] = "on_executed" },
   }
+
+  --for i = 1, 18 do
+  --  if i < 10 then i = "0" .. i end
+  --  TimerTweaks.big["ignite_0" .. i] = "base_delay"
+  --end
 
   local TimerMult = math.min(Global.CrimDawn.data.game.progression_items * 2, 99)
   TimerMult = 1 - (TimerMult / 100)

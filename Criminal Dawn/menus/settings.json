@@ -36,6 +36,15 @@
       ],
       "value" : "mutator_mode",
       "default_value" : 3
+    },
+    {
+      "type" : "toggle",
+      "id" : "crimdawn_lethal_deathlink",
+      "title" : "crimdawn_lethal_deathlink",
+      "description" : "crimdawn_lethal_deathlink_desc",
+      "callback" : "CrimDawn_SaveToggleSettings",
+      "value" : "lethal_deathlink",
+      "default_value" : false
     }
   ]
 }
