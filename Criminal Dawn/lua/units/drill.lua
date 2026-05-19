@@ -34,13 +34,7 @@ Hooks:OverrideFunction(Drill, "set_skill_upgrades", function(self, upgrades)
   local TimerMult = 1
 
   local DisabledHeists = {}
-  local RunLength, HeistsWon = Global.CrimDawn.data.game.run_length, Global.CrimDawn.data.game.heists_won
-  if HeistsWon < RunLength then
-    DisabledHeists.vit = true
-    DisabledHeists.deep = true
-  end
-
-  if HeistsWon >= RunLength or not DisabledHeists[managers.job:current_level_id()] then
+  if not CrimDawn.OnFinalHeist() then
     TimerMult = math.min(Global.CrimDawn.data.game.progression_items * 2, 99)
     TimerMult = 1 - (TimerMult / 100)
   end

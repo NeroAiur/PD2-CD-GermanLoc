@@ -7,6 +7,7 @@ function CrimDawn:NextHeist(HeistsWon)
   
   local ValidHeists = deep_clone(Global.CrimDawn.tables.heists)
   local CurrentTier, NextHeist
+  ValidHeists.dlc = nil
 
   for tier, heists in pairs(ValidHeists) do
     for i = #heists, 1, -1 do

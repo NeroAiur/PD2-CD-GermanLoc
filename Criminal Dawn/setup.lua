@@ -39,6 +39,12 @@ function CrimDawn:Init()
   function self.GoMode()
   return Global.CrimDawn.data.game.progression_items >= Global.CrimDawn.data.game.max_progression_items end
 
+  function self.OnFinalHeist()
+    local RunLength = Global.CrimDawn.data.game.run_length
+    local HeistsWon = Global.CrimDawn.data.game.heists_won
+    local HeistNum = #Global.CrimDawn.data.game.heists
+  return HeistsWon < RunLength and HeistNum == RunLength end
+
   function self.InfiniteTime()
   return Global.CrimDawn.data.game.inf_time and CrimDawn.GoMode() end
 

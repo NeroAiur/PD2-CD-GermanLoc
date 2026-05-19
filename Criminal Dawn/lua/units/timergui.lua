@@ -9,19 +9,12 @@ TimerGui.upgrade_colors = {
 }
 
 local DrillLevel = CrimDawn.DiffScale(true, 6)
-local DisabledHeists = { tag = true }
-local RunLength, HeistsWon = Global.CrimDawn.data.game.run_length, Global.CrimDawn.data.game.heists_won
-if HeistsWon < RunLength then
-  DisabledHeists.vit = true
-  DisabledHeists.deep = true
-end
-
 Hooks:PostHook(TimerGui, "init", "CrimDawn_InitTimerGUI", function(self, timer)
   self._jam_times = 3 - math.max(math.floor(DrillLevel / 2), 0)
 end)
 
 Hooks:PreHook(TimerGui, "_start", "CrimDawn_StartTimerGUI", function(self, timer)
-  if DisabledHeists[managers.job:current_level_id()] then return end
+  if CrimDawn.OnFinalHeist() then return end
   local TimerMult = math.min(Global.CrimDawn.data.game.progression_items * 2, 99)
   TimerMult = 1 - (TimerMult / 100)
   self:set_timer_multiplier(TimerMult)

@@ -13,11 +13,11 @@ Global.CrimDawn.tables.weapons = {
   secondaries = { "g22c", "lemming", "usp", "b92fs", "chinchilla", "colt_1911", "deagle", "glock_18c", "legacy",
                   "new_raging_bull", "shrew", "breech", "welrod", "m1928", "akmsu", "mac10", "mp9", "new_mp5",
                   "olympic", "p90", "shepheard", "erma", "slap", "system", "money", "judge", "basset", "coach",
-                  "serbu", "rota", "victor" },
+                  "serbu", "rota", "victor", "flun" },
 
   melee = { "baseballbat", "boxing_gloves", "chef", "grip", "moneybundle", "whiskey", "agave", "ballistic",
             "cutters", "fear", "funder_strike", "hauteur", "push", "sap", "aziz", "happy", "spoon",
-            "piggy_hammer", "brass_knuckles" },
+            "piggy_hammer", "brass_knuckles", "bonk", "bonk2" },
 
   throwables = { "dada_com", "fir_com", "frag_com", "concussion", "xmas_snowball" }
 }
