@@ -12,7 +12,7 @@ local TimerTweaks = { big = {},
 
   -- Assorted timers
   red2 = { logic_link_018 = "on_executed", logic_link_020 = "on_executed" }, -- First World Bank (FWB)
-  wwh = { ["120_seconds"] = "timer" }, -- Alaskan Deal
+  wwh = { ["120_seconds"] = "timer", placed_saw = "on_executed" }, -- Alaskan Deal
   brb = { ["30"] = "timer" }, -- Brooklyn Bank
   roberts = { logic_timer_operator_001 = "time", logic_timer_operator_002 = "time", logic_timer_operator_003 = "time" }, -- GO Bank
   pbr = { refuel_timer = "timer", bomb_timer = "timer" }, -- Beneath the Mountain

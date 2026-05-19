@@ -1,8 +1,17 @@
 local FileIdent = "UnlockGenerator"
 
 local function AnyObtained(reqs, req_type)
-  for _, item in ipairs(reqs) do
-    if Global.CrimDawn.data[req_type][item] then return true end
+  if req_type == "upgrades" then
+    for _, item in ipairs(reqs) do
+      for _, upgrade in ipairs(Global.CrimDawn.data.upgrades) do
+        if upgrade == item then return true end
+      end
+    end
+
+  elseif req_type == "unlocks" then
+    for _, item in ipairs(reqs) do
+      if Global.CrimDawn.data[req_type][item] then return true end
+    end
   end
 return false end
 
@@ -12,30 +21,13 @@ local function UpgradeMatched(upg_name)
   end
 return false end
 
-local function GetUpgradeType(table_name, i)
-  if table_name == "skills" then
-    local TypeCount = (Global.CrimDawn.data.x.skills + i) % 7
-    local TypePattern = { "general",
-                          "loud",
-                          "stealth",
-                          "weapon",
-                          "loud",
-                          "weapon",
-                          "loud" }
-    return TypePattern[TypeCount + 1]
+local function GetUpgradeType(table_name)
+  if table_name ~= "deployable" then
+    local rarity = math.random(1, 100)
 
-  elseif table_name == "perks" then
-    local TypeCount = (Global.CrimDawn.data.x.perks + i) % 3
-    local TypePattern = { "stat",
-                          "ability",
-                          "stat" }
-    return TypePattern[TypeCount + 1]
-
-  elseif table_name == "stats" then
-    local TypeCount = (Global.CrimDawn.data.x.stats + i) % 2
-    local TypePattern = { "player",
-                          "weapon" }
-    return TypePattern[TypeCount + 1]
+    if 0 < rarity and rarity <= 10 then return "rare"
+    elseif 10 < rarity and rarity <= 35 then return "uncommon"
+    else return "common" end
   end
 return nil end
 
@@ -99,29 +91,28 @@ function CrimDawn:RandomUpgrade(count, table_name)
     local WorkingTable = {}
     for key in pairs(BaseTable) do table.insert(WorkingTable, key) end
 
-    -- Abort if no upgrades
-    if not next(WorkingTable) then
-      self.Log(FileIdent, "No upgrades in WorkingTable - something may have gone wrong!!")
-    return end
-
     -- Give player random upgrade
-    local UpgradeIndex = math.random(#WorkingTable)
-    table.insert(Global.CrimDawn.data.upgrades, table_name .. "-" .. WorkingTable[UpgradeIndex])
-    self.Log(FileIdent, "Added " .. WorkingTable[UpgradeIndex] .. " to upgrade table")
+    if next(WorkingTable) then
+      Utils.PrintTable(WorkingTable)
+      local UpgradeIndex = math.random(#WorkingTable)
+      table.insert(Global.CrimDawn.data.upgrades, table_name .. "-" .. WorkingTable[UpgradeIndex])
+      self.Log(FileIdent, "Added " .. WorkingTable[UpgradeIndex] .. " to upgrade table")
 
-    -- Set up for next pass
-    if i < count then
-      AcquiredUpgrades[WorkingTable[UpgradeIndex]] = true
-      local LastUpgrade = Global.CrimDawn.tables.upgrades[table_name][WorkingTable[UpgradeIndex]]
+      -- Set up for next pass
+      if i < count then
+        AcquiredUpgrades[WorkingTable[UpgradeIndex]] = true
+        local LastUpgrade = Global.CrimDawn.tables.upgrades[table_name][WorkingTable[UpgradeIndex]]
 
-      if LastUpgrade.disable then
-        for item in LastUpgrade.disable:gmatch("([^,]+)") do
-          DisabledUpgrades[item] = true
+        if LastUpgrade.disable then
+          for item in LastUpgrade.disable:gmatch("([^,]+)") do
+            DisabledUpgrades[item] = true
+          end
         end
+
+        table.remove(WorkingTable, UpgradeIndex)
       end
 
-      table.remove(WorkingTable, UpgradeIndex)
-    end
+    else self.Log(FileIdent, "No upgrades in WorkingTable!") end
   end
 end
 
