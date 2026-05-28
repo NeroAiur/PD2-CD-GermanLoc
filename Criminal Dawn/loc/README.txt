@@ -2,7 +2,7 @@ If you're interested enough in this mod to create a translation for your own lan
 
 To start making your own translation, just copy the "english.yaml" file and rename it to match your language.
 Then you have to go through the process of actually translating everything.
-Around 1200 lines are just the upgrades (I'm sorry).
+Around 1000 lines are just the upgrades (I'm sorry).
 
 To get the translation working in-game, open "main.xml" in the main folder and find
 <loc file="english.yaml" language="english"/> near the top.
