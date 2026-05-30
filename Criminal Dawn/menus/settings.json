@@ -38,13 +38,31 @@
       "default_value" : 3
     },
     {
+      "type" : "multiple_choice",
+      "id" : "crimdawn_deathlink",
+      "title" : "crimdawn_deathlink",
+      "description" : "crimdawn_deathlink_desc",
+      "callback" : "CrimDawn_SaveChoiceSettings",
+      "items" : [
+        "menu_off",
+        "menu_on",
+        "crimdawn_lethal_deathlink"
+      ],
+      "value" : "deathlink",
+      "default_value" : 1
+    },
+    {
       "type" : "toggle",
-      "id" : "crimdawn_lethal_deathlink",
-      "title" : "crimdawn_lethal_deathlink",
-      "description" : "crimdawn_lethal_deathlink_desc",
+      "id" : "crimdawn_inftime",
+      "title" : "crimdawn_inf_time",
+      "description" : "crimdawn_inf_time_desc",
       "callback" : "CrimDawn_SaveToggleSettings",
-      "value" : "lethal_deathlink",
-      "default_value" : false
+      "value" : "inftime",
+      "default_value" : true
+    },
+    {
+      "type" : "divider",
+      "size" : 16
     }
   ]
 }

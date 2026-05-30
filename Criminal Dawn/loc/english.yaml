@@ -28,14 +28,19 @@ crimdawn_settings_desc : "Tweak the gameplay to your liking."
 
 # Options
 crimdawn_difficulty : "Difficulty Cap"
-crimdawn_difficulty_desc : "The highest difficulty the mod will scale to."
+crimdawn_difficulty_desc : "The highest difficulty the mod will scale to.\nDifficulty can increase when you complete heists and receive progression items."
 
-crimdawn_mutator_desc : "Change how mutators are applied."
-crimdawn_diff_scaling : "On + Item Scaling"
+crimdawn_mutator_desc : "Whether random mutators are enabled and how they are applied.\nInverted Scaling starts with max mutators, decreasing as you receive items."
+crimdawn_diff_scaling : "On + Scaling"
 crimdawn_inverse_scaling : "Inverted Scaling"
 
-crimdawn_lethal_deathlink : "Lethal Death Link"
+crimdawn_deathlink : "Death Link"
+crimdawn_deathlink_desc : "Whether death links can be sent and received.\nLethal death links send you into custody when you have no downs left!"
+crimdawn_lethal_deathlink : "On + Lethal"
 crimdawn_lethal_deathlink_desc : "Whether death link can send you into custody on 0 downs."
+
+crimdawn_inf_time : "Infinite Time"
+crimdawn_inf_time_desc : "Timer is disabled after receiving all progression items."
 
 # Heist Tiers
 crimdawn_heist1_settings_name : "Heists (Tier 1)"

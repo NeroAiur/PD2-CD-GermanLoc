@@ -5,14 +5,17 @@ Hooks:OverrideFunction(BlackMarketManager, "has_unlocked_ching", function() retu
 Hooks:OverrideFunction(BlackMarketManager, "has_unlocked_erma", function() return true end)
 Hooks:OverrideFunction(BlackMarketManager, "has_unlocked_victor", function() return true end)
 
+-- Force game to register 2 of every item
 Hooks:PostHook(BlackMarketManager, "get_item_amount", "CrimDawn_BMInfiniteItems", function(self, _, category)
   if category ~= "weapon_skins" then return 2 end
 end)
 
+-- Force default throwable to Ace of Spades
 Hooks:PostHook(BlackMarketManager, "_setup", "CrimDawn_BMSetup", function(self)
   self._defaults.grenade = "wpn_prj_ace"
 end)
 
+-- Unlock all crew boosts
 Hooks:OverrideFunction(BlackMarketManager, "_setup_unlocked_crew_items", function(self)
   self:_unlock_crew_item("crew_interact")
   self:_unlock_crew_item("crew_inspire")
@@ -32,12 +35,14 @@ Hooks:OverrideFunction(BlackMarketManager, "_setup_unlocked_crew_items", functio
 	self:_unlock_crew_item("crew_eager")
 end)
 
+-- Assign random van skin
 Hooks:OverrideFunction(BlackMarketManager, "equipped_van_skin", function()
   local skins = { "default", "brown", "green", "grey", "red", "white", "yellow", "icecream", "spooky" }
   if not Global.CrimDawn.DLC and managers.dlc:is_dlc_unlocked("overkill_pack") then table.insert(skins, "overkill") end
   return skins[math.random(1, #skins)]
 end)
 
+-- Unlock all inventory slots by default
 Hooks:OverrideFunction(BlackMarketManager, "_setup_unlocked_mask_slots", function(self)
   local unlocked_mask_slots = {}
   Global.blackmarket_manager.unlocked_mask_slots = unlocked_mask_slots
@@ -57,6 +62,7 @@ Hooks:OverrideFunction(BlackMarketManager, "_setup_unlocked_weapon_slots", funct
   end
 end)
 
+-- Validate equipped deployable
 Hooks:PostHook(BlackMarketManager, "_verfify_equipped", "CrimDawn_VerfifyDeployable", function(self)
   local DefaultDeployable = (self:equipped_deployable() == "grenade_crate") or (self:equipped_deployable() == "spy_camera")
   if not Global.CrimDawn.data.unlocks[self:equipped_deployable()] and not DefaultDeployable then

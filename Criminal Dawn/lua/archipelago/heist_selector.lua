@@ -74,7 +74,9 @@ local campaigns = {
   ["Classics"] = { "red2", "run", "flat", "glace", "dah", "dinner" },
   ["You Guys No Fun"] = { "four_stores", "mallcrasher", "nightclub", "jolly", "shoutout_raid" },
   ["Follow The Money"] = { "branchbank_cash", "roberts", "brb", "bex", "red2", "big" },
-  ["Political Sabotage"] = { "cd_bigoil", "cd_frame3", "cd_erection2" }
+  ["Death Of Democracy"] = { "cd_frame3", "cd_erection2", "cd_bigoil" },
+  ["Gun Runners"] = { "cd_firestarter1", "jolly", "spa", "crojob2", "ranc", "mex" },
+  ["Stealth Mission"] = { "tag", "fish", "dark", "kosugi", "cage" }
 }
 
 function CrimDawn:CampaignHeist(HeistsWon)

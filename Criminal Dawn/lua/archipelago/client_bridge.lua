@@ -39,8 +39,6 @@ function CrimDawnClient:InitWorld()
     Global.CrimDawn.data.game.goal = self.data.goal
     Global.CrimDawn.data.game.campaign = self.data.campaign
     Global.CrimDawn.data.game.safehouse_tiers = self.data.safehouse_tiers
-    Global.CrimDawn.data.game.deathlink = self.data.deathlink_state
-    Global.CrimDawn.data.game.inf_time = self.data.infinite_time
     CrimDawn:WriteSave(FileIdent, "Successfully wrote game config!")
   end
 end

@@ -12,14 +12,24 @@ function CrimDawn:Init()
   self.SettingsData = io.load_as_json(CrimDawn.SettingsFile) or {}
   if not self.SettingsData then self.SettingsData = {} end
 
-  MenuHelper:LoadFromJsonFile(CrimDawn.ModPath .. "menus/settings.json", CrimDawn, CrimDawn.SettingsData)
-  MenuHelper:LoadFromJsonFile(CrimDawn.ModPath .. "menus/heist1.json", CrimDawn, CrimDawn.SettingsData)
-  MenuHelper:LoadFromJsonFile(CrimDawn.ModPath .. "menus/heist2.json", CrimDawn, CrimDawn.SettingsData)
-  MenuHelper:LoadFromJsonFile(CrimDawn.ModPath .. "menus/heist3.json", CrimDawn, CrimDawn.SettingsData)
-  MenuHelper:LoadFromJsonFile(CrimDawn.ModPath .. "menus/heist4.json", CrimDawn, CrimDawn.SettingsData)
-  MenuHelper:LoadFromJsonFile(CrimDawn.ModPath .. "menus/heist5.json", CrimDawn, CrimDawn.SettingsData)
+  MenuHelper:LoadFromJsonFile(self.ModPath .. "menus/settings.json", self, self.SettingsData)
+  MenuHelper:LoadFromJsonFile(self.ModPath .. "menus/heist1.json", self, self.SettingsData)
+  MenuHelper:LoadFromJsonFile(self.ModPath .. "menus/heist2.json", self, self.SettingsData)
+  MenuHelper:LoadFromJsonFile(self.ModPath .. "menus/heist3.json", self, self.SettingsData)
+  MenuHelper:LoadFromJsonFile(self.ModPath .. "menus/heist4.json", self, self.SettingsData)
+  MenuHelper:LoadFromJsonFile(self.ModPath .. "menus/heist5.json", self, self.SettingsData)
 
-  if not CrimDawn.SettingsData.diff_cap then CrimDawn.SettingsData.diff_cap = 4 end
+  -- Default settings
+  if not self.SettingsData.diff_cap then self.SettingsData.diff_cap = 4 end
+  if not self.SettingsData.deathlink then self.SettingsData.deathlink = 1 end
+  if not self.SettingsData.inf_time then self.SettingsData.inf_time = true end
+
+  -- Disable stealth-only heists by default
+  if not self.SettingsData.kosugi then self.SettingsData.kosugi = false end
+  if not self.SettingsData.cage then self.SettingsData.cage = false end
+  if not self.SettingsData.dark then self.SettingsData.dark = false end
+  if not self.SettingsData.fish then self.SettingsData.fish = false end
+  if not self.SettingsData.tag then self.SettingsData.tag = false end
 
   self.state = { maskup_time = false,
                  heist_started = false,
@@ -46,10 +56,10 @@ function CrimDawn:Init()
   return HeistsWon < RunLength and HeistNum == RunLength end
 
   function self.InfiniteTime()
-  return Global.CrimDawn.data.game.inf_time and CrimDawn.GoMode() end
+  return CrimDawn.SettingsData.inftime and CrimDawn.GoMode() end
 
   function self.TimeFromUpgrade()
-    local TimePerUpgrade = { 6, 18, 26, 35, 44, 47, 106 }
+    local TimePerUpgrade = { 6, 18, 26, 36, 44, 48, 90 }
     local RunLength = Global.CrimDawn.data.game.run_length
     if RunLength == 0 then RunLength = 7 end
   return TimePerUpgrade[RunLength] end
@@ -183,7 +193,7 @@ function CrimDawn:Init()
 
       game = {
         seed = false, slot = false, max_progression_items = false, run_length = 0, inf_time = false, score = 0, f_score = 0,
-        max_score_checks = 0, ponr = false, deathlink = false, deathlink_time = 0, previous_run = {}, run = 1,
+        max_score_checks = 0, ponr = false, deathlink_in = os.time(), deathlink_out = 0, previous_run = {}, run = 1,
         heists_won = 0, heists = {}, cash = 0, goal = false, campaign = false, progression_items = 0
       },
 
@@ -277,7 +287,7 @@ function Global.CrimDawn:Init()
     CrimDawnClient:InitWorld()
   end
 
-  self.data.game.deathlink_time = os.time()
+  self.data.game.deathlink_in = os.time()
 
   dofile(CrimDawn.ModPath .. "lua/tables/heists.lua")
   dofile(CrimDawn.ModPath .. "lua/tables/upgrades.lua")

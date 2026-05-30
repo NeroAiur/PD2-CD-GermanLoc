@@ -201,13 +201,16 @@ Hooks:OverrideFunction(PlayerDamage, "damage_bullet", function(self, attack_data
 	pm:send_message(Message.OnPlayerDamage, nil, attack_data)
 	self:_call_listeners(damage_info)
 
-  if not Global.CrimDawn.data.game.deathlink then return end
+  if CrimDawn.SettingsData.deathlink == 1 then return end
 
   CrimDawnClient:LoadData()
-  CrimDawnClient.data.deathlink_time = CrimDawnClient.data.deathlink_time or 0
+  DeathLinkTime = CrimDawnClient.data.deathlink_in or 0
 
-  if CrimDawnClient.data.deathlink_time > Global.CrimDawn.data.game.deathlink_time then
-    if CrimDawn.SettingsData.lethal_deathlink and Application:digest_value(self._revives, false) == 1 then self.force_into_bleedout()
+  if DeathLinkTime > Global.CrimDawn.data.game.deathlink_in then
+    if CrimDawn.SettingsData.deathlink == 3 and Application:digest_value(self._revives, false) == 1 then
+      self:set_health(0)
+      self:_send_set_health()
+      self:_check_bleed_out(nil, true)
     else self._revives = Application:digest_value(math.max(Application:digest_value(self._revives, false) - 1, 1), true)
       managers.environment_controller:set_last_life(Application:digest_value(self._revives, false) <= 1)
       -- reduce downs remaining by 1. sidenote: this fucking sucks ass
@@ -215,8 +218,8 @@ Hooks:OverrideFunction(PlayerDamage, "damage_bullet", function(self, attack_data
       self:_send_set_revives()
     end
 
+    Global.CrimDawn.data.game.deathlink_in = DeathLinkTime
     CrimDawn.ChatNotify("Death link received!")
-    Global.CrimDawn.data.game.deathlink_time = CrimDawnClient.data.deathlink_time
   end
 end)
 
