@@ -128,7 +128,7 @@ function CrimDawn:Init()
     local ItemCount = Global.CrimDawn.data.game.progression_items
     local MaxItems = Global.CrimDawn.data.game.max_progression_items
 
-    return math.max(math.floor((ItemCount - 1) / (MaxItems / MaxDiff)), 0)
+    return math.max(math.floor(ItemCount / (MaxItems / MaxDiff)), 0)
   end
 
   local function CalculateDiff(offset)

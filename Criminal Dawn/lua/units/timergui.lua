@@ -9,11 +9,15 @@ TimerGui.upgrade_colors = {
 }
 
 local DrillLevel = CrimDawn.DiffScale(true, 6)
-Hooks:PostHook(TimerGui, "init", "CrimDawn_InitTimerGUI", function(self, timer)
-  self._jam_times = 3 - math.max(math.floor(DrillLevel / 2), 0)
+local JamTimes = 3 - math.max(math.floor(DrillLevel / 2), 0)
+
+Hooks:PreHook(TimerGui, "_set_jamming_values", "CrimDawn_JammingTimerGUI", function(self)
+  if CrimDawn.OnFinalHeist() then return end
+  if JamTimes == 0 then self._can_jam = false end
+  self._jam_times = math.max(JamTimes, 1)
 end)
 
-Hooks:PreHook(TimerGui, "_start", "CrimDawn_StartTimerGUI", function(self, timer)
+Hooks:PreHook(TimerGui, "_start", "CrimDawn_StartTimerGUI", function(self)
   if CrimDawn.OnFinalHeist() or managers.job:current_level_id() == "tag" then return end
   local TimerMult = math.min(Global.CrimDawn.data.game.progression_items * 2, 99)
   TimerMult = 1 - (TimerMult / 100)

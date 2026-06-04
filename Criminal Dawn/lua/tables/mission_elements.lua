@@ -16,7 +16,7 @@ local TimerTweaks = { big = { start_timer = "time", set_time_normal = "time", se
   mex_cooking = { meth_taken = "on_executed", counter_below3 = "on_executed" }, -- Border Crystals
 
   -- Assorted timers
-  red2 = { logic_link_018 = "on_executed", logic_link_020 = "on_executed" }, -- First World Bank (FWB)
+  red2 = { logic_link_018 = "on_executed", logic_link_020 = "on_executed" }, -- First World Bank
   wwh = { ["120_seconds"] = "timer", placed_saw = "on_executed" }, -- Alaskan Deal
   brb = { ["30"] = "timer", ["Train A"] = "on_executed", ["Train B"] = "on_executed" }, -- Brooklyn Bank
   pbr = { refuel_timer = "timer", bomb_timer = "timer" }, -- Beneath the Mountain
@@ -47,7 +47,7 @@ local TimerTweaks = { big = { start_timer = "time", set_time_normal = "time", se
   arena = { timer = "timer" }, -- Alesso
   dah = { obj_started_011 = "on_executed", throw_out_cfo = "on_executed" }, -- Diamond Heist
   hox_3 = { open_timelock_timer = "timer" }, -- Hoxton Revenge
-  tag = { normal = "on_executed", h_vhard = "on_executed", ovk = "on_executed", ew_dw = "on_executed", sm = "on_executed" },
+  tag = { normal = "on_executed", h_vhard = "on_executed", ovk = "on_executed", ew_dw = "on_executed", sm = "on_executed" }, -- Breakin' Feds
 
   -- Watchdogs day 1
   watchdogs_1 = { pilot_001 = "on_executed", ["2minuteswait"] = "on_executed", ["1minute"] = "on_executed",
@@ -202,7 +202,7 @@ local TimerTweaks = { big = { start_timer = "time", set_time_normal = "time", se
                             ["2min_left"] = "on_executed", ["1min_left"] = "on_executed", ["30sec"] = "on_executed" },
 }
 
-for i = 1, 18 do -- Big Bank
+for i = 1, 18 do -- Big Bank thermite
   if i < 10 then i = "0" .. i end
   TimerTweaks.big["ignite_0" .. i] = "base_delay"
 end
@@ -244,9 +244,9 @@ if TimerTweaks[level] then
 
         elseif ElementValue == "base_delay" and BaseElement._values.base_delay then
           BaseElement._values.base_delay = BaseElement._values.base_delay * TimerMult
-            if BaseElement._values.base_delay_rand then
-              BaseElement._values.base_delay_rand = BaseElement._values.base_delay_rand * TimerMult
-            end
+          if BaseElement._values.base_delay_rand then
+            BaseElement._values.base_delay_rand = BaseElement._values.base_delay_rand * TimerMult
+          end
         end
         --Utils.PrintTable(BaseElement._values, 1)
       end
