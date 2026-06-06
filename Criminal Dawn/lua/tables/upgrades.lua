@@ -906,11 +906,6 @@ Global.CrimDawn.tables.upgrades = {
       "player_cocaine_stacking_1",
       "player_sync_cocaine_stacks"
     },
-    maniac_decay = {
-      dlc_owned = true, upg_type = "uncommon",
-      upg_req = "perks-maniac_base",
-      "player_cocaine_stacks_decay_multiplier_1"
-    },
     maniac_cap = {
       dlc_owned = true, upg_type = "uncommon",
       upg_req = "perks-maniac_base",
@@ -1244,22 +1239,20 @@ Global.CrimDawn.tables.upgrades = {
     },
     akimbo_recoil_1 = {
       dlc_owned = true, upg_type = "common",
-      disable = "akimbo_recoil_2,akimbo_recoil_3,akimbo_recoil_4",
-      "akimbo_recoil_index_addend_1"
+      disable = "akimbo_recoil_2,akimbo_recoil_3",
+      "akimbo_recoil_index_addend_2"
     },
     akimbo_recoil_2 = {
       dlc_owned = true, upg_type = "uncommon",
-      disable = "akimbo_recoil_1,akimbo_recoil_3,akimbo_recoil_4",
-      "akimbo_recoil_index_addend_2"
+      disable = "akimbo_recoil_1,akimbo_recoil_3",
+      "akimbo_recoil_index_addend_2",
+      "akimbo_recoil_index_addend_3"
     },
     akimbo_recoil_3 = {
       dlc_owned = true, upg_type = "uncommon",
-      disable = "akimbo_recoil_1,akimbo_recoil_2,akimbo_recoil_4",
-      "akimbo_recoil_index_addend_3"
-    },
-    akimbo_recoil_4 = {
-      dlc_owned = true, upg_type = "rare",
-      disable = "akimbo_recoil_1,akimbo_recoil_2,akimbo_recoil_3",
+      disable = "akimbo_recoil_1,akimbo_recoil_2",
+      "akimbo_recoil_index_addend_2",
+      "akimbo_recoil_index_addend_3",
       "akimbo_recoil_index_addend_4"
     },
 

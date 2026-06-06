@@ -22,7 +22,7 @@ function CrimDawn:Init()
   -- Default settings
   if not self.SettingsData.diff_cap then self.SettingsData.diff_cap = 4 end
   if not self.SettingsData.deathlink then self.SettingsData.deathlink = 1 end
-  if not self.SettingsData.inf_time then self.SettingsData.inf_time = true end
+  if not self.SettingsData.inftime then self.SettingsData.inftime = true end
 
   -- Disable stealth-only heists by default
   if not self.SettingsData.kosugi then self.SettingsData.kosugi = false end
@@ -59,7 +59,7 @@ function CrimDawn:Init()
   return CrimDawn.SettingsData.inftime and CrimDawn.GoMode() end
 
   function self.TimeFromUpgrade()
-    local TimePerUpgrade = { 6, 18, 26, 36, 44, 48, 90 }
+    local TimePerUpgrade = { 12, 24, 30, 42, 48, 54, 100 }
     local RunLength = Global.CrimDawn.data.game.run_length
     if RunLength == 0 then RunLength = 7 end
   return TimePerUpgrade[RunLength] end

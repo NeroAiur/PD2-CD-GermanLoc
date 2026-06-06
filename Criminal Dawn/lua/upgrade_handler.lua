@@ -3,6 +3,19 @@ local FileIdent = "UpgradeHandler"
 Hooks:OverrideFunction(PlayerManager, "verify_equipment", function() return true end)
 Hooks:OverrideFunction(PlayerManager, "health_skill_multiplier", function() return 1 end)
 Hooks:OverrideFunction(PlayerManager, "carry_blocked_by_cooldown", function() return false end)
+Hooks:OverrideFunction(PlayerManager, "health_regen", function() return 0 end)
+
+Hooks:OverrideFunction(PlayerManager, "fixed_health_regen", function(self)
+  local health_regen = 0
+
+	if not health_ratio or not self:is_damage_health_ratio_active(health_ratio) then
+		health_regen = health_regen + self:upgrade_value("team", "crew_health_regen", 0)
+		health_regen = health_regen + self:get_hostage_bonus_addend("health_regen")
+		health_regen = health_regen + self:upgrade_value("player", "passive_health_regen", 0)
+	end
+
+	return health_regen
+end)
 
 local function PermaUpgrade(upg_name, count)
   if upg_name == "permaskills" or upg_name == "permaperks" then
@@ -61,7 +74,8 @@ Hooks:PreHook(PlayerManager, "aquire_default_upgrades", "CrimDawn_DefaultUpgrade
   tweak_data.skilltree.default_upgrades = {
     "player_hostage_trade", "player_special_enemy_highlight", "player_sec_camera_highlight", "cable_tie",
     "temporary_first_aid_damage_reduction", "temporary_passive_revive_damage_reduction_2", "wpn_prj_ace",
-    "passive_player_xp_multiplier", "player_flashbang_multiplier_2", "trip_mine_can_switch_on_off"
+    "passive_player_xp_multiplier", "player_flashbang_multiplier_2", "trip_mine_can_switch_on_off",
+    "akimbo_recoil_index_addend_1"
   }
 
   if Global.CrimDawn.data.x.permaskills > 0 then PermaUpgrade("permaskills") end
@@ -74,8 +88,7 @@ Hooks:PreHook(PlayerManager, "aquire_default_upgrades", "CrimDawn_DefaultUpgrade
 end)
 
 Hooks:OverrideFunction(PlayerManager, "_dodge_replenish_armor", function(self)
-  --local armour = self:player_unit():character_damage():_max_armor() * 0.1
-  self:player_unit():character_damage():restore_health(0.02)
+  self:player_unit():character_damage():restore_health(0.1, true)
 end)
 
 Hooks:OverrideFunction(PlayerManager, "health_skill_addend", function(self)
