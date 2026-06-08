@@ -36,8 +36,8 @@ function CrimDawn:NextHeist(HeistsWon)
   if not AlreadyWon and ValidHeists["tier" .. TierIndex] then
 
     -- Final Heist overrides
-    if Global.CrimDawn.data.game.ponr <= 80 then ValidHeists.tier6 = { "short1", "short2" } -- Tutorials
-    elseif not self.InfiniteTime() and Global.CrimDawn.data.game.ponr >= 1680 then
+    if Global.CrimDawn.data.game.ponr <= 30 then ValidHeists.tier6 = { "short1", "short2" } -- Tutorials
+    elseif not self.InfiniteTime() and Global.CrimDawn.data.game.ponr >= 1920 then
       ValidHeists.tier6 = { "cd_28stores" } -- 28 Stores
     end
 
