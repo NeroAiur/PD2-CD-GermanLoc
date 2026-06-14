@@ -133,7 +133,7 @@
     {
       "type" : "toggle",
       "id" : "crimdawn_cd_biker1",
-      "title" : "heist_watchdogs_1_hl",
+      "title" : "heist_born_hl",
       "description" : "crimdawn_settings_dlc_desc",
       "callback" : "CrimDawn_SaveToggleSettings",
       "value" : "cd_biker1",
