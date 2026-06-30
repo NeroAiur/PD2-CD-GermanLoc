@@ -86,19 +86,19 @@ crimdawn_new_item25 : "Der Elephant versucht uns andauernd Öl zu verkaufen. Sch
 
 ## UPGRADE MENU
 # Title
-crimdawn_upgrades_title_skills : "Current Skills"
-crimdawn_upgrades_title_perks : "Current Perks"
-crimdawn_upgrades_title_stats : "Current Stat Boosts"
-crimdawn_upgrades_title_deploy : "Current Deployable Upgrades"
+crimdawn_upgrades_title_skills : "Aktuelle Fähigkeiten"
+crimdawn_upgrades_title_perks : "Aktuelle Vorteile"
+crimdawn_upgrades_title_stats : "Aktuelle Werteverbesserungen"
+crimdawn_upgrades_title_deploy : "Aktuelle Ausrüstungs Upgrades"
 
 # Buttons
-crimdawn_upgrades_button_skills : "Skills"
-crimdawn_upgrades_button_perks : "Perks"
-crimdawn_upgrades_button_stats : "Stat Boosts"
-crimdawn_upgrades_button_deploy : "Deployable"
+crimdawn_upgrades_button_skills : "Fähigkeiten"
+crimdawn_upgrades_button_perks : "Vorteile"
+crimdawn_upgrades_button_stats : "Werteverbesserungen"
+crimdawn_upgrades_button_deploy : "Ausrüstungen"
 
 # Placeholder
-crimdawn_upgrades_none : "None."
+crimdawn_upgrades_none : "Nichts."
 
 ### CHAT NOTIFICATIONS ###
 # Victory
