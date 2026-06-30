@@ -399,7 +399,7 @@ cd_permaskills2_name : "Der Tatortreiniger"
 cd_permaskills2_desc : "Leichen können eingesackt werden."
 
 cd_permaskills3_name : "Dominant"
-cd_permaskills3_desc : "Nicht-Spezialgegner können geingeschüchtert werden."
+cd_permaskills3_desc : "Nicht-Spezialgegner können eingeschüchtert werden."
 
 cd_permaskills4_name : "Abdecktuch"
 cd_permaskills4_desc : "Reduziert die Reichweite der Todesgeräusche von Gegnern um 95%."
@@ -408,83 +408,83 @@ cd_permaskills5_name : "Werkzeugkasten"
 cd_permaskills5_desc : "Bohrer werden 25% schneller repariert."
 
 cd_permaskills6_name : "Hochkonzentriert"
-cd_permaskills6_desc : "Reduziert erlittenen Schaden um 50% wenn du mit etwas interagierst."
+cd_permaskills6_desc : "Reduziert den erlittenen Schaden um 50% wenn du mit etwas interagierst."
 
 cd_permaskills7_name : "Tausendsassa"
 cd_permaskills7_desc : "Du kannst zwei Ausrüstungen mitnehmen. Du interagierst mit Ausrüstungen doppelt so schnell."
 
 ## SKILLS
 # Default
-cd_harmless_melee_name : "Love Tap"
-cd_harmless_melee_desc : "First melee hit doesn't kill civs."
+cd_harmless_melee_name : "Klaps"
+cd_harmless_melee_desc : "Der erste Nahkampf-Treffer tötet Zivilisten nicht mehr."
 
-cd_downed_primary_name : "Action Hero"
-cd_downed_primary_desc : "Use primary weapons and ADS while down."
+cd_downed_primary_name : "Action-Held"
+cd_downed_primary_desc : "Du kannst deine Primärwaffe nutzen und Zielen während du am Boden liegst."
 
 # Mastermind Tree
-cd_revive_damage_reduction_name : "Combat Medic"
-cd_revive_damage_reduction_desc : "30% damage reduction while reviving and for 5s after."
+cd_revive_damage_reduction_name : "Feldsanitäter"
+cd_revive_damage_reduction_desc : "Reduziert den erlittenen Schaden um 30% wenn du jemanden wiederbelebst."
 
-cd_inspire_shout_name : "Inspire"
-cd_inspire_shout_desc : "Shout at downed teammates to revive (once per 20s).\nShout at living teammates to give a 20% reload/movement speed bonus for 10s."
+cd_inspire_shout_name : "Anfeuern"
+cd_inspire_shout_desc : "Schreie niedergeschlagene Crewmitglieder an um sie wiederzubeleben. Dieser Effekt hat eine Abklingzeit von 20 Sekunden.\n Schreie Crewmitglieder an um die Bewegungs- und Nachladegeschwindigkeit um 20% zu erhöhen. Dieser Effekt hält 10 Sekunden an."
 
-cd_hostage_absorption_name : "Forced Friendship"
-cd_hostage_absorption_desc : "+0.5 absorption per hostage (up to 8 hostages)."
+cd_hostage_absorption_name : "Zwangsfreundschaft"
+cd_hostage_absorption_desc : "+0.5 Schadensreduktion pro Geisel. Dieser Effekt profitiert von maximal 8 Geiseln."
 
-cd_intimidate_sounds_name : "Control Freak"
-cd_intimidate_sounds_desc : "Alert sounds intimidate civs.\nIntimidated civs within 10m stay intimidated."
+cd_intimidate_sounds_name : "Kontroll-Freak"
+cd_intimidate_sounds_desc : "Laute Geräusche schüchtern Zivilisten ein.\nEingeschüchterte Zivilisten innerhalb von 10m Umkreis bleiben eingschüchtert."
 
-cd_stockholm_syndrome_name : "Stockholm Syndrome"
-cd_stockholm_syndrome_desc : "Jump while in custody to instantly trade a hostage (once per heist)."
+cd_stockholm_syndrome_name : "Stockholm-Syndrom"
+cd_stockholm_syndrome_desc : "Springe während du in Gefangenschaft bist um sofort eine Gesel zu handeln. Dieser Effekt kann nur einmal pro Raubüberfall eingesetzt werden."
 
-cd_hostage_taker_name : "Hostage Taker"
-cd_hostage_taker_desc : "Restore 5 health every 5 seconds if you have a hostage."
+cd_hostage_taker_name : "Geiselnehmer"
+cd_hostage_taker_desc : "Regeneriere 5 Lebenspunkte pro 5 Sekunden, solange du mindestens eine Geisel hast."
 
-cd_headshot_faster_reload_name : "Aggressive Reload"
-cd_headshot_faster_reload_desc : "Headshot kills give 100% reload speed for 4s (single shot SMGs/ARs/snipers)."
+cd_headshot_faster_reload_name : "Aggressives Nachladen"
+cd_headshot_faster_reload_desc : "Kopfschuss-Tötungen erhöhen deine Nachladegeschwindigkeit um 100% für 4 Sekunden.\nDies gilt nur für Einzelschuss MP/Sturmgewehre/Scharfschützengewehre."
 
-cd_headshot_ammo_return_name : "Ammo Efficiency"
-cd_headshot_ammo_return_desc : "2 headshots in 6 seconds returns a bullet\n(single shot SMGs/ARs/snipers)."
+cd_headshot_ammo_return_name : "Munitionseffizienz"
+cd_headshot_ammo_return_desc : "Stellt eine Kugel wieder her, wenn du 2 Kopfschüsse innerhalb von 6 Sekunden triffst.\nDies gilt nur für Einzelschuss MP/Sturmgewehre/Scharfschützengewehre."
 
-cd_graze_name : "Graze"
-cd_graze_desc : "Snipers deal 20% damage (100% on headshot kill) to all enemies within 1m of bullet path."
+cd_graze_name : "Streifschuss"
+cd_graze_desc : "Scharfschützengewehre verursachen 20% ihres Schadens (100%, bei einer Kopfschuss-Tötung) auf alle Gegner im Umkreis von 1 Meter um den Schusspfad."
 
 cd_joker_1_name : "Joker"
-cd_joker_1_desc : "Convert dominated cops."
+cd_joker_1_desc : "Konvertiere eingeschüchterte Polizisten."
 
-cd_joker_2_name : "Cult of Personality"
-cd_joker_2_desc : "Converts deal 35% more damage and take 54% less.\nCan have two converts at once."
+cd_joker_2_name : "Personenkult"
+cd_joker_2_desc : "Konvertierte Polizisten verursachen 35% mehr und erleiden 54% weniger Schaden.\nDu kannst zwei konvertierte Polzisten gleichzeitig aktiv haben."
 
 cd_joker_stats_name : "Partners in Crime"
-cd_joker_stats_desc : "Having a convert increases your health by 30% and movement speed by 10%."
+cd_joker_stats_desc : "Solange mindestens ein konvertierter Polizist aktiv ist, sind deine Lebenspunkte um 30% und deine Bewegungsgeschwindigkeit um 10% erhöht."
 
 # Enforcer Tree
 cd_underdog_name : "Underdog"
-cd_underdog_desc : "Deal 15% more damage and take 15% less when 3+ enemies within 18m."
+cd_underdog_desc : "Wenn sich 3 oder mehr Gegner im Umkreis von 18m um dich befinden verursachst du 15% mehr und erleidest 15 weniger Schaden."
 
-cd_shotgun_sprint_shoot_name : "Close By"
-cd_shotgun_sprint_shoot_desc : "Hipfire while sprinting (shotguns)."
+cd_shotgun_sprint_shoot_name : "Nah Dran"
+cd_shotgun_sprint_shoot_desc : "Du kannst mit Schrotflinten aus der Hüfte schießen, während du sprintest."
 
 cd_overkill_name : "Overkill"
-cd_overkill_desc : "On shotgun/saw kill gain a 75% damage bonus for 20s."
+cd_overkill_desc : "Wenn du einen Gegner mit einer Schrotflinte oder Säge tötest, verursachst du 75% zusätzlichen Schaden. Dieser Effekt hält 20 Sekunden an."
 
-cd_bag_penalty_armour_reduction_name : "Pack Mule"
-cd_bag_penalty_armour_reduction_desc : "Bag speed penalty reduced by 1% per 10 armor points."
+cd_bag_penalty_armour_reduction_name : "Packesel"
+cd_bag_penalty_armour_reduction_desc : "Reduziert den Geschwindigkeitsmalus durch Taschen pro 10 Rüstungspunkte um 1%."
 
-cd_shield_knock_name : "Shock and Awe"
-cd_shield_knock_desc : "Hitting shields can stagger them."
+cd_shield_knock_name : "Schock und Entsetzen"
+cd_shield_knock_desc : "Schilde von Polizisten können bei Treffern weggestoßen werden."
 
-cd_bullseye_name : "Bullseye"
-cd_bullseye_desc : "+25 armor on headshot (2s cooldown)."
+cd_bullseye_name : "Volltreffer"
+cd_bullseye_desc : "+25 Rüstungspunkte bei einem Kopfschusstreffer.\nDieser Effekt hat eine Abklingzeit von 2 Sekunden(2s cooldown)."
 
-cd_saw_ap_name : "Destruction"
-cd_saw_ap_desc : "Saw penetrates shields and enemy armor."
+cd_saw_ap_name : "Zerstörung"
+cd_saw_ap_desc : "Die Säge ignoriert Schilde und Rüstung."
 
-cd_saw_panic_name : "Sawciopath"
-cd_saw_panic_desc : "Saw kills have 50% chance to cause panic in 10m."
+cd_saw_panic_name : "Sägen-Psychopath"
+cd_saw_panic_desc : "Tötungen mit der Säge haben eine 50%ige Chance Panik im Umkreis von 10m zu verursachen."
 
-cd_throwable_pickup_name : "Scrounger"
-cd_throwable_pickup_desc : "+1% chance for throwable when picking up ammo. Resets when you find a throwable. Every 6th kill drops an extra ammo box."
+cd_throwable_pickup_name : "Schnorrer"
+cd_throwable_pickup_desc : "Jedes Mal wenn du Munition aufsammelst hast du eine Chance eine Wurfwaffe aufzusammeln. Diese Chance erhöht sich jedes Mal um 1% und setzt sich zurück sobald du eine Wurfwaffe erhalten hast. Jede 6. Tötung lässt eine zusätzliche Munitionsbox fallen."
 
 # Technician Tree
 cd_silent_drill_name : "Silent Drilling"
