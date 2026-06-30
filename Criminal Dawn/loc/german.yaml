@@ -301,21 +301,21 @@ bm_menu_stamina : "Recovery Time"
 menu_bm_total_cost : ""
 
 # Safehouse
-menu_cs_upgrade_cost : "It costs ##1## coin to upgrade a room."
-menu_cs_fully_upgraded : "This room cannot be upgraded any further!"
+menu_cs_upgrade_cost : "Es kostet ##1## Münze um einen Raum aufzuwerten."
+menu_cs_fully_upgraded : "Dieser Raum kann nicht weiter aufgewertet werden!"
 
 # Infamy
-menu_infamy_banner_already_unlocked : "Infamy rewards are unlocked by default.\nGoing infamous is purely for bragging rights!"
-menu_infamy_go_infamous_error_money : "You need $200,000,000 in offshore."
+menu_infamy_banner_already_unlocked : "Berüchtigt-Belohnungen sind standardmäßig freigeschaltet.\nBerüchtigt werden, ist also nur zum angeben!"
+menu_infamy_go_infamous_error_money : "Du benötigst mindestens $200,000,000 im Offshore."
 
 # Pause Menu
-menu_abort_mission : "Abandon Run"
-dialog_abort_mission_text : "You are about to return to the lobby.\n\nDoing this will reset your current run and re-roll your upgrades!"
-menu_end_game : "There is no escape"
+menu_abort_mission : "Runde abbrechen"
+dialog_abort_mission_text : "Du bist dabei in die Lobby zurückzukehren.\n\nDas wird die aktuelle Runde zurücksetzen!"
+menu_end_game : "Es gibt kein Entkommen"
 
 ### CUSTOM HEISTS ###
-heist_cd_28stores_name: "Twenty Four Plus Four Stores"
-heist_cd_28stores_brief: "This is it... the big one. Or, big twenty eight.\n\nI believe in you guys. Make Vlad proud."
+heist_cd_28stores_name: "Vierundzwanzig Plus Vier Läden"
+heist_cd_28stores_brief: "Okay... das ist was ganz Großes!\n\nIch glaube an euch Leute. Mach Vlad stolz!"
 
 ### UPGRADES ###
 ## PROGRESSION
