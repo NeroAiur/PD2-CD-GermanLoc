@@ -24,7 +24,7 @@ crimdawn_safehouse_inf_upg_hint : "Weitere Upgrades werden verfügbar, sobald di
 
 ## MOD SETTINGS
 crimdawn_settings_name : "Criminal Dawn"
-crimdawn_settings_desc : "Tweak the gameplay to your liking."
+crimdawn_settings_desc : "Passe das Gamepaly an."
 
 # Options
 crimdawn_difficulty : "Difficulty Cap"
