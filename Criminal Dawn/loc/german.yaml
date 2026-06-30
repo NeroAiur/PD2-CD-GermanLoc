@@ -285,12 +285,12 @@ menu_asset_lock_buy_bodybags_asset : "Requires the 'Inside Man' skill!"
 menu_asset_lock_additional_assets : "Requires the 'Inside Man' skill!"
 
 # Consumable Descriptions
-bm_ability_chico_injector_desc: "Press the throwable key to activate. While active, 75% of all damage taken is converted into healing. This effect lasts 6 seconds."
-bm_grenade_smoke_screen_grenade_desc: "Grants 50% dodge chance to all crewmates standing inside the cloud, and decreases enemy accuracy by 50% if they enter it. Lasts 10 seconds."
-bm_grenade_tag_team_desc: "Press the throwable key while looking at an ally to activate. When you or the tagged ally get a kill, you restore 6 health and the tagged ally restores 3. This effect lasts 12 seconds, but is extended by 1 second per kill."
-bm_grenade_pocket_ecm_jammer_desc: "Press the throwable key to activate for 6 seconds. During stealth this will function like a regular ECM, and benefits from any ECM skills you may have. In loud it will instead activate feedback, potentially stunning enemies within 25m."
-bm_grenade_copr_ability_desc: "Press the throwable key to activate for 6 seconds. Upon activation you restore 40% of your health, your armor is disabled, and your health is divided into 5 segments. Taking damage causes the crew to recover 5% of their health and removes a segment (two segments if the damage is higher than 200), while killing 2 enemies restores 1 segment. All kills block damage for 1 second."
-bm_grenade_damage_control_desc: "Press the throwable key to negate stacked damage."
+bm_ability_chico_injector_desc: "Wurwaffen-Taste drücken um zu aktivieren. Während dieses Item aktiv ist wird 75% des erlittenen Schadens in Heilung umgewandelt.\nDieser Effekt hält 6 Sekunden an."
+bm_grenade_smoke_screen_grenade_desc: "Wurwaffen-Taste drücken um zu aktivieren. Gewährt allen Crewmitgliedern, die in der Wolke stehen 50% Ausweichchance. Gegner, die sich in der Wolke befinden haben eine 50% reduzierte Genauigkeit.\nDieser Effekt hält 10 Sekunden an."
+bm_grenade_tag_team_desc: "Wurwaffen-Taste drücken um zu aktivieren. Du musst einen verbündeten anschauen, um den Effekt zu aktivieren. Während der Effekt aktiv ist erhältst du 6 Lebenspunkte, der Verbündete 3 Lebenspunkte, für jeden von dir oder dem Verbündeten getöteten Gegner.\nDieser Effekt hält 12 Sekunden an und wird für jeden getöteten Gegner um 1 Sekunde verlängert."
+bm_grenade_pocket_ecm_jammer_desc: "Wurwaffen-Taste drücken um zu aktivieren. Während des Schleichens funktioniert das Item wie ein normaler ECM-Störsender und profitiert von allen ECM-Fähigkeiten, in Benutzung. Außerhalb des Schleichens wird ein ECM-Feedback aktiviert, welcher Gegner im Umkreis von 25m betäuben kann.\nDieser Effekt hält 6 Sekunden an."
+bm_grenade_copr_ability_desc: "Wurwaffen-Taste drücken um zu aktivieren. Bei Aktivierung regenerierst du 40% deiner Lebenspunkte und deine Rüstung wird deaktiviert. Deine gesamten Lebenspunkte werden in 5 Segmente unterteilt. Jedes Mal, wenn du Schaden erhälts, wird 1 Segment entfernt (bei mehr als 200 Schaden werden 2 Segmente entfernt) und alle Crewmitglieder regenerieren 5% ihrer Lebenspunkte. Du regenerierst 1 Segment pro 2 getöteter Gegner, zusätzlich verhindert jeder getötete Gegner deinen erlittenen Schaden für 1 Sekunde.\nDieser Effekt hält 6 Sekunden an."
+bm_grenade_damage_control_desc: "Wurwaffen-Taste drücken um zu aktivieren. Negiert gestapelten Schaden."
 
 # Perk Effects
 bm_menu_armor_max_health_store : "Break: can store up to $amount health."
