@@ -18,9 +18,9 @@ crimdawn_multiworld_invalid_title : "Ungültige Client-Daten"
 crimdawn_multiworld_invalid_desc : "Der falsche Speicherstand ist gerade in benutzung. Bitte starte das Spiel neu."
 
 ## SAFEHOUSE
-crimdawn_safehouse_desc : "You never know what you might find..."
-crimdawn_safehouse_upg_hint : "More upgrades become available after fully upgrading the current tier and reaching a new heist milestone."
-crimdawn_safehouse_inf_upg_hint : "More upgrades become available after fully upgrading the current tier of the safe house."
+crimdawn_safehouse_desc : "Wer weißt, was man hier finden kann..."
+crimdawn_safehouse_upg_hint : "Weitere Upgrades werden verfügbar, sobald die aktuelle Stufe des Verstecks vollständig aufgewertet und ein neuer Meilenstein erreicht wurde."
+crimdawn_safehouse_inf_upg_hint : "Weitere Upgrades werden verfügbar, sobald die aktuelle Stufe des Verstecks vollständig aufgewertet wurde."
 
 ## MOD SETTINGS
 crimdawn_settings_name : "Criminal Dawn"
