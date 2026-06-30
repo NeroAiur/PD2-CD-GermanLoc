@@ -27,20 +27,20 @@ crimdawn_settings_name : "Criminal Dawn"
 crimdawn_settings_desc : "Passe das Gamepaly an."
 
 # Options
-crimdawn_difficulty : "Difficulty Cap"
-crimdawn_difficulty_desc : "The highest difficulty the mod will scale to.\nDifficulty can increase when you complete heists and receive progression items."
+crimdawn_difficulty : "Höchster Schwierigkeitsgrad"
+crimdawn_difficulty_desc : "Der höchster Schwierigkeitsgrad, zu dem das Spiel skalieren wird.\nDer Schwierigkeitsgrad kann sich erhöhen, wenn Raubüberfälle abgeschlossen werden oder Progressionsitems erlangt werden."
 
-crimdawn_mutator_desc : "Whether random mutators are enabled and how they are applied.\nInverted Scaling starts with max mutators, decreasing as you receive items."
-crimdawn_diff_scaling : "On + Scaling"
-crimdawn_inverse_scaling : "Inverted Scaling"
+crimdawn_mutator_desc : "Regelt ob zufällige Mutatoren eingeschaltet und wie sie integriert sind.\nInvertierte Skalierung beginnt mit der maximalen Anzahl an Mutatoren und reduziert diese laufend wenn man Items erhält."
+crimdawn_diff_scaling : "An mit Standard-Skalierung"
+crimdawn_inverse_scaling : "Invertierte Skalierung"
 
 crimdawn_deathlink : "Death Link"
-crimdawn_deathlink_desc : "Whether death links can be sent and received.\nLethal death links send you into custody when you have no downs left!"
-crimdawn_lethal_deathlink : "On + Lethal"
-crimdawn_lethal_deathlink_desc : "Whether death link can send you into custody on 0 downs."
+crimdawn_deathlink_desc : "Regelt ob Death Links gesendet und erhalten werden können.\nTödliche Death Links schicken dich direkt in Haft, wenn kein Downs mehr Verfügbar sind."
+crimdawn_lethal_deathlink : "An mit Tödlichen Death Links"
+crimdawn_lethal_deathlink_desc : "Regelt ob Death Links dich direkt in Haft schicken, wenn sie bei 0 übringen Downs geschehen."
 
-crimdawn_inf_time : "Infinite Time"
-crimdawn_inf_time_desc : "Timer is disabled after receiving all progression items."
+crimdawn_inf_time : "Unendliche Zeit"
+crimdawn_inf_time_desc : "Timer wird nach erhalt aller Progressions-Items deaktiviert."
 
 # Heist Tiers
 crimdawn_heist1_settings_name : "Heists (Tier 1)"
