@@ -35,9 +35,9 @@ crimdawn_diff_scaling : "An mit Standard-Skalierung"
 crimdawn_inverse_scaling : "Invertierte Skalierung"
 
 crimdawn_deathlink : "Death Link"
-crimdawn_deathlink_desc : "Regelt ob Death Links gesendet und erhalten werden können.\nTödliche Death Links schicken dich direkt in Haft, wenn kein Downs mehr Verfügbar sind."
+crimdawn_deathlink_desc : "Regelt ob Death Links gesendet und erhalten werden können.\nTödliche Death Links schicken dich direkt in Haft, wenn kein Niederschläge mehr Verfügbar sind."
 crimdawn_lethal_deathlink : "An mit Tödlichen Death Links"
-crimdawn_lethal_deathlink_desc : "Regelt ob Death Links dich direkt in Haft schicken, wenn sie bei 0 übringen Downs geschehen."
+crimdawn_lethal_deathlink_desc : "Regelt ob Death Links dich direkt in Haft schicken, wenn sie bei 0 übringen Niederschlägen geschehen."
 
 crimdawn_inf_time : "Unendliche Zeit"
 crimdawn_inf_time_desc : "Timer wird nach erhalt aller Progressions-Items deaktiviert."
@@ -321,97 +321,97 @@ heist_cd_28stores_brief: "Okay... das ist was ganz Großes!\n\nIch glaube an euc
 ## PROGRESSION
 # OVKL ToolSys
 cd_player_drill_speed_multiplier0_name : "OVKL ToolSys 2.0"
-cd_player_drill_speed_multiplier0_desc : "Computer hacks, drills, and saws are $SPEED% faster."
+cd_player_drill_speed_multiplier0_desc : "Computer-Hacks, Bohrer, und Sägen sind $SPEED% schneller."
 
 cd_player_drill_speed_multiplier1_name : "OVKL ToolSys 3.0"
-cd_player_drill_speed_multiplier1_desc : "Computer hacks, drills, and saws are $SPEED% faster."
+cd_player_drill_speed_multiplier1_desc : "Computer-Hacks, Bohrer, und Sägen sind $SPEED% schneller."
 
 cd_player_drill_speed_multiplier2_name : "OVKL ToolSys 4.0"
-cd_player_drill_speed_multiplier2_desc : "Computer hacks, drills, and saws are $SPEED% faster and can only jam twice."
+cd_player_drill_speed_multiplier2_desc : "Computer-Hacks, Bohrer, und Sägen sind $SPEED% schneller. Sie können nur 2x hängen/klemmen."
 
 cd_player_drill_speed_multiplier3_name : "OVKL ToolSys 5.0"
-cd_player_drill_speed_multiplier3_desc : "Computer hacks, drills, and saws are $SPEED% faster and can only jam twice."
+cd_player_drill_speed_multiplier3_desc : "Computer-Hacks, Bohrer, und Sägen sind $SPEED% schneller. Sie können nur 2x hängen/klemmen."
 
 cd_player_drill_speed_multiplier4_name : "OVKL ToolSys 6.0"
-cd_player_drill_speed_multiplier4_desc : "Computer hacks, drills, and saws are $SPEED% faster and can only jam once."
+cd_player_drill_speed_multiplier4_desc : "Computer-Hacks, Bohrer, und Sägen sind $SPEED% schneller. Sie können nur 1x hängen/klemmen."
 
 cd_player_drill_speed_multiplier5_name : "OVKL ToolSys 7.0"
-cd_player_drill_speed_multiplier5_desc : "Computer hacks, drills, and saws are $SPEED% faster and can only jam once."
+cd_player_drill_speed_multiplier5_desc : "Computer-Hacks, Bohrer, und Sägen sind $SPEED% schneller. Sie können nur 1x hängen/klemmen."
 
 cd_player_drill_speed_multiplier6_name : "OVKL ToolSys 8.0"
-cd_player_drill_speed_multiplier6_desc : "Computer hacks, drills, and saws are $SPEED% faster and can never jam."
+cd_player_drill_speed_multiplier6_desc : "Computer-Hacks, Bohrer, und Sägen sind $SPEED% schneller und können nicht mehr hängen/klemmen!"
 
-cd_faster_objectives_name : "Objectivity"
-cd_faster_objectives_desc : "Objectives progress $SPEED% faster (ignored on final heist)."
+cd_faster_objectives_name : "Zielorientiert"
+cd_faster_objectives_desc : "Missionsziele sind $SPEED% schneller (wird im letzten Raubüberfall ignoriert)."
 
 # Nine Lives
-cd_player_additional_lives_1_name : "Two Lives"
-cd_player_additional_lives_1_desc : "Start each run with two downs."
+cd_player_additional_lives_1_name : "Zwei Leben"
+cd_player_additional_lives_1_desc : "Starte jede Runde mit 2 Niederschlägen."
 
-cd_player_additional_lives_2_name : "Three Lives"
-cd_player_additional_lives_2_desc : "Start each run with three downs."
+cd_player_additional_lives_2_name : "Drei Leben"
+cd_player_additional_lives_2_desc : "Starte jede Runde mit 3 Niederschlägen."
 
-cd_player_additional_lives_3_name : "Four Lives"
-cd_player_additional_lives_3_desc : "Start each run with four downs."
+cd_player_additional_lives_3_name : "Vier Leben"
+cd_player_additional_lives_3_desc : "Starte jede Runde mit 4 Niederschlägen."
 
-cd_player_additional_lives_4_name : "Five Lives"
-cd_player_additional_lives_4_desc : "Start each run with five downs."
+cd_player_additional_lives_4_name : "Fünf Leben"
+cd_player_additional_lives_4_desc : "Starte jede Runde mit 5 Niederschlägen."
 
-cd_player_additional_lives_5_name : "Six Lives"
-cd_player_additional_lives_5_desc : "Start each run with six downs."
+cd_player_additional_lives_5_name : "Sechs Leben"
+cd_player_additional_lives_5_desc : "Starte jede Runde mit 6 Niederschlägen."
 
-cd_player_additional_lives_6_name : "Seven Lives"
-cd_player_additional_lives_6_desc : "Start each run with seven downs."
+cd_player_additional_lives_6_name : "Sieben Leben"
+cd_player_additional_lives_6_desc : "Starte jede Runde mit 7 Niederschlägen."
 
-cd_player_additional_lives_7_name : "Eight Lives"
-cd_player_additional_lives_7_desc : "Start each run with eight downs."
+cd_player_additional_lives_7_name : "Acht Leben"
+cd_player_additional_lives_7_desc : "Starte jede Runde mit 8 Niederschlägen."
 
-cd_player_additional_lives_8_name : "Nine Lives"
-cd_player_additional_lives_8_desc : "Start each run with nine downs."
+cd_player_additional_lives_8_name : "Neun Leben"
+cd_player_additional_lives_8_desc : "Du bist zwar keine Katze, aber dafür startest du jede Runde mit 9 Niederschlägen."
 
 # Perma-Perks
-cd_permaperks1_name : "Blending In"
-cd_permaperks1_desc : "+1 concealment."
+cd_permaperks1_name : "Mit der Umgebung verschmelzen"
+cd_permaperks1_desc : "+1 Tarnung."
 
-cd_permaperks2_name : "Second Skin"
-cd_permaperks2_desc : "15% reduced armor speed penalty."
+cd_permaperks2_name : "Zweite Haut"
+cd_permaperks2_desc : "15% reduzierter Geschwindigkeitsmalus durch Rüstung."
 
 cd_permaperks3_name : "Aggressor"
-cd_permaperks3_desc : "5% damage bonus."
+cd_permaperks3_desc : "5% Schadensbonus."
 
-cd_permaperks4_name : "Walk-in Closet Lv1"
-cd_permaperks4_desc : "Ammo pickup increased by 35%."
+cd_permaperks4_name : "Wandschrank Level 1"
+cd_permaperks4_desc : "Menge an Munition, die du aufsammelst um 35% erhöht."
 
-cd_permaperks5_name : "Helmet Popping"
-cd_permaperks5_desc : "25% headshot damage bonus."
+cd_permaperks5_name : "Helm-Popping"
+cd_permaperks5_desc : "25% Kopfschuss-Schadensbonus."
 
 cd_permaperks6_name : "Triage"
-cd_permaperks6_desc : "20% faster doctor bag interactions."
+cd_permaperks6_desc : "20% schnellere Interaktion mit der Arzttasche."
 
-cd_permaperks7_name : "Walk-in Closet Lv2"
-cd_permaperks7_desc : "Ammo pickup increased by 75%."
+cd_permaperks7_name : "Wandschrank Level 2"
+cd_permaperks7_desc : "Menge an Munition, die du aufsammelst um 75% erhöht."
 
 # Perma-Skills
-cd_permaskills1_name : "Cat Burglar"
-cd_permaskills1_desc : "Falls inflict armor damage."
+cd_permaskills1_name : "Katzenartig"
+cd_permaskills1_desc : "Fallschaden verursacht Rüstungsschaden."
 
-cd_permaskills2_name : "Cleaner"
-cd_permaskills2_desc : "Bag bodies."
+cd_permaskills2_name : "Der Tatortreiniger"
+cd_permaskills2_desc : "Leichen können eingesackt werden."
 
-cd_permaskills3_name : "Dominator"
-cd_permaskills3_desc : "Intimidate non-special enemies."
+cd_permaskills3_name : "Dominant"
+cd_permaskills3_desc : "Nicht-Spezialgegner können geingeschüchtert werden."
 
-cd_permaskills4_name : "Drop Cloth"
-cd_permaskills4_desc : "Enemy death alert range reduced by 95%."
+cd_permaskills4_name : "Abdecktuch"
+cd_permaskills4_desc : "Reduziert die Reichweite der Todesgeräusche von Gegnern um 95%."
 
-cd_permaskills5_name : "Toolkit"
-cd_permaskills5_desc : "Repair drills and saws 25% faster."
+cd_permaskills5_name : "Werkzeugkasten"
+cd_permaskills5_desc : "Bohrer werden 25% schneller repariert."
 
-cd_permaskills6_name : "Die Hard"
-cd_permaskills6_desc : "50% damage reduction while interacting."
+cd_permaskills6_name : "Hochkonzentriert"
+cd_permaskills6_desc : "Reduziert erlittenen Schaden um 50% wenn du mit etwas interagierst."
 
-cd_permaskills7_name : "Jack of all Trades"
-cd_permaskills7_desc : "Hold two deployables. Interact with them twice as fast."
+cd_permaskills7_name : "Tausendsassa"
+cd_permaskills7_desc : "Du kannst zwei Ausrüstungen mitnehmen. Du interagierst mit Ausrüstungen doppelt so schnell."
 
 ## SKILLS
 # Default
