@@ -1,0 +1,1600 @@
+### MENUS ###
+## MAIN MENU
+crimdawn_create_lobby_title : "Lobby erstellen"
+crimdawn_create_lobby_desc : "Starte Criminal Dawn."
+crimdawn_init_multiworld_title : "Client-Daten laden"
+crimdawn_init_multiworld_desc : "Richte die notwendige Daten für Criminal Dawn ein."
+crimdawn_first_run_title : "Ein neuer Anbruch der Kriminalität"
+crimdawn_new_run_title : "Ein $ORDINAL Anbruch der Kriminalität"
+crimdawn_start_run_desc : "Verursache innerhalb des Zeitlimits so viel Chaos wie möglich auf den Straßen von D.C."
+crimdawn_play_next_title : "$ORDINAL Anbruch der Kriminalität $HEIST_NUM"
+crimdawn_play_next_desc : "$CLOCK $TIME Minuten übrig."
+crimdawn_play_inf_desc : "Kein Zeitlimit!"
+
+# Client Error
+crimdawn_multiworld_missing_title : "Missing Client Data"
+crimdawn_multiworld_missing_desc : "You need to connect to a multiworld first - full instructions can be found on the 'Installation' page of the mod wiki. The client can be found in the Archipelago launcher.\n\nhttps://github.com/CATEM1NAL/PD2-Criminal-Dawn/wiki/Installation"
+crimdawn_multiworld_invalid_title : "Invalid Client Data"
+crimdawn_multiworld_invalid_desc : "The wrong save is currently in use. Please restart the game."
+
+## SAFEHOUSE
+crimdawn_safehouse_desc : "You never know what you might find..."
+crimdawn_safehouse_upg_hint : "More upgrades become available after fully upgrading the current tier and reaching a new heist milestone."
+crimdawn_safehouse_inf_upg_hint : "More upgrades become available after fully upgrading the current tier of the safe house."
+
+## MOD SETTINGS
+crimdawn_settings_name : "Criminal Dawn"
+crimdawn_settings_desc : "Tweak the gameplay to your liking."
+
+# Options
+crimdawn_difficulty : "Difficulty Cap"
+crimdawn_difficulty_desc : "The highest difficulty the mod will scale to.\nDifficulty can increase when you complete heists and receive progression items."
+
+crimdawn_mutator_desc : "Whether random mutators are enabled and how they are applied.\nInverted Scaling starts with max mutators, decreasing as you receive items."
+crimdawn_diff_scaling : "On + Scaling"
+crimdawn_inverse_scaling : "Inverted Scaling"
+
+crimdawn_deathlink : "Death Link"
+crimdawn_deathlink_desc : "Whether death links can be sent and received.\nLethal death links send you into custody when you have no downs left!"
+crimdawn_lethal_deathlink : "On + Lethal"
+crimdawn_lethal_deathlink_desc : "Whether death link can send you into custody on 0 downs."
+
+crimdawn_inf_time : "Infinite Time"
+crimdawn_inf_time_desc : "Timer is disabled after receiving all progression items."
+
+# Heist Tiers
+crimdawn_heist1_settings_name : "Heists (Tier 1)"
+crimdawn_heist1_settings_desc : "Enable or disable heists in the first tier (first heist with run length 6)."
+crimdawn_heist2_settings_name : "Heists (Tier 2)"
+crimdawn_heist2_settings_desc : "Enable or disable heists in the second tier (first heist with run length 5)."
+crimdawn_heist3_settings_name : "Heists (Tier 3)"
+crimdawn_heist3_settings_desc : "Enable or disable heists in the third tier (first heist with run length 4)."
+crimdawn_heist4_settings_name : "Heists (Tier 4)"
+crimdawn_heist4_settings_desc : "Enable or disable heists from the fourth tier (first heist with run length 3)."
+crimdawn_heist5_settings_name : "Heists (Tier 5)"
+crimdawn_heist5_settings_desc : "Enable or disable heists from the fifth tier (first heist with run length 2)."
+
+crimdawn_settings_heist_desc : "Toggle to enable/disable this heist from appearing in a run."
+crimdawn_settings_dlc_desc : "Toggle to enable/disable this heist from appearing in a run.\nThis heist also requires ownership of the associated DLC!"
+
+## UNLOCK MENU
+crimdawn_new_item1 : "Gage visited the safe house and dropped something new on the table."
+crimdawn_new_item2 : "You looted a dead cop during the last heist. Only he knows what he was planning, and you're not going to get any answers now."
+crimdawn_new_item3 : "During the trip home you opened a loot bag to admire your winnings, only to find something else instead..."
+crimdawn_new_item4 : "Vlad came by earlier talking about the Monty Hall problem. Why is he so obsessed with goats?"
+crimdawn_new_item5 : "While trying to relax in the safe house you found something hidden under the sofa seat."
+crimdawn_new_item6 : "The other clowns got bored and decided to hit a military truck."
+crimdawn_new_item7 : "Some guy called Troy turned up at the safe house. We gave him to Jacket, but not before checking his pockets."
+crimdawn_new_item8 : "A bearded man visited you in a dream. He was there when you woke up too."
+crimdawn_new_item9 : "A strange box was found outside the safe house. Underneath it was a drawing of a face with sunglasses and a fist. Is this a threat?"
+crimdawn_new_item10 : "Locke was reminiscing about his old commander during his time stationed in China, and found a memento from his stash."
+crimdawn_new_item11 : "Wolf stared at you silently and then handed you something."
+crimdawn_new_item12 : "During a routine bathroom inspection, Bonnie found something in the toilet."
+crimdawn_new_item13 : "Pondering where all these items keep coming from, a portal suddenly materialises in front of you. Getting closer you hear a voice yell 'WAHOO'."
+crimdawn_new_item14 : "Pondering where all these items keep coming from, a portal suddenly materialises in front of you. Getting closer you hear an electrical buzz."
+crimdawn_new_item15 : "Pondering where all these items keep coming from, a portal suddenly materialises in front of you. Getting closer you hear grass being cut."
+crimdawn_new_item16 : "Pondering where all these items keep coming from, a portal suddenly materialises in front of you. Getting closer you hear the crashing of waves."
+crimdawn_new_item17 : "Pondering where all these items keep coming from, a portal suddenly materialises in front of you. Getting closer you hear the wind whistling."
+crimdawn_new_item18 : "Pondering where all these items keep coming from, a portal suddenly materialises in front of you. Getting closer you hear frantic gunshots."
+crimdawn_new_item19 : "A large snake slithers up to you. 'Hey!' he says, 'I'm Paul!'. He slithers away, accidentally dropping something in the process."
+crimdawn_new_item20 : "As you listen to a news report about AlmirCorp, you notice that Hoxton has stopped staring at the wall and is now focused on something else."
+crimdawn_new_item21 : "Houston spent all night trying to figure out why the van wouldn't move. Turns out something was stuck in the tailpipe."
+crimdawn_new_item22 : "The Dentist was rambling about some ancient Mesopotamian bullshit. When he finished he gave us a parting gift."
+crimdawn_new_item23 : "Hector promised even better rewards if we keep putting our lives in danger. Sounds good to me!"
+crimdawn_new_item24 : "Bain decided to swing by Kung Bo and snagged some swag."
+crimdawn_new_item25 : "The Elephant kept trying to sell us on oil. Unfortunately for him, we only spend money on heist assets."
+
+## UPGRADE MENU
+# Title
+crimdawn_upgrades_title_skills : "Current Skills"
+crimdawn_upgrades_title_perks : "Current Perks"
+crimdawn_upgrades_title_stats : "Current Stat Boosts"
+crimdawn_upgrades_title_deploy : "Current Deployable Upgrades"
+
+# Buttons
+crimdawn_upgrades_button_skills : "Skills"
+crimdawn_upgrades_button_perks : "Perks"
+crimdawn_upgrades_button_stats : "Stat Boosts"
+crimdawn_upgrades_button_deploy : "Deployable"
+
+# Placeholder
+crimdawn_upgrades_none : "None."
+
+### CHAT NOTIFICATIONS ###
+# Victory
+crimdawn_chat_victory : "You watch as the sun sets one final time on all the destruction that you've caused. It's finally over..."
+crimdawn_chat_victory2 : "...unless you want to keep going, that is?"
+
+# Received Client Update
+crimdawn_chat_received_items : "Received new items from the multiworld!\n"
+crimdawn_client_progression_upgrade : "Timer extended by $TIME_GAINED seconds ($MINS_REMAINING minutes left)!\nObjective speed increased by $SPEED% ($TOTAL_SPEED% faster)!"
+crimdawn_client_extra_life : "You now start each run with $LIVES lives!\n"
+crimdawn_client_new_item : "Received $ITEM ($CURRENT/$TOTAL)!\n"
+crimdawn_client_infinite_item : "Received $ITEM!\n"
+crimdawn_client_saw : "Unlocked primary OVE9000 saw!\n"
+crimdawn_client_saw_secondary : "Unlocked secondary OVE9000 saw!\n"
+crimdawn_client_laser_watch : "Unlocked Laser Chronometer!\n"
+crimdawn_client_coins : "Received $NUM coins!\n"
+
+# Score
+crimdawn_chat_score_increased : "Score cap increased to $SCORE!"
+crimdawn_chat_infinite_time : "You feel a weight lift off your shoulders..."
+crimdawn_chat_score_capped : "$SCORE_ICON $SCORE_CAP (score cap reached).$HINT"
+crimdawn_chat_score_cap_hint : "\nMore progression items required to increase cap."
+crimdawn_chat_score_cap_inc : "Score cap increased to $SCORE_CAP!\n"
+crimdawn_chat_score_gain : "$SCORE_ICON $SCORE.\n+$POINTS from $REASON.\n$TO_NEXT more for next check."
+crimdawn_chat_fscore_gain : "$SCORE_ICON $SCORE.\n+1 per $POINTS $REASON.\n$TO_NEXT more for next check."
+crimdawn_score_bag_secured : "loot secured"
+crimdawn_score_package_secured : "Gage package secured"
+crimdawn_score_obj_completed : "objective completed"
+crimdawn_score_loose_cash : "loose cash"
+crimdawn_score_enemies_killed : "enemies killed"
+crimdawn_score_day_completed : "day completion"
+crimdawn_score_heist_completed : "heist completion"
+
+# Time
+crimdawn_chat_time_remaining : "$TIME minutes remaining."
+crimdawn_chat_final_minute : "Less than one minute remaining!"
+crimdawn_chat_no_time_left : "No time remaining!"
+
+### POINT OF NO RETURN ###
+crimdawn_ponr_default: "Dawn turns to dusk in"
+crimdawn_ponr_rare1: "Bain goons and dies in"
+crimdawn_ponr_rare2: "Garrett wipes in"
+crimdawn_ponr_rare3: "Vlad wakes up in"
+crimdawn_ponr_rare4: "Christmas comes in"
+crimdawn_ponr_rare5: "Assets frozen in"
+crimdawn_ponr_rare6: "Nuke detonates in"
+crimdawn_ponr_rare7: "Rapture occurs in"
+crimdawn_ponr_rare8: "Chronoblunt smoked in"
+crimdawn_ponr_rare9: "PAYDAY 3 is good in"
+crimdawn_ponr_rare10: "Gage stands up in"
+crimdawn_ponr_rare11: "Allegations raised in"
+crimdawn_ponr_rare12: "Dallas farts in"
+crimdawn_ponr_rare13: "Sick in the car seat in"
+crimdawn_ponr_rare14: "Ultimate is ready in"
+crimdawn_ponr_rare15: "AlmirCorp rules in"
+crimdawn_ponr_rare16: "Ice-T arrives in"
+crimdawn_ponr_rare17: "Beckett is born in"
+crimdawn_ponr_rare18: "RPK releases in"
+crimdawn_ponr_rare19: "Game crashes in"
+crimdawn_ponr_rare20: "Everyone gets a gun in"
+crimdawn_ponr_rare21: "Dragan steals a car in"
+crimdawn_ponr_rare22: "Cthulhu fhtagn"
+crimdawn_ponr_rare23: "World War III in"
+crimdawn_ponr_rare24: "My mind state is"
+crimdawn_ponr_rare25: "Kids raised in"
+crimdawn_ponr_rare26: "Discord crashout in"
+crimdawn_ponr_rare27: "He becomes him in"
+crimdawn_ponr_rare28: "Jiro finds Kento in"
+crimdawn_ponr_rare29: "Chuck Norris is here in"
+crimdawn_ponr_rare30: "John Wick is back in"
+crimdawn_ponr_rare31: "Mr Beast dominates in"
+crimdawn_ponr_rare32: "New DLC released in"
+crimdawn_ponr_rare33: "Starbreeze bankrupt in"
+crimdawn_ponr_rare34: "Kknowley twerks in"
+crimdawn_ponr_rare35: "You win in"
+crimdawn_ponr_rare36: "Wolf seeks therapy in"
+crimdawn_ponr_rare37: "GTFO in"
+crimdawn_ponr_rare38: "Houston drinks in"
+crimdawn_ponr_rare39: "Jimmy does fentanyl in"
+crimdawn_ponr_rare40: "Jacket jacks it in"
+crimdawn_ponr_rare41: "Clover abandoned in"
+crimdawn_ponr_rare42: "God is in control in"
+crimdawn_ponr_rare43: "Scarface gets shot in"
+crimdawn_ponr_rare44: "Ethan's career ends in"
+crimdawn_ponr_rare45: "Touchdown defends in"
+crimdawn_ponr_rare46: "Sangres chokes in"
+crimdawn_ponr_rare47: "Sydney drowns in"
+crimdawn_ponr_rare48: "Duke's liver fails in"
+crimdawn_ponr_rare49: "Touchdown defends in"
+crimdawn_ponr_rare50: "Hila goes to war in"
+crimdawn_ponr_rare51: "Shade replaces Bain in"
+crimdawn_ponr_rare52: "Bodhi waterboarded in"
+crimdawn_ponr_rare53: "Rust's bike is stuck in"
+crimdawn_ponr_rare54: "Joy learns Python in"
+crimdawn_ponr_rare55: "Bonnie loses it all in"
+crimdawn_ponr_rare56: "Sokol plays Dota in"
+crimdawn_ponr_rare57: "Hoxton is executed in"
+crimdawn_ponr_rare58: "Chains is a pickle in"
+crimdawn_ponr_rare59: "Locke hits boat in"
+crimdawn_ponr_rare60: "Heart failure in"
+crimdawn_ponr_rare61: "Added to core in"
+crimdawn_ponr_rare62: "Bile hits a sparrow in"
+crimdawn_ponr_rare63: "Twitch hits a wall in"
+crimdawn_ponr_rare64: "Alex misses drop in"
+crimdawn_ponr_rare65: "You get BK'd in"
+crimdawn_ponr_rare66: "Dentist is reborn in"
+crimdawn_ponr_rare67: "funny meme"
+crimdawn_ponr_rare68: "Steam sale in"
+crimdawn_ponr_rare69: "Training montage"
+crimdawn_ponr_rare70: "Bo flees country in"
+crimdawn_ponr_rare71: "Difficulty reduced in"
+crimdawn_ponr_rare72: "It is what it is"
+crimdawn_ponr_rare73: "HAHAHAHAHAHAHAHAHAHAHA"
+crimdawn_ponr_rare74: "Someone will die in"
+crimdawn_ponr_rare75: "Psync failed in"
+crimdawn_ponr_rare76: "Ragnarok crashes in"
+crimdawn_ponr_rare77: "Time to collision:"
+crimdawn_ponr_rare78: "0.7.0 is released in"
+crimdawn_ponr_rare79: "Greatest heist of all"
+crimdawn_ponr_rare80: "Safe house found in"
+crimdawn_ponr_rare81: "Triforce stolen in"
+crimdawn_ponr_rare82: "Shadow Queen free in"
+crimdawn_ponr_rare83: "Great Disaster in"
+crimdawn_ponr_rare84: "Rat eats the moon in"
+crimdawn_ponr_rare85: "Morrslieb rises in"
+crimdawn_ponr_rare86: "Left for dead in"
+crimdawn_ponr_rare87: "He's back for blood in"
+crimdawn_ponr_rare88: "Mavericks attack in"
+crimdawn_ponr_rare89: "Model W consumes all"
+crimdawn_ponr_rare90: "T-Virus outbreak in"
+crimdawn_ponr_rare91: "Dawn of A New Day"
+crimdawn_ponr_rare92: "First Flame linked in"
+crimdawn_ponr_rare93: "Dracula revived in"
+crimdawn_ponr_rare94: "Gandhi declares war in"
+crimdawn_ponr_rare95: "King K. Rool escapes in"
+crimdawn_ponr_rare96: "Hell portals open in"
+crimdawn_ponr_rare97: "Resonance cascade in"
+crimdawn_ponr_rare98: "You have a bad time in"
+crimdawn_ponr_rare99: "Zerg rush occurs in"
+crimdawn_ponr_rare100: "Tight Deadline:"
+crimdawn_ponr_rare: ""
+
+### STRING OVERRIDES ###
+# Locked Items
+bm_menu_level_req : "This item is locked!"
+bm_menu_skill_locked_level_7 : "This item is locked!"
+bm_menu_skill_locked_x_usp : "This item is locked!"
+bm_menu_skill_locked_x_ppk : "This item is locked!"
+bm_menu_skill_locked_x_p226 : "This item is locked!"
+bm_menu_skill_locked_x_g22c : "This item is locked!"
+bm_menu_skill_locked_x_g17 : "This item is locked!"
+bm_menu_skill_locked_x_deagle : "This item is locked!"
+bm_menu_skill_locked_x_b92fs : "This item is locked!"
+bm_menu_skill_locked_x_1911 : "This item is locked!"
+bm_menu_skill_locked_jowi : "This item is locked!"
+bm_menu_skill_locked_x_akmsu : "This item is locked!"
+bm_menu_skill_locked_x_m45 : "This item is locked!"
+bm_menu_skill_locked_x_mp5 : "This item is locked!"
+bm_menu_skill_locked_x_mp7 : "This item is locked!"
+bm_menu_skill_locked_saw : "This item is locked!"
+bm_menu_skill_locked_saw_secondary : "This item is locked!"
+bm_menu_skill_locked_ammo_bag : "This item is locked!"
+bm_menu_skill_locked_armor_kit : "This item is locked!"
+bm_menu_skill_locked_bodybags_bag : "This item is locked!"
+bm_menu_skill_locked_doctor_bag : "This item is locked!"
+bm_menu_skill_locked_ecm_jammer : "This item is locked!"
+bm_menu_skill_locked_first_aid_kit : "This item is locked!"
+bm_menu_skill_locked_sentry_gun : "This item is locked!"
+bm_menu_skill_locked_sentry_gun_silent : "This item is locked!"
+bm_menu_skill_locked_trip_mine : "This item is locked!"
+bm_menu_dlc_locked : "This item is locked!"
+bm_global_value_mxm_unlock : "This item is locked!"
+bm_wpn_gre_electric_unlock : "This item is locked!"
+bm_wpn_money_event_ended : "This item is locked!"
+bm_global_value_gage_pack_jobs_unlock : "Buy the Gage Mod Courier DLC to unlock!"
+
+# Upgrade Requirements
+bm_menu_skill_locked_copr_ability : "Requires the 'Momentum' perk!"
+bm_menu_skill_locked_damage_control : "Requires the 'Virtue' perk!"
+bm_menu_skill_locked_pocket_ecm_jammer : "Requires the 'Code Glitch' perk!"
+bm_menu_skill_locked_smoke_screen_grenade : "Requires the 'Smoker' perk!"
+bm_menu_skill_locked_tag_team : "Requires the 'Soul Mates' perk!"
+menu_asset_lock_buy_bodybags_asset : "Requires the 'Inside Man' skill!"
+menu_asset_lock_additional_assets : "Requires the 'Inside Man' skill!"
+
+# Consumable Descriptions
+bm_ability_chico_injector_desc: "Press the throwable key to activate. While active, 75% of all damage taken is converted into healing. This effect lasts 6 seconds."
+bm_grenade_smoke_screen_grenade_desc: "Grants 50% dodge chance to all crewmates standing inside the cloud, and decreases enemy accuracy by 50% if they enter it. Lasts 10 seconds."
+bm_grenade_tag_team_desc: "Press the throwable key while looking at an ally to activate. When you or the tagged ally get a kill, you restore 6 health and the tagged ally restores 3. This effect lasts 12 seconds, but is extended by 1 second per kill."
+bm_grenade_pocket_ecm_jammer_desc: "Press the throwable key to activate for 6 seconds. During stealth this will function like a regular ECM, and benefits from any ECM skills you may have. In loud it will instead activate feedback, potentially stunning enemies within 25m."
+bm_grenade_copr_ability_desc: "Press the throwable key to activate for 6 seconds. Upon activation you restore 40% of your health, your armor is disabled, and your health is divided into 5 segments. Taking damage causes the crew to recover 5% of their health and removes a segment (two segments if the damage is higher than 200), while killing 2 enemies restores 1 segment. All kills block damage for 1 second."
+bm_grenade_damage_control_desc: "Press the throwable key to negate stacked damage."
+
+# Perk Effects
+bm_menu_armor_max_health_store : "Break: can store up to $amount health."
+bm_menu_disables_damage_to_hot : "'Dopamine' perk is disabled while wearing this armor!"
+
+# Black Market
+bm_menu_stamina : "Recovery Time"
+menu_bm_total_cost : ""
+
+# Safehouse
+menu_cs_upgrade_cost : "It costs ##1## coin to upgrade a room."
+menu_cs_fully_upgraded : "This room cannot be upgraded any further!"
+
+# Infamy
+menu_infamy_banner_already_unlocked : "Infamy rewards are unlocked by default.\nGoing infamous is purely for bragging rights!"
+menu_infamy_go_infamous_error_money : "You need $200,000,000 in offshore."
+
+# Pause Menu
+menu_abort_mission : "Abandon Run"
+dialog_abort_mission_text : "You are about to return to the lobby.\n\nDoing this will reset your current run and re-roll your upgrades!"
+menu_end_game : "There is no escape"
+
+### CUSTOM HEISTS ###
+heist_cd_28stores_name: "Twenty Four Plus Four Stores"
+heist_cd_28stores_brief: "This is it... the big one. Or, big twenty eight.\n\nI believe in you guys. Make Vlad proud."
+
+### UPGRADES ###
+## PROGRESSION
+# OVKL ToolSys
+cd_player_drill_speed_multiplier0_name : "OVKL ToolSys 2.0"
+cd_player_drill_speed_multiplier0_desc : "Computer hacks, drills, and saws are $SPEED% faster."
+
+cd_player_drill_speed_multiplier1_name : "OVKL ToolSys 3.0"
+cd_player_drill_speed_multiplier1_desc : "Computer hacks, drills, and saws are $SPEED% faster."
+
+cd_player_drill_speed_multiplier2_name : "OVKL ToolSys 4.0"
+cd_player_drill_speed_multiplier2_desc : "Computer hacks, drills, and saws are $SPEED% faster and can only jam twice."
+
+cd_player_drill_speed_multiplier3_name : "OVKL ToolSys 5.0"
+cd_player_drill_speed_multiplier3_desc : "Computer hacks, drills, and saws are $SPEED% faster and can only jam twice."
+
+cd_player_drill_speed_multiplier4_name : "OVKL ToolSys 6.0"
+cd_player_drill_speed_multiplier4_desc : "Computer hacks, drills, and saws are $SPEED% faster and can only jam once."
+
+cd_player_drill_speed_multiplier5_name : "OVKL ToolSys 7.0"
+cd_player_drill_speed_multiplier5_desc : "Computer hacks, drills, and saws are $SPEED% faster and can only jam once."
+
+cd_player_drill_speed_multiplier6_name : "OVKL ToolSys 8.0"
+cd_player_drill_speed_multiplier6_desc : "Computer hacks, drills, and saws are $SPEED% faster and can never jam."
+
+cd_faster_objectives_name : "Objectivity"
+cd_faster_objectives_desc : "Objectives progress $SPEED% faster (ignored on final heist)."
+
+# Nine Lives
+cd_player_additional_lives_1_name : "Two Lives"
+cd_player_additional_lives_1_desc : "Start each run with two downs."
+
+cd_player_additional_lives_2_name : "Three Lives"
+cd_player_additional_lives_2_desc : "Start each run with three downs."
+
+cd_player_additional_lives_3_name : "Four Lives"
+cd_player_additional_lives_3_desc : "Start each run with four downs."
+
+cd_player_additional_lives_4_name : "Five Lives"
+cd_player_additional_lives_4_desc : "Start each run with five downs."
+
+cd_player_additional_lives_5_name : "Six Lives"
+cd_player_additional_lives_5_desc : "Start each run with six downs."
+
+cd_player_additional_lives_6_name : "Seven Lives"
+cd_player_additional_lives_6_desc : "Start each run with seven downs."
+
+cd_player_additional_lives_7_name : "Eight Lives"
+cd_player_additional_lives_7_desc : "Start each run with eight downs."
+
+cd_player_additional_lives_8_name : "Nine Lives"
+cd_player_additional_lives_8_desc : "Start each run with nine downs."
+
+# Perma-Perks
+cd_permaperks1_name : "Blending In"
+cd_permaperks1_desc : "+1 concealment."
+
+cd_permaperks2_name : "Second Skin"
+cd_permaperks2_desc : "15% reduced armor speed penalty."
+
+cd_permaperks3_name : "Aggressor"
+cd_permaperks3_desc : "5% damage bonus."
+
+cd_permaperks4_name : "Walk-in Closet Lv1"
+cd_permaperks4_desc : "Ammo pickup increased by 35%."
+
+cd_permaperks5_name : "Helmet Popping"
+cd_permaperks5_desc : "25% headshot damage bonus."
+
+cd_permaperks6_name : "Triage"
+cd_permaperks6_desc : "20% faster doctor bag interactions."
+
+cd_permaperks7_name : "Walk-in Closet Lv2"
+cd_permaperks7_desc : "Ammo pickup increased by 75%."
+
+# Perma-Skills
+cd_permaskills1_name : "Cat Burglar"
+cd_permaskills1_desc : "Falls inflict armor damage."
+
+cd_permaskills2_name : "Cleaner"
+cd_permaskills2_desc : "Bag bodies."
+
+cd_permaskills3_name : "Dominator"
+cd_permaskills3_desc : "Intimidate non-special enemies."
+
+cd_permaskills4_name : "Drop Cloth"
+cd_permaskills4_desc : "Enemy death alert range reduced by 95%."
+
+cd_permaskills5_name : "Toolkit"
+cd_permaskills5_desc : "Repair drills and saws 25% faster."
+
+cd_permaskills6_name : "Die Hard"
+cd_permaskills6_desc : "50% damage reduction while interacting."
+
+cd_permaskills7_name : "Jack of all Trades"
+cd_permaskills7_desc : "Hold two deployables. Interact with them twice as fast."
+
+## SKILLS
+# Default
+cd_harmless_melee_name : "Love Tap"
+cd_harmless_melee_desc : "First melee hit doesn't kill civs."
+
+cd_downed_primary_name : "Action Hero"
+cd_downed_primary_desc : "Use primary weapons and ADS while down."
+
+# Mastermind Tree
+cd_revive_damage_reduction_name : "Combat Medic"
+cd_revive_damage_reduction_desc : "30% damage reduction while reviving and for 5s after."
+
+cd_inspire_shout_name : "Inspire"
+cd_inspire_shout_desc : "Shout at downed teammates to revive (once per 20s).\nShout at living teammates to give a 20% reload/movement speed bonus for 10s."
+
+cd_hostage_absorption_name : "Forced Friendship"
+cd_hostage_absorption_desc : "+0.5 absorption per hostage (up to 8 hostages)."
+
+cd_intimidate_sounds_name : "Control Freak"
+cd_intimidate_sounds_desc : "Alert sounds intimidate civs.\nIntimidated civs within 10m stay intimidated."
+
+cd_stockholm_syndrome_name : "Stockholm Syndrome"
+cd_stockholm_syndrome_desc : "Jump while in custody to instantly trade a hostage (once per heist)."
+
+cd_hostage_taker_name : "Hostage Taker"
+cd_hostage_taker_desc : "Restore 5 health every 5 seconds if you have a hostage."
+
+cd_headshot_faster_reload_name : "Aggressive Reload"
+cd_headshot_faster_reload_desc : "Headshot kills give 100% reload speed for 4s (single shot SMGs/ARs/snipers)."
+
+cd_headshot_ammo_return_name : "Ammo Efficiency"
+cd_headshot_ammo_return_desc : "2 headshots in 6 seconds returns a bullet\n(single shot SMGs/ARs/snipers)."
+
+cd_graze_name : "Graze"
+cd_graze_desc : "Snipers deal 20% damage (100% on headshot kill) to all enemies within 1m of bullet path."
+
+cd_joker_1_name : "Joker"
+cd_joker_1_desc : "Convert dominated cops."
+
+cd_joker_2_name : "Cult of Personality"
+cd_joker_2_desc : "Converts deal 35% more damage and take 54% less.\nCan have two converts at once."
+
+cd_joker_stats_name : "Partners in Crime"
+cd_joker_stats_desc : "Having a convert increases your health by 30% and movement speed by 10%."
+
+# Enforcer Tree
+cd_underdog_name : "Underdog"
+cd_underdog_desc : "Deal 15% more damage and take 15% less when 3+ enemies within 18m."
+
+cd_shotgun_sprint_shoot_name : "Close By"
+cd_shotgun_sprint_shoot_desc : "Hipfire while sprinting (shotguns)."
+
+cd_overkill_name : "Overkill"
+cd_overkill_desc : "On shotgun/saw kill gain a 75% damage bonus for 20s."
+
+cd_bag_penalty_armour_reduction_name : "Pack Mule"
+cd_bag_penalty_armour_reduction_desc : "Bag speed penalty reduced by 1% per 10 armor points."
+
+cd_shield_knock_name : "Shock and Awe"
+cd_shield_knock_desc : "Hitting shields can stagger them."
+
+cd_bullseye_name : "Bullseye"
+cd_bullseye_desc : "+25 armor on headshot (2s cooldown)."
+
+cd_saw_ap_name : "Destruction"
+cd_saw_ap_desc : "Saw penetrates shields and enemy armor."
+
+cd_saw_panic_name : "Sawciopath"
+cd_saw_panic_desc : "Saw kills have 50% chance to cause panic in 10m."
+
+cd_throwable_pickup_name : "Scrounger"
+cd_throwable_pickup_desc : "+1% chance for throwable when picking up ammo. Resets when you find a throwable. Every 6th kill drops an extra ammo box."
+
+# Technician Tree
+cd_silent_drill_name : "Silent Drilling"
+cd_silent_drill_desc : "Drills are silent."
+
+cd_drill_autorepair_name : "Repair System"
+cd_drill_autorepair_desc : "Drills will automatically repair themselves when broken."
+
+cd_drill_melee_repair_name : "Kickstarter"
+cd_drill_melee_repair_desc : "Instantly fix drill on melee."
+
+cd_weapon_knock_down_name : "Heavy Impact"
+cd_weapon_knock_down_desc : "20% chance to stagger enemies on hit."
+
+cd_sprint_shoot_name : "From the Hip"
+cd_sprint_shoot_desc : "Hipfire while sprinting."
+
+cd_lock_n_load_name : "Lock n' Load"
+cd_lock_n_load_desc : "40% to 100% faster reload after 2 kills with automatic weapons (reduced by 1% for each bullet above 20 in mag)."
+
+cd_ap_bullets_full_name : "Spear"
+cd_ap_bullets_full_desc : "Weapons pierce enemy armor."
+
+cd_body_expertise_1_name : "Body Expertise Lv1"
+cd_body_expertise_1_desc : "30% headshot damage bonus on body shots with automatic weapons."
+
+cd_body_expertise_2_name : "Body Expertise Lv2"
+cd_body_expertise_2_desc : "90% headshot damage bonus on body shots with automatic weapons."
+
+# Ghost Tree
+cd_mark_unmasked_name : "Spotter"
+cd_mark_unmasked_desc : "Mark in casing mode."
+
+cd_unmasked_pickup_name : "Sleight of Hand"
+cd_unmasked_pickup_desc : "Pickup small items in casing mode."
+
+cd_sixth_sense_name : "Sixth Sense"
+cd_sixth_sense_desc : "Stand still for 3.5s to mark everyone in 10m."
+
+cd_additional_assets_name : "Inside Man"
+cd_additional_assets_desc : "Can buy additional assets."
+
+cd_cam_loop_name : "Camera Loop"
+cd_cam_loop_desc : "Loop a camera for 25 seconds."
+
+cd_pick_safes_name : "Unsafe"
+cd_pick_safes_desc : "Lockpick safes."
+
+cd_strafe_sprint_name : "Moving Target Lv1"
+cd_strafe_sprint_desc : "Sprint sideways."
+
+cd_free_sprint_name : "Moving Target Lv2"
+cd_free_sprint_desc : "Sprint in any direction."
+
+cd_sprint_reload_name : "Sprint Loaded"
+cd_sprint_reload_desc : "Sprint and reload."
+
+cd_armor_broken_stagger_name : "Dire Need"
+cd_armor_broken_stagger_desc : "Dealing damage inflicts stagger while armor is broken and up to 6s after recovery."
+
+cd_shockproof_1_name : "Shockproof"
+cd_shockproof_1_desc : "30% chance to break taser stun every second.\nGetting tased doesn't force you to shoot."
+
+cd_shockproof_2_name : "Reverse Card"
+cd_shockproof_2_desc : "Interact with taser while stunned to break free."
+
+cd_sneaky_bastard_name : "Sneaky Bastard"
+cd_sneaky_bastard_desc : "+1% dodge chance every point of det. risk below 35 (up to 10%)."
+
+cd_second_wind_name : "Second Wind"
+cd_second_wind_desc : "Move 30% faster for 5s after armor breaks."
+
+cd_low_blow_name : "Low Blow"
+cd_low_blow_desc : "+3% crit chance every point of det. risk below 35 (up to 30%)."
+
+cd_hvt_1_name : "High Value Target"
+cd_hvt_1_desc : "ADSing marks enemies. Marked enemies take 15% more damage."
+
+cd_hvt_2_name : "Long Distance Target"
+cd_hvt_2_desc : "Marked enemies further than 10m away take 50% more damage."
+
+cd_unseen_strike_name : "Unseen Strike"
+cd_unseen_strike_desc : "Gain 35% crit chance for 18s after not taking damage for 4s."
+
+# Fugitive Tree
+cd_pistol_acc_stack_name : "Desperado"
+cd_pistol_acc_stack_desc : "+10% accuracy bonus on pistol hit (up to 40%) for 10s."
+
+cd_pistol_damage_on_hit_name : "Trigger Happy"
+cd_pistol_damage_on_hit_desc : "120% damage bonus on pistol hit for 4s."
+
+cd_revive_swap_reload_speed_name : "On The Brink"
+cd_revive_swap_reload_speed_desc : "Reload and switch weapons 100% faster for 10s after being revived."
+
+cd_revive_dr_movement_name : "Running From Death"
+cd_revive_dr_movement_desc : "30% damage reduction and movement speed bonus for 10s after being revived."
+
+cd_swan_song_name : "Swan Song"
+cd_swan_song_desc : "Keep standing for 6s after going down."
+
+cd_swan_song_inf_name : "Vengeful Swan"
+cd_swan_song_inf_desc : "Infinite ammo while 'Swan Song' is active."
+
+cd_messiah_name : "Messiah"
+cd_messiah_desc : "Can revive self on kill once per doctor bag use."
+
+cd_feign_death_name : "Feign Death"
+cd_feign_death_desc : "45% chance to revive self."
+
+cd_melee_dmg_stack_name : "Bloodthirst"
+cd_melee_dmg_stack_desc : "+100% melee damage on weapon kill (up to 1600%). Resets on melee kill."
+
+cd_melee_reload_speed_name : "Mag Steal"
+cd_melee_reload_speed_desc : "50% faster reload for 10s on melee kill."
+
+cd_drop_soap_name : "Counterstrike"
+cd_drop_soap_desc : "Charging melee blocks enemy melee attacks."
+
+cd_berserker_1_name : "Berserker"
+cd_berserker_1_desc : "Melee and saw damage scales with health lost."
+
+cd_berserker_2_name : "Gunserker"
+cd_berserker_2_desc : "Weapon damage scales with health lost."
+
+cd_frenzy_name : "Frenzy"
+cd_frenzy_desc : "25% damage reduction but health caps at 30%."
+
+# Unused
+cd_old_stockholm_name : "Oldholm Syndrome"
+cd_old_stockholm_desc : "Civilians can revive you."
+
+cd_harmless_bullets_name : "Blanks"
+cd_harmless_bullets_desc : "First bullet doesn't kill civilians."
+
+cd_loud_and_proud_name : "Loud and Proud"
+cd_loud_and_proud_desc : "+5% damage bonus every 7 points of det. risk above 40 (up to 25%)."
+
+cd_pager_snatch_name : "Pager Snatch"
+cd_pager_snatch_desc : "25% chance for no pager on melee kill."
+
+cd_hostage_boost_name : "Hostage Boost"
+cd_hostage_boost_desc : "Hostage stat bonuses are increased by 25% when within 10m of a hostage."
+
+cd_shotgun_no_consume_name : "Shell Dimension"
+cd_shotgun_no_consume_desc : "3% chance to not consume ammo (shotguns)."
+
+cd_no_bag_penalty_name : "Beast of Burden"
+cd_no_bag_penalty_desc : "No bag movement penalty."
+
+## PERKS
+# Crew Chief
+cd_chief_dr_name : "Inner Strength"
+cd_chief_dr_desc : "8% damage reduction (crew). You gain an additional 8% below 50% health."
+
+cd_chief_shout_distance_name : "Deep Throat"
+cd_chief_shout_distance_desc : "Shout distance increased by 25%."
+
+cd_chief_health_name : "Wolf Pack"
+cd_chief_health_desc : "+10 max health (crew)."
+
+cd_chief_armour_name : "Testudo"
+cd_chief_armour_desc : "5% armor bonus (crew)."
+
+cd_chief_hostage_1_name : "Hostage Situation"
+cd_chief_hostage_1_desc : "Max health of crew increased by 6 per hostage (up to 4 hostages)."
+
+cd_chief_hostage_2_name : "Human Shield"
+cd_chief_hostage_2_desc : "8% damage reduction while you have a hostage."
+
+# Muscle
+cd_muscle_health_1_name : "Brute Strength Lv1"
+cd_muscle_health_1_desc : "+10 max health."
+
+cd_muscle_health_2_name : "Brute Strength Lv2"
+cd_muscle_health_2_desc : "+20 max health."
+
+cd_muscle_health_3_name : "Brute Strength Lv3"
+cd_muscle_health_3_desc : "+40 max health."
+
+cd_muscle_health_4_name : "Brute Strength Lv4"
+cd_muscle_health_4_desc : "+80 max health."
+
+cd_muscle_health_5_name : "Brute Strength Lv5"
+cd_muscle_health_5_desc : "+100 max health."
+
+cd_muscle_prio_name : "Meat Shield"
+cd_muscle_prio_desc : "Target priority increased by 15%."
+
+cd_muscle_panic_name : "Disturbing the Peace"
+cd_muscle_panic_desc : "Suppressed enemies can panic."
+
+cd_muscle_regen_name : "800-pound Gorilla"
+cd_muscle_regen_desc : "Restore 3 health every 5s."
+
+# Armorer
+cd_armorer_1_name : "Impact Plate Lv1"
+cd_armorer_1_desc : "5% armor bonus."
+
+cd_armorer_2_name : "Impact Plate Lv2"
+cd_armorer_2_desc : "10% armor bonus."
+
+cd_armorer_3_name : "Impact Plate Lv3"
+cd_armorer_3_desc : "20% armor bonus."
+
+cd_armorer_4_name : "Impact Plate Lv4"
+cd_armorer_4_desc : "30% armor bonus."
+
+cd_armorer_6_name : "Impact Plate Lv5"
+cd_armorer_6_desc : "35% armor bonus."
+
+cd_armorer_recovery_name : "Tank"
+cd_armorer_recovery_desc : "10% faster armor recovery."
+
+cd_armorer_immunity_name : "Hardy"
+cd_armorer_immunity_desc : "Immunity for 2s on armor break."
+
+cd_armorer_team_recovery_name : "Liquid Armor"
+cd_armorer_team_recovery_desc : "10% faster armor recovery (crew)."
+
+# Rogue
+cd_rogue_dodge_1_name : "Evasive Lv1"
+cd_rogue_dodge_1_desc : "+15% dodge chance."
+
+cd_rogue_dodge_2_name : "Evasive Lv2"
+cd_rogue_dodge_2_desc : "+30% dodge chance."
+
+cd_rogue_dodge_3_name : "Evasive Lv3"
+cd_rogue_dodge_3_desc : "+45% dodge chance."
+
+cd_rogue_prio_name : "Elusive"
+cd_rogue_prio_desc : "Target priority reduced by 15%."
+
+cd_rogue_ap_name : "Killer Instinct"
+cd_rogue_ap_desc : "25% chance to pierce enemy armor."
+
+cd_rogue_swap_speed_name : "Holster"
+cd_rogue_swap_speed_desc : "80% faster weapon switch speed."
+
+# Hitman
+cd_hitman_recovery_1_name : "Recovery Lv1"
+cd_hitman_recovery_1_desc : "5% faster armor recovery."
+
+cd_hitman_recovery_2_name : "Recovery Lv2"
+cd_hitman_recovery_2_desc : "15% faster armor recovery."
+
+cd_hitman_recovery_3_name : "Recovery Lv3"
+cd_hitman_recovery_3_desc : "25% faster armor recovery."
+
+cd_hitman_recovery_4_name : "Recovery Lv4"
+cd_hitman_recovery_4_desc : "35% faster armor recovery."
+
+cd_hitman_recovery_5_name : "Recovery Lv5"
+cd_hitman_recovery_5_desc : "45% faster armor recovery."
+
+cd_hitman_recovery_6_name : "Tooth and Claw"
+cd_hitman_recovery_6_desc : "Armor recovers at double speed after breaking (3s minimum), even when taking damage."
+
+# Crook
+cd_crook_recovery_name : "Composure"
+cd_crook_recovery_desc : "10% faster armor recovery."
+
+# Crook (LBV)
+cd_crook_lbv_dodge_1_name : "LBV Composure Lv1"
+cd_crook_lbv_dodge_1_desc : "+5% dodge chance (lightweight ballistic vest)."
+
+cd_crook_lbv_dodge_2_name : "LBV Composure Lv2"
+cd_crook_lbv_dodge_2_desc : "+15% dodge chance (lightweight ballistic vest)."
+
+cd_crook_lbv_dodge_3_name : "LBV Composure Lv3"
+cd_crook_lbv_dodge_3_desc : "+25% dodge chance (lightweight ballistic vest)."
+
+cd_crook_lbv_armour_1_name : "LBV Impact Lv1"
+cd_crook_lbv_armour_1_desc : "20% armor bonus (lightweight ballistic vest)."
+
+cd_crook_lbv_armour_2_name : "LBV Impact Lv2"
+cd_crook_lbv_armour_2_desc : "40% armor bonus (lightweight ballistic vest)."
+
+cd_crook_lbv_armour_3_name : "LBV Impact Lv3"
+cd_crook_lbv_armour_3_desc : "65% armor bonus (lightweight ballistic vest)."
+
+# Crook (Ballistic Vest)
+cd_crook_vest_dodge_1_name : "Vest Composure Lv1"
+cd_crook_vest_dodge_1_desc : "+5% dodge chance (ballistic vest)."
+
+cd_crook_vest_dodge_2_name : "Vest Composure Lv2"
+cd_crook_vest_dodge_2_desc : "+15% dodge chance (ballistic vest)."
+
+cd_crook_vest_dodge_3_name : "Vest Composure Lv3"
+cd_crook_vest_dodge_3_desc : "+25% dodge chance (ballistic vest)."
+
+cd_crook_vest_armour_1_name : "Vest Impact Lv1"
+cd_crook_vest_armour_1_desc : "20% armor bonus (ballistic vest)."
+
+cd_crook_vest_armour_2_name : "Vest Impact Lv2"
+cd_crook_vest_armour_2_desc : "40% armor bonus (ballistic vest)."
+
+cd_crook_vest_armour_3_name : "Vest Impact Lv3"
+cd_crook_vest_armour_3_desc : "65% armor bonus (ballistic vest)."
+
+# Crook (HBV)
+cd_crook_hbv_dodge_1_name : "HBV Composure Lv1"
+cd_crook_hbv_dodge_1_desc : "+5% dodge chance (heavy ballistic vest)."
+
+cd_crook_hbv_dodge_2_name : "HBV Composure Lv2"
+cd_crook_hbv_dodge_2_desc : "+15% dodge chance (heavy ballistic vest)."
+
+cd_crook_hbv_dodge_3_name : "HBV Composure Lv3"
+cd_crook_hbv_dodge_3_desc : "+25% dodge chance (heavy ballistic vest)."
+
+cd_crook_hbv_armour_1_name : "HBV Impact Lv1"
+cd_crook_hbv_armour_1_desc : "20% armor bonus (heavy ballistic vest)."
+
+cd_crook_hbv_armour_2_name : "HBV Impact Lv2"
+cd_crook_hbv_armour_2_desc : "40% armor bonus (heavy ballistic vest)."
+
+cd_crook_hbv_armour_3_name : "HBV Impact Lv3"
+cd_crook_hbv_armour_3_desc : "65% armor bonus (heavy ballistic vest)."
+
+# Burglar
+cd_burglar_dodge_1_name : "Sneaky Lv1"
+cd_burglar_dodge_1_desc : "+20% dodge chance."
+
+cd_burglar_dodge_2_name : "Sneaky Lv2"
+cd_burglar_dodge_2_desc : "+25% dodge chance."
+
+cd_burglar_dodge_3_name : "Sneaky Lv3"
+cd_burglar_dodge_3_desc : "+30% dodge chance."
+
+cd_burglar_prio_1_name : "Tricksy Lv1"
+cd_burglar_prio_1_desc : "Target priority reduced by 10% while crouching and stationary."
+
+cd_burglar_prio_2_name : "Tricksy Lv2"
+cd_burglar_prio_2_desc : "Target priority reduced by 15% while crouching and stationary."
+
+cd_burglar_prio_3_name : "Tricksy Lv3"
+cd_burglar_prio_3_desc : "Target priority reduced by 20% while crouching and stationary."
+
+cd_burglar_bag_speed_name : "Bagger"
+cd_burglar_bag_speed_desc : "20% faster body bag speed."
+
+cd_burglar_lockpick_speed_name : "Binding"
+cd_burglar_lockpick_speed_desc : "20% faster lockpick speed."
+
+cd_burglar_pager_speed_name : "Dutch Courage"
+cd_burglar_pager_speed_desc : "10% faster pager answering speed."
+
+cd_burglar_recovery_name : "Fresh Air"
+cd_burglar_recovery_desc : "20% faster armor recovery while crouching and stationary."
+
+# Infiltrator
+cd_infil_overdog_name : "Overdog"
+cd_infil_overdog_desc : "12% damage reduction when 3+ enemies within 18m."
+
+cd_infil_single_dog_1_name : "Close Combat Lv1"
+cd_infil_single_dog_1_desc : "8% damage reduction when an enemy is within 18m."
+
+cd_infil_single_dog_2_name : "Close Combat Lv2"
+cd_infil_single_dog_2_desc : "16% damage reduction when an enemy is within 18m."
+
+cd_infil_single_dog_3_name : "Close Combat Lv3"
+cd_infil_single_dog_3_desc : "24% damage reduction when an enemy is within 18m."
+
+cd_infil_melee_boost_name : "Psychopath"
+cd_infil_melee_boost_desc : "10x damage on melee hits performed within 1 second."
+
+cd_infil_melee_timer_name : "CBT"
+cd_infil_melee_timer_desc : "'Psychopath' timer increased to 7 seconds."
+
+cd_infil_melee_heal_name : "Life Drain"
+cd_infil_melee_heal_desc : "Heal 20% on melee hit (10s cooldown)."
+
+# Sociopath
+cd_socio_armor_1_name : "Tension"
+cd_socio_armor_1_desc : "+30 armor on kill."
+
+cd_socio_heal_name : "Clean Hit"
+cd_socio_heal_desc : "Heal 10% on melee kill."
+
+cd_socio_armor_2_name : "Overdose"
+cd_socio_armor_2_desc : "+30 armor on kills within 18m (1s cooldown)."
+
+cd_socio_panic_name : "Showdown"
+cd_socio_panic_desc : "75% chance to cause panic on kills within 18m (1s cooldown)."
+
+# Gambler
+cd_gambler_heal_1_name : "Medical Supplies Lv1"
+cd_gambler_heal_1_desc : "Heal crew for 16-24 health on ammo pickup (once per 3s)."
+
+cd_gambler_heal_2_name : "Medical Supplies Lv2"
+cd_gambler_heal_2_desc : "Heal crew for 24-32 health on ammo pickup (once per 3s)."
+
+cd_gambler_heal_3_name : "Medical Supplies Lv3"
+cd_gambler_heal_3_desc : "Heal crew for 32-40 health on ammo pickup (once per 3s)."
+
+cd_gambler_mag_throw_name : "Mag Throw"
+cd_gambler_mag_throw_desc : "Picking up ammo triggers half an ammo pickup for the crew (once per 5s)."
+
+# Grinder
+cd_grind_hot_1_name : "Dopamine Lv1"
+cd_grind_hot_1_desc : "+1 health every 0.3s for 3s on damage dealt (1.5s cooldown, req. suit/lightweight ballistic vest)."
+
+cd_grind_hot_2_name : "Dopamine Lv2"
+cd_grind_hot_2_desc : "+2 health every 0.3s for 3s on damage dealt (1.5s cooldown, req. suit/lightweight ballistic vest)."
+
+cd_grind_hot_3_name : "Dopamine Lv3"
+cd_grind_hot_3_desc : "+3 health every 0.3s for 3s on damage dealt (1.5s cooldown, req. suit/lightweight ballistic vest)."
+
+cd_grind_hot_4_name : "Dopamine Lv4"
+cd_grind_hot_4_desc : "+4 health every 0.3s for 3s on damage dealt (1.5s cooldown, req. suit/lightweight ballistic vest)."
+
+cd_grind_ap_name : "Endorphins"
+cd_grind_ap_desc : "30% chance to pierce enemy armor."
+
+cd_grind_hot_duration_name : "Euphoria"
+cd_grind_hot_duration_desc : "'Dopamine' lasts 40% longer."
+
+# Yakuza
+cd_yakuza_recovery_1_name : "Yoroi Irezumi Lv1"
+cd_yakuza_recovery_1_desc : "Armor recovery scales with health lost (up to 20% faster)."
+
+cd_yakuza_recovery_2_name : "Yoroi Irezumi Lv2"
+cd_yakuza_recovery_2_desc : "Armor recovery scales with health lost (up to 40% faster)."
+
+cd_yakuza_recovery_3_name : "Yoroi Irezumi Lv3"
+cd_yakuza_recovery_3_desc : "Armor recovery scales with health lost (up to 60% faster)."
+
+cd_yakuza_speed_name : "Sokudo Irezumi"
+cd_yakuza_speed_desc : "Movement speed scales with health lost (up to 20% faster)."
+
+cd_yakuza_threshold_name : "Ageru Irezumi"
+cd_yakuza_threshold_desc : "'Irezumi' effects start from 50% health instead of 25%."
+
+# Ex-President
+cd_expres_1_name : "Break Lv1"
+cd_expres_1_desc : "Store 4 health per crew kill that is consumed on armor recovery."
+
+cd_expres_2_name : "Break Lv2"
+cd_expres_2_desc : "Store 8 health per crew kill that is consumed on armor recovery."
+
+cd_expres_3_name : "Break Lv3"
+cd_expres_3_desc : "Store 12 health per crew kill that is consumed on armor recovery."
+
+cd_expres_cap_name : "Life of Ice"
+cd_expres_cap_desc : "'Break' can store 50% more health."
+
+cd_expres_recovery_name : "Perfect Line"
+cd_expres_recovery_desc : "Kills increase speed of next armor recovery. Weaker armors give more speed."
+
+# Maniac
+cd_maniac_base_name : "Excitement"
+cd_maniac_base_desc : "Crew gains 1 damage absorption (up to 20) for every 30 damage you dealt in the last 2 seconds."
+
+cd_maniac_cap_name : "Recklessness"
+cd_maniac_cap_desc : "Damage needed for 'Excitement' is reduced to 25 (max 24 absorption)."
+
+cd_maniac_boost_name : "Insanity"
+cd_maniac_boost_desc : "Damage absorption from 'Excitement' is doubled."
+
+# Anarchist
+cd_anarch_recovery_name : "Blitzkrieg Bop"
+cd_anarch_recovery_desc : "Armor continuously recovers. Weaker armors recover faster."
+
+cd_anarch_armour_1_name : "Rise Above Lv1"
+cd_anarch_armour_1_desc : "+20 max armor, -25 max health."
+
+cd_anarch_armour_2_name : "Rise Above Lv2"
+cd_anarch_armour_2_desc : "+40 max armor, -50 max health."
+
+cd_anarch_armour_3_name : "Rise Above Lv3"
+cd_anarch_armour_3_desc : "+60 max armor, -75 max health."
+
+cd_anarch_bullseye_name : "Lust for Life"
+cd_anarch_bullseye_desc : "+10 armor on damage dealt (1.5s cooldown)."
+
+# Biker
+cd_biker_base_name : "Prospect"
+cd_biker_base_desc : "+5 health/armor on crew kill (up to 4 times in 4 seconds)."
+
+cd_biker_armour_plus_name : "Tail Gunner"
+cd_biker_armour_plus_desc : "+1 armor on crew kill per 10% health lost."
+
+cd_biker_health_cd_name : "Road Captain"
+cd_biker_health_cd_desc : "'Prospect' cooldown reduced by 0.1s per 10% health lost."
+
+cd_biker_health_plus_name : "Sgt-at-Arms"
+cd_biker_health_plus_desc : "+1 health on crew kill per 10% armor lost."
+
+cd_biker_armour_cd_name : "Prez"
+cd_biker_armour_cd_desc : "'Prospect' cooldown reduced by 0.1s per 10% armor lost."
+
+# Kingpin
+cd_kingpin_base_name : "Bad Guy"
+cd_kingpin_base_desc : "Can equip injector."
+
+cd_kingpin_prio_name : "Public Enemy"
+cd_kingpin_prio_desc : "Target priority increased while injector is active."
+
+cd_kingpin_immunity_name : "Balls vs Bullets"
+cd_kingpin_immunity_desc : "Injector heals additional 25% of all damage taken below 50% health while active."
+
+cd_kingpin_cd_name : "Right to the Top"
+cd_kingpin_cd_desc : "Injector cooldown reduced by 1s for every 5 health gained at max health while active."
+
+# Sicario
+cd_sicario_base_name : "Smoker"
+cd_sicario_base_desc : "Can use smoke bomb."
+
+cd_sicario_dodge_stack_name : "Twitch"
+cd_sicario_dodge_stack_desc : "+20% dodge chance when shot. Resets on dodge (4s cooldown)."
+
+cd_sicario_recovery_name : "Agility Shield"
+cd_sicario_recovery_desc : "Restore 1 health on dodge."
+
+cd_sicario_boost_name : "Unseen Shadow"
+cd_sicario_boost_desc : "Smoke bomb effects are doubled."
+
+# Stoic
+cd_stoic_base_name : "Virtue"
+cd_stoic_base_desc : "Damage is applied over 6 seconds. Can equip hip flask."
+
+cd_stoic_cd_name : "Imperturbable"
+cd_stoic_cd_desc : "Hip flask cooldown reduced by 2s on kill when below 35% health."
+
+cd_stoic_armor_convert_name : "Unmoved"
+cd_stoic_armor_convert_desc : "Armor is converted into health."
+
+cd_stoic_negate_name : "Calm"
+cd_stoic_negate_desc : "Lingering damage from 'Virtue' is negated after not taking damage for 1.5s."
+
+cd_stoic_heal_name : "Enduring"
+cd_stoic_heal_desc : "50% of lingering damage from 'Virtue' is healed when damage is negated."
+
+# Tag Team
+cd_h3h3_base_name : "Soul Mates"
+cd_h3h3_base_desc : "Can equip gas dispenser."
+
+cd_h3h3_cd_name : "Harmony"
+cd_h3h3_cd_desc : "Gas dispenser tag kills reduce cooldown by 2s on kill."
+
+cd_h3h3_absorption_name : "Synergy"
+cd_h3h3_absorption_desc : "+1 damage absorption on kill (up to 20) while gas dispenser is active."
+
+# Hacker
+cd_hacker_base_name : "Code Glitch"
+cd_hacker_base_desc : "Can equip pocket ECM."
+
+cd_hacker_heal_name : "Bit Decay"
+cd_hacker_heal_desc : "+20 health on kill while pocket ECM is active."
+
+cd_hacker_dodge_name : "Kluge"
+cd_hacker_dodge_desc : "+20% dodge chance on kill for 30s while pocket ECM is active."
+
+cd_hacker_team_heal_name : "Botnet"
+cd_hacker_team_heal_desc : "Crew heals 10 health per kill while pocket ECM is active."
+
+# Leech
+cd_leech_base_name : "Momentum"
+cd_leech_base_desc : "Can equip leech ampule."
+
+cd_leech_duration_name : "Stalwart"
+cd_leech_duration_desc : "Leech ampule lasts 10 seconds."
+
+cd_leech_segments_name : "Segmentation"
+cd_leech_segments_desc : "Leech ampule splits health into segments of 10%."
+
+cd_leech_swan_song_name : "Indomitable"
+cd_leech_swan_song_desc : "Going down reduces movement speed by 80% while leech ampule is active."
+
+cd_leech_cd_name : "Bloodsucker"
+cd_leech_cd_desc : "Kills reduce leech ampule cooldown by 1s."
+
+cd_leech_revive_name : "Symbiosis"
+cd_leech_revive_desc : "Leech ampule can be used while down, but you will go back down unless you revive a teammate or use a doctor bag."
+
+# Copy Cat
+cd_copycat_health_name : "Thriving"
+cd_copycat_health_desc : "+80 max health."
+
+cd_copycat_armour_name : "Toughen Up"
+cd_copycat_armour_desc : "20% armor bonus."
+
+cd_copycat_dodge_name : "Cat-Like Reflex"
+cd_copycat_dodge_desc : "+20% dodge chance."
+
+cd_copycat_crouch_name : "Fleet Footed"
+cd_copycat_crouch_desc : "Crouch speed increased by 40%."
+
+cd_copycat_bag_name : "Haul Ass"
+cd_copycat_bag_desc : "Move 40% faster while carrying a bag."
+
+cd_copycat_tactical_reload_name : "Tactical Reload"
+cd_copycat_tactical_reload_desc : "Unequipped weapon automatically reloads after 10 kills."
+
+cd_copycat_reload_switch_name : "Tactical Switch"
+cd_copycat_reload_switch_desc : "160% faster weapon switch speed for 3s after 'Tactical Reload' is triggered."
+
+cd_copycat_bullseye_name : "Head Game"
+cd_copycat_bullseye_desc : "+10 health on headshot (2s cooldown)."
+
+cd_copycat_ricochet_name : "Ricochet"
+cd_copycat_ricochet_desc : "Dodged bullets damage the enemy that fired them."
+
+cd_copycat_immunity_name : "Grace Period"
+cd_copycat_immunity_desc : "Immunity for 2s when health goes below 50% (15s cooldown)."
+
+## STAT BOOSTS
+# Default
+cd_shinobi_speed_name : "Shinobi"
+cd_shinobi_speed_desc : "Walk speed increased by 25%. Crouch speed increased by 10%."
+
+cd_fast_hands_1_name : "Fast Hands Lv1"
+cd_fast_hands_1_desc : "Interact with baggable loot 25% faster."
+
+cd_fast_hands_2_name : "Fast Hands Lv2"
+cd_fast_hands_2_desc : "Interact with baggable loot 75% faster."
+
+cd_bag_penalty_reduction_name : "Transporter"
+cd_bag_penalty_reduction_desc : "Move 50% faster while carrying a bag."
+
+cd_fall_damage_reduction_name : "Feather Fall"
+cd_fall_damage_reduction_desc : "Take 75% less damage from falls."
+
+cd_body_bag_capacity_name : "Citizen Bane"
+cd_body_bag_capacity_desc : "Start each heist with 2 body bags."
+
+cd_body_bag_max_capacity_name : "Winston Wolfe"
+cd_body_bag_max_capacity_desc : "Can hold an extra body bag."
+
+cd_striker_reload_speed_name : "Lighter Cylinder"
+cd_striker_reload_speed_desc : "Street Sweeper reloads 15% faster."
+
+# Akimbo
+cd_akimbo_recoil_1_name : "Ambidexterity Lv1"
+cd_akimbo_recoil_1_desc : "+8 stability (akimbo)."
+
+cd_akimbo_recoil_2_name : "Ambidexterity Lv2"
+cd_akimbo_recoil_2_desc : "+16 stability (akimbo)."
+
+cd_akimbo_recoil_3_name : "Ambidexterity Lv3"
+cd_akimbo_recoil_3_desc : "+24 stability (akimbo)."
+
+# Mastermind Tree
+cd_revive_speed_name : "Code Blue"
+cd_revive_speed_desc : "100% faster revive speed."
+
+cd_start_cable_ties_1_name : "Cable Ties"
+cd_start_cable_ties_1_desc : "+4."
+
+cd_cable_tie_speed_name : "Rigger"
+cd_cable_tie_speed_desc : "75% faster cable tie speed."
+
+cd_shout_distance_name : "Confident"
+cd_shout_distance_desc : "Shout distance increased by 50%."
+
+cd_civ_intimidation_time_name : "Frightful"
+cd_civ_intimidation_time_desc : "Civs remain intimidated for 50% longer."
+
+cd_stability_bonus_1_name : "Stability"
+cd_stability_bonus_1_desc : "+8."
+
+cd_static_accuracy_bonus_name : "Accuracy"
+cd_static_accuracy_bonus_desc : "+16 while stationary."
+
+cd_ads_speed_name : "Target Acquisition"
+cd_ads_speed_desc : "Faster ADS speed."
+
+cd_ads_movement_speed_name : "Mobile"
+cd_ads_movement_speed_desc : "Movement speed unaffected by ADS."
+
+cd_ads_zoom_name : "Eagle Eye"
+cd_ads_zoom_desc : "ADS zoom increased by 25% (SMGs/LMGs/ARs/snipers/pistols)."
+
+cd_moving_accuracy_bonus_name : "Accuracy"
+cd_moving_accuracy_bonus_desc : "+16 while moving (SMGs/ARs/snipers)."
+
+cd_single_shot_flat_accuracy_name : "Accuracy"
+cd_single_shot_flat_accuracy_desc : "+8 while ADS (single shot SMGs/ARs/snipers)."
+
+cd_single_shot_percent_accuracy_name : "Accuracy"
+cd_single_shot_percent_accuracy_desc : "20% bonus while ADS (single shot SMGs/ARs/snipers)."
+
+cd_kilmer_name : "Kilmer"
+cd_kilmer_desc : "Reload 15% faster (SMGs/ARs/snipers)."
+
+# Enforcer Tree
+cd_shotgun_reload_1_name : "Shotgun CQB Lv1"
+cd_shotgun_reload_1_desc : "Reload 15% faster (shotguns)."
+
+cd_shotgun_reload_2_name : "Shotgun CQB Lv2"
+cd_shotgun_reload_2_desc : "Reload 50% faster (shotguns)."
+
+cd_shotgun_stability_name : "Stability"
+cd_shotgun_stability_desc : "+8 (shotguns)."
+
+cd_shotgun_dmg_name : "Collateral"
+cd_shotgun_dmg_desc : "10% damage bonus (shotguns)."
+
+cd_shotgun_ads_accuracy_name : "Accuracy"
+cd_shotgun_ads_accuracy_desc : "40% bonus while ADS (shotguns)."
+
+cd_shotgun_range_bonus_name : "Far Away"
+cd_shotgun_range_bonus_desc : "50% increased effective range while ADS (shotguns)."
+
+cd_shotgun_hip_rof_name : "Slamfire"
+cd_shotgun_hip_rof_desc : "35% fire rate bonus (single shot shotguns)."
+
+cd_shotgun_mag_capacity_name : "Buck for Buck"
+cd_shotgun_mag_capacity_desc : "+15 mag size (mag-fed shotguns)."
+
+cd_weapon_switch_speed_name : "Weapon Sling"
+cd_weapon_switch_speed_desc : "80% faster weapon switch speed."
+
+cd_recovery_1_name : "Meditation"
+cd_recovery_1_desc : "15% faster armor recovery."
+
+cd_team_recovery_name : "Herd Mentality"
+cd_team_recovery_desc : "25% faster armor recovery for crew."
+
+cd_lbv_boost_name : "Thick Skin"
+cd_lbv_boost_desc : "+20 armor (lightweight ballistic vest)."
+
+cd_vest_boost_name : "Thicker Skin"
+cd_vest_boost_desc : "+20 armor (ballistic vest)."
+
+cd_hbv_boost_name : "Thickest Skin"
+cd_hbv_boost_desc : "+20 armor (heavy ballistic vest)."
+
+cd_bag_throw_distance_name : "Catapult"
+cd_bag_throw_distance_desc : "+50% bag throw distance."
+
+cd_bulletproof_name : "Bulletproof"
+cd_bulletproof_desc : "30% armor bonus."
+
+cd_ammo_range_name : "Scavenger"
+cd_ammo_range_desc : "Ammo pickup range increased by 50%."
+
+cd_saw_capacity_name : "Sawmill"
+cd_saw_capacity_desc : "+1 saw blade."
+
+cd_saw_speed_name : "Sawverclock"
+cd_saw_speed_desc : "35% fire rate bonus (saw)."
+
+cd_saw_lock_dmg_name : "Carbon Blade"
+cd_saw_lock_dmg_desc : "Saw deals 40% more damage against locks."
+
+cd_saw_efficiency_name : "Slicer"
+cd_saw_efficiency_desc : "Saw is twice as efficient against enemies."
+
+cd_ammo_capacity_name : "Fully Loaded"
+cd_ammo_capacity_desc : "Ammo capacity increased by 25%."
+
+# Technician Tree
+cd_accuracy_bonus_name : "Accuracy"
+cd_accuracy_bonus_desc : "+8."
+
+cd_stability_bonus_2_name : "Stability"
+cd_stability_bonus_2_desc : "+16."
+
+cd_accuracy_hip_bonus_name : "Accuracy"
+cd_accuracy_hip_bonus_desc : "+12 (hipfire)."
+
+cd_stability_movement_penalty_name : "Stability"
+cd_stability_movement_penalty_desc : "Movement penalty reduced by 20%."
+
+cd_mag_capacity_name : "Surefire"
+cd_mag_capacity_desc : "+15 mag size (SMGs/LMGs/ARs)."
+
+# Ghost Tree
+cd_not_sus_name : "Chameleon"
+cd_not_sus_desc : "25% reduced detection in casing mode."
+
+cd_lockpick_speed_name : "Dextrous"
+cd_lockpick_speed_desc : "100% faster lockpick speed."
+
+cd_sprinter_name : "Sprinter"
+cd_sprinter_desc : "+10% dodge chance while sprinting and 25% faster sprint speed."
+
+cd_move_speed_name : "Nimble"
+cd_move_speed_desc : "10% faster movement speed."
+
+cd_climb_speed_name : "What a Thrill"
+cd_climb_speed_desc : "75% faster climbing speed."
+
+cd_melee_conceal_name : "Hidden Blade"
+cd_melee_conceal_desc : "+2 concealment (melee)."
+
+cd_vest_conceal_name : "Concealment"
+cd_vest_conceal_desc : "+4 (ballistic vests)."
+
+cd_reduced_prio_name : "Inconspicuous"
+cd_reduced_prio_desc : "Target priority reduced by 35%."
+
+cd_silencer_conceal_name : "Concealment"
+cd_silencer_conceal_desc : "+1 concealment, -2 concealment penalty (silencers)."
+
+cd_silencer_stability_name : "Stability"
+cd_silencer_stability_desc : "+8 stability (silencers)."
+
+cd_silencer_ads_speed_name : "Professional"
+cd_silencer_ads_speed_desc : "100% faster ADS speed (silencers)."
+
+cd_silencer_accuracy_name : "Assassin"
+cd_silencer_accuracy_desc : "+12 accuracy (silencers)."
+
+cd_mark_duration_name : "Strategist"
+cd_mark_duration_desc : "Mark duration increased by 100%."
+
+cd_pistol_swap_speed_name : "Quick Draw"
+cd_pistol_swap_speed_desc : "33% faster weapon switch speed (pistols)."
+
+cd_pistol_accuracy_name : "Equilibrium"
+cd_pistol_accuracy_desc : "+8 accuracy (pistols)."
+
+cd_pistol_capacity_name : "Gun Nut"
+cd_pistol_capacity_desc : "+5 mag size (pistols)."
+
+cd_pistol_rof_name : "Cowboy"
+cd_pistol_rof_desc : "50% fire rate bonus (pistols)."
+
+cd_akimbo_capacity_1_name : "Akimbo Lv1"
+cd_akimbo_capacity_1_desc : "Ammo capacity increased by 50% (akimbos)."
+
+cd_akimbo_capacity_2_name : "Akimbo Lv2"
+cd_akimbo_capacity_2_desc : "Ammo capacity increased by 100% (akimbos)."
+
+cd_pistol_dmg_name : "One Handed Talent"
+cd_pistol_dmg_desc : "+15 pistol damage."
+
+cd_pistol_reload_speed_name : "Gunslinger"
+cd_pistol_reload_speed_desc : "Reload 50% faster (pistols)."
+
+cd_bleedout_health_name : "More Blood to Bleed"
+cd_bleedout_health_desc : "50% more bleedout health."
+
+cd_incoming_melee_reduction_name : "Because of Training"
+cd_incoming_melee_reduction_desc : "Take 50% less melee damage."
+
+cd_melee_knockdown_name : "Martial Arts"
+cd_melee_knockdown_desc : "50% knockdown bonus (melee)."
+
+cd_melee_dmg_name : "Pumping Iron"
+cd_melee_dmg_desc : "100% bonus damage (melee)."
+
+# Removed
+cd_cam_shake_name : "Tough Guy"
+cd_cam_shake_desc : "50% less camera shake from damage."
+
+cd_shotgun_hip_accuracy_name : "Accuracy"
+cd_shotgun_hip_accuracy_desc : "20% hipfire bonus (shotguns)."
+
+cd_hip_accuracy_name : "Accuracy"
+cd_hip_accuracy_desc : "20% hipfire bonus."
+
+cd_mag_plus_name : "Mag Plus"
+cd_mag_plus_desc : "+15 mag size (weapons with box magazines except snipers)."
+
+cd_smg_rof_name : "SMG Specialist"
+cd_smg_rof_desc : "20% fire rate bonus (SMGs)."
+
+cd_custody_time_name : "Master Trader"
+cd_custody_time_desc : "Custody timer is halved."
+
+cd_zipline_dodge_name : "Daredevil"
+cd_zipline_dodge_desc : "+15% dodge chance while ziplining."
+
+cd_crouch_dodge_name : "Duck and Cover"
+cd_crouch_dodge_desc : "+15% dodge chance while crouched."
+
+cd_silencer_ap_name : "Silent Killer"
+cd_silencer_ap_desc : "40% chance to pierce enemy armor (silencers)."
+
+# Unused
+cd_crit_chance_name : "Hypocritical"
+cd_crit_chance_desc : "+25% crit chance."
+
+cd_health_bonus_name : "Protector"
+cd_health_bonus_desc : "+10 max health."
+
+cd_armour_bonus_name : "Grit"
+cd_armour_bonus_desc : "25% armor bonus."
+
+cd_recovery_2_name : "Adaptable"
+cd_recovery_2_desc : "15% faster armor recovery."
+
+cd_concealment_name : "Concealment"
+cd_concealment_desc : "+5."
+
+cd_sharp_melee_dmg_name : "Taste My Steel"
+cd_sharp_melee_dmg_desc : "200% damage bonus (sharp melee)."
+
+cd_threat_big_name : "Oppressor"
+cd_threat_big_desc : "95% threat bonus."
+
+cd_damage_reduction_name : "Couple of Three Things"
+cd_damage_reduction_desc : "5% damage reduction."
+
+cd_nebula_plus_name : "Nebula Plus"
+cd_nebula_plus_desc : "Assets cost 87.5% less."
+
+cd_cam_loop_distance_name : "Remote Loop"
+cd_cam_loop_distance_desc : "Can loop cameras from 40% further away."
+
+cd_start_cable_ties_2_name : "Cable Ties"
+cd_start_cable_ties_2_desc : "+4."
+
+cd_saw_rof_name : "Saw Overdrive"
+cd_saw_rof_desc : "50% fire rate bonus (saw)."
+
+cd_saw_swap_speed_name : "Saw Bag"
+cd_saw_swap_speed_desc : "80% faster saw switch speed."
+
+cd_saw_reload_speed_name : "OSHA Violation"
+cd_saw_reload_speed_desc : "Reload saws 50% faster."
+
+cd_ar_stability_name : "Stability"
+cd_ar_stability_desc : "+8 (ARs)."
+
+cd_lmg_stability_name : "Stability"
+cd_lmg_stability_desc : "+4 (LMGs)."
+
+cd_snp_stability_name : "Stability"
+cd_snp_stability_desc : "+8 (snipers)."
+
+cd_modded_bonus_name : "Refurbished Parts"
+cd_modded_bonus_desc : "10% damage/accuracy/stability bonus if weapon has any mods."
+
+cd_single_shot_accuracy_name : "Accuracy"
+cd_single_shot_accuracy_desc : "20% bonus (single shot)."
+
+cd_silencer_accuracy_percent_name : "Accuracy"
+cd_silencer_accuracy_percent_desc : "50% bonus (silencers)."
+
+cd_silencer_stability_percent_name : "Stability"
+cd_silencer_stability_percent_desc : "50% bonus (silencers)."
+
+cd_reload_speed_name : "Speed Reloader"
+cd_reload_speed_desc : "Reload 10% faster."
+
+cd_stability_bonus_percent_name : "Stability"
+cd_stability_bonus_percent_desc : "10% bonus."
+
+cd_accuracy_bonus_percent_name : "Sharpshooter"
+cd_accuracy_bonus_percent_desc : "10% accuracy bonus."
+
+cd_rof_bonus_name : "Illegal Parts"
+cd_rof_bonus_desc : "100% fire rate bonus."
+
+cd_pistol_damage_name : "Damage"
+cd_pistol_damage_desc : "50% bonus (pistols)."
+
+cd_pistol_accuracy_percent_name : "Accuracy"
+cd_pistol_accuracy_percent_desc : "10% bonus (pistols)."
+
+cd_pistol_sprint_end_name : "Readiness"
+cd_pistol_sprint_end_desc : "Stop sprinting 25% faster (pistols)."
+
+cd_pistol_hip_accuracy_name : "Accuracy"
+cd_pistol_hip_accuracy_desc : "20% hipfire bonus (pistols)."
+
+cd_ar_stability_percent_name : "Stability"
+cd_ar_stability_percent_desc : "25% bonus (ARs)."
+
+cd_ar_accuracy_moving_name : "Accuracy"
+cd_ar_accuracy_moving_desc : "50% bonus while moving (ARs)."
+
+cd_ar_hip_accuracy_name : "Accuracy"
+cd_ar_hip_accuracy_desc : "20% hipfire bonus (ARs)."
+
+cd_lmg_stability_percent_name : "Stability"
+cd_lmg_stability_percent_desc : "25% bonus (LMGs)."
+
+cd_lmg_reload_name : "Lighter Belts"
+cd_lmg_reload_desc : "Reload 25% faster (LMGs)."
+
+cd_lmg_accuracy_moving_name : "Accuracy"
+cd_lmg_accuracy_moving_desc : "50% bonus while moving (LMGs)."
+
+cd_lmg_hip_accuracy_name : "Accuracy"
+cd_lmg_hip_accuracy_desc : "20% hipfire bonus (LMGs)."
+
+cd_snp_accuracy_moving_name : "Accuracy"
+cd_snp_accuracy_moving_desc : "50% bonus while moving (snipers)."
+
+cd_snp_hip_accuracy_name : "Accuracy"
+cd_snp_hip_accuracy_desc : "20% hipfire bonus (snipers)."
+
+cd_smg_hip_accuracy_name : "Accuracy"
+cd_smg_hip_accuracy_desc : "20% hipfire bonus (SMGs)."
+
+cd_shotgun_stability_percent_name : "Stability"
+cd_shotgun_stability_percent_desc : "25% bonus (shotguns)."
+
+cd_shotgun_hip_accuracy_percent_name : "Accuracy"
+cd_shotgun_hip_accuracy_percent_desc : "20% hipfire bonus (shotguns)."
+
+cd_akimbo_dmg_name : "Damage"
+cd_akimbo_dmg_desc : "50% bonus (akimbo)."
+
+### DEPLOYABLES
+cd_health_deployable_buff_name : "Quick Fix"
+cd_health_deployable_buff_desc : "Your FAKs and doctor bags give 10% damage reduction for 2 mins on use. Deploy FAKs and doctor bags 50% faster."
+
+# Doctor Bag
+cd_doctor_bag_capacity_1_name : "Field Surgeon Lv1"
+cd_doctor_bag_capacity_1_desc : "2 doctor bags."
+
+cd_doctor_bag_capacity_2_name : "Field Surgeon Lv2"
+cd_doctor_bag_capacity_2_desc : "4 doctor bags."
+
+cd_doctor_bag_charges_name : "Blood Bank"
+cd_doctor_bag_charges_desc : "Doctor bags get one additional charge."
+
+# FAK
+cd_fak_capacity_1_name : "Walking Pharmacy Lv1"
+cd_fak_capacity_1_desc : "7 FAKs."
+
+cd_fak_capacity_2_name : "Walking Pharmacy Lv2"
+cd_fak_capacity_2_desc : "14 FAKs."
+
+cd_fak_restore_down_name : "Life Saving Drugs"
+cd_fak_restore_down_desc : "Your FAKs have a 50% chance to restore a down on use." 
+
+cd_fak_autoheal_name : "Uppers"
+cd_fak_autoheal_desc : "FAKs in 5m are consumed when going down (20s cooldown)."
+
+# Ammo Bag
+cd_ammo_bag_capacity_1_name : "Deep Pockets Lv1"
+cd_ammo_bag_capacity_1_desc : "2 ammo bags."
+
+cd_ammo_bag_capacity_2_name : "Deep Pockets Lv2"
+cd_ammo_bag_capacity_2_desc : "4 ammo bags."
+
+cd_ammo_bag_charges_name : "Stockpile"
+cd_ammo_bag_charges_desc : "Ammo bags hold 50% more ammo."
+
+cd_ammo_bag_inf_name : "Bulletstorm"
+cd_ammo_bag_inf_desc : "Infinite ammo after using ammo bag (min 15s)."
+
+# Sentry
+cd_sentry_capacity_1_name: "Tower Defense Lv1"
+cd_sentry_capacity_1_desc: "2 sentries."
+
+cd_sentry_capacity_2_name: "Tower Defense Lv2"
+cd_sentry_capacity_2_desc: "4 sentries."
+
+cd_sentry_cost_name: "Eco Sentry"
+cd_sentry_cost_desc: "Sentry ammo cost reduced by 10%. Place sentries 50% faster."
+
+cd_sentry_accuracy_name: "Targeting Package"
+cd_sentry_accuracy_desc: "Sentry gains a 100% accuracy bonus, rotates 150% faster, and holds 50% more ammo."
+
+cd_sentry_health_name: "Armor Plating"
+cd_sentry_health_desc: "Sentry gains a shield and 150% health bonus."
+
+cd_sentry_ap_name: "AP Sentry"
+cd_sentry_ap_desc: "Sentry gains 150% damage bonus and toggleable AP rounds, decreasing fire rate by 75% but increasing damage by another 250%."
+
+# Trip Mine
+cd_charge_capacity_1_name : "Shaped Charge Lv1"
+cd_charge_capacity_1_desc : "6 shaped charges."
+
+cd_charge_capacity_2_name : "Shaped Charge Lv2"
+cd_charge_capacity_2_desc : "9 shaped charges."
+
+cd_trip_capacity_1_name : "More Firepower Lv1"
+cd_trip_capacity_1_desc : "7 trip mines."
+
+cd_trip_capacity_2_name : "More Firepower Lv2"
+cd_trip_capacity_2_desc : "14 trip mines."
+
+cd_trip_radius_1_name : "Demolition Man"
+cd_trip_radius_1_desc : "Trip mine explosions are 30% bigger. Deploy trip mines 20% faster."
+
+cd_trip_radius_2_name : "Tactical Mines"
+cd_trip_radius_2_desc : "Trip mine explosions are 70% bigger and deal 50% more damage."
+
+cd_trip_fire_name : "Fire Trap"
+cd_trip_fire_desc : "Trip mines create fire on detonation."
+
+cd_trip_sensor_name : "Motion Sensor"
+cd_trip_sensor_desc : "Trip mines can activate sensor mode."
+
+# ECM
+cd_ecm_capacity_1_name : "Interference Lv1"
+cd_ecm_capacity_1_desc : "2 ECM jammers."
+
+cd_ecm_capacity_2_name : "Interference Lv2"
+cd_ecm_capacity_2_desc : "4 ECM jammers."
+
+cd_ecm_jam_duration_1_name : "ECM Specialist Lv1"
+cd_ecm_jam_duration_1_desc : "ECM jamming duration increased by 25%."
+
+cd_ecm_jam_duration_2_name : "ECM Specialist Lv2"
+cd_ecm_jam_duration_2_desc : "ECM jamming duration increased by 50%."
+
+cd_ecm_feedback_duration_1_name : "ECM Overdrive Lv1"
+cd_ecm_feedback_duration_1_desc : "ECM feedback duration increased by 25%."
+
+cd_ecm_feedback_duration_2_name : "ECM Overdrive Lv2"
+cd_ecm_feedback_duration_2_desc : "ECM feedback duration increased by 50%."
+
+cd_ecm_doors_name : "Open Sesame"
+cd_ecm_doors_desc : "ECMs can open doors."
+
+cd_ecm_pagers_name : "Radio Jammer"
+cd_ecm_pagers_desc : "ECMs block pagers and cameras."
+
+cd_ecm_feedback_name : "ECM Feedback"
+cd_ecm_feedback_desc : "ECMs can activate feedback."
+
+# Body Bag
+cd_bodybag_capacity_name : "Deep Pockets"
+cd_bodybag_capacity_desc : "+1 body bag case."
