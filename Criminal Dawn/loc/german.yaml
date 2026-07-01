@@ -1237,96 +1237,96 @@ cd_ammo_capacity_name : "Volle Ladung"
 cd_ammo_capacity_desc : "Deine maximale Munition erhöht sich um 25."
 
 # Technician Tree
-cd_accuracy_bonus_name : "Accuracy"
-cd_accuracy_bonus_desc : "+8."
+cd_accuracy_bonus_name : "Genauigkeit"
+cd_accuracy_bonus_desc : "Deine Genauigkeit erhöht sich um 8."
 
-cd_stability_bonus_2_name : "Stability"
-cd_stability_bonus_2_desc : "+16."
+cd_stability_bonus_2_name : "Stabilität"
+cd_stability_bonus_2_desc : "Deine Stabilität erhöht sich um 16."
 
-cd_accuracy_hip_bonus_name : "Accuracy"
-cd_accuracy_hip_bonus_desc : "+12 (hipfire)."
+cd_accuracy_hip_bonus_name : "Genauigkeit - Hüftfeuer"
+cd_accuracy_hip_bonus_desc : "Während du nicht zielst, erhöht sich deine Genauigkeit um 12."
 
-cd_stability_movement_penalty_name : "Stability"
-cd_stability_movement_penalty_desc : "Movement penalty reduced by 20%."
+cd_stability_movement_penalty_name : "Stabilität - Bewegung"
+cd_stability_movement_penalty_desc : "Deine Stabilität reduziert sich beim bewegen um 20% weniger."
 
-cd_mag_capacity_name : "Surefire"
+cd_mag_capacity_name : "Sicher gehen."
 cd_mag_capacity_desc : "+15 mag size (SMGs/LMGs/ARs)."
 
 # Ghost Tree
-cd_not_sus_name : "Chameleon"
-cd_not_sus_desc : "25% reduced detection in casing mode."
+cd_not_sus_name : "Chamäleon"
+cd_not_sus_desc : "Im Ausspähmodus wirst du 25% schlechter erkannt."
 
-cd_lockpick_speed_name : "Dextrous"
-cd_lockpick_speed_desc : "100% faster lockpick speed."
+cd_lockpick_speed_name : "Geschickt"
+cd_lockpick_speed_desc : "Du knackst Schlüsserl 100% schneller."
 
 cd_sprinter_name : "Sprinter"
-cd_sprinter_desc : "+10% dodge chance while sprinting and 25% faster sprint speed."
+cd_sprinter_desc : "Du sprintest 25% schneller. Zusätzlich erhöht sich deine Ausweichchance beim sprinten um 10%."
 
-cd_move_speed_name : "Nimble"
-cd_move_speed_desc : "10% faster movement speed."
+cd_move_speed_name : "Flink"
+cd_move_speed_desc : "Du bewegst dich 10% schneller."
 
-cd_climb_speed_name : "What a Thrill"
-cd_climb_speed_desc : "75% faster climbing speed."
+cd_climb_speed_name : "Absoluter Nervenkitzel"
+cd_climb_speed_desc : "Du kletterst 75% schneller."
 
-cd_melee_conceal_name : "Hidden Blade"
-cd_melee_conceal_desc : "+2 concealment (melee)."
+cd_melee_conceal_name : "Versteckte Klinge"
+cd_melee_conceal_desc : "Die Tarnung deiner Nahkampfwaffen steigt um 2."
 
-cd_vest_conceal_name : "Concealment"
-cd_vest_conceal_desc : "+4 (ballistic vests)."
+cd_vest_conceal_name : "Tarnung - Westen"
+cd_vest_conceal_desc : "Die Tarnung deiner Westen steigt um 4."
 
-cd_reduced_prio_name : "Inconspicuous"
-cd_reduced_prio_desc : "Target priority reduced by 35%."
+cd_reduced_prio_name : "Unauffällig"
+cd_reduced_prio_desc : "Du wirst mit einer 35% niedrigeren Chance von Gegnern anvisiert."
 
-cd_silencer_conceal_name : "Concealment"
-cd_silencer_conceal_desc : "+1 concealment, -2 concealment penalty (silencers)."
+cd_silencer_conceal_name : "Tarnung - Schalldämpfer"
+cd_silencer_conceal_desc : "Deine Tarnung wird um 1 erhöht. Schalldämpfer reduzieren deine Tarnung um 2 weniger."
 
-cd_silencer_stability_name : "Stability"
-cd_silencer_stability_desc : "+8 stability (silencers)."
+cd_silencer_stability_name : "Stabilität - Schalldämpfer"
+cd_silencer_stability_desc : "Wenn du einen Schalldämpfer benutzt, erhöht sich deine Stabilität um 8."
 
-cd_silencer_ads_speed_name : "Professional"
-cd_silencer_ads_speed_desc : "100% faster ADS speed (silencers)."
+cd_silencer_ads_speed_name : "Professionell"
+cd_silencer_ads_speed_desc : "Wenn du einen Schalldämpfer benutzt, zielst du 100% schneller."
 
-cd_silencer_accuracy_name : "Assassin"
-cd_silencer_accuracy_desc : "+12 accuracy (silencers)."
+cd_silencer_accuracy_name : "Assassine"
+cd_silencer_accuracy_desc : "Wenn du einen Schalldämpfer benutzt, erhöht sich deine Genauigkeit um 12."
 
-cd_mark_duration_name : "Strategist"
-cd_mark_duration_desc : "Mark duration increased by 100%."
+cd_mark_duration_name : "Strategiker"
+cd_mark_duration_desc : "Die Dauer deiner Markierungen ist um 100% erhöht."
 
-cd_pistol_swap_speed_name : "Quick Draw"
-cd_pistol_swap_speed_desc : "33% faster weapon switch speed (pistols)."
+cd_pistol_swap_speed_name : "Schneller Zug"
+cd_pistol_swap_speed_desc : "Du wechselst 33% schneller zu Pistolen."
 
 cd_pistol_accuracy_name : "Equilibrium"
-cd_pistol_accuracy_desc : "+8 accuracy (pistols)."
+cd_pistol_accuracy_desc : "Deine Genauigkeit mit Pistolen ist um 8 erhöht."
 
-cd_pistol_capacity_name : "Gun Nut"
-cd_pistol_capacity_desc : "+5 mag size (pistols)."
+cd_pistol_capacity_name : "Waffennarr"
+cd_pistol_capacity_desc : "Die Größe des Magazins von Pistolen erhöht sich um 5."
 
 cd_pistol_rof_name : "Cowboy"
-cd_pistol_rof_desc : "50% fire rate bonus (pistols)."
+cd_pistol_rof_desc : "Deine Feuerrate mit Pistolen erhöht sich um 50%."
 
-cd_akimbo_capacity_1_name : "Akimbo Lv1"
-cd_akimbo_capacity_1_desc : "Ammo capacity increased by 50% (akimbos)."
+cd_akimbo_capacity_1_name : "Akimbo Level 1"
+cd_akimbo_capacity_1_desc : "Die maximale Munition von Akimbowaffen ist um 50% erhöht."
 
-cd_akimbo_capacity_2_name : "Akimbo Lv2"
-cd_akimbo_capacity_2_desc : "Ammo capacity increased by 100% (akimbos)."
+cd_akimbo_capacity_2_name : "Akimbo Level 2"
+cd_akimbo_capacity_2_desc : "Die maximale Munition von Akimbowaffen ist um 50% erhöht."
 
-cd_pistol_dmg_name : "One Handed Talent"
-cd_pistol_dmg_desc : "+15 pistol damage."
+cd_pistol_dmg_name : "Einhand-Talent"
+cd_pistol_dmg_desc : "Dein Schaden mit Pistolen wird um 15 erhöht."
 
-cd_pistol_reload_speed_name : "Gunslinger"
-cd_pistol_reload_speed_desc : "Reload 50% faster (pistols)."
+cd_pistol_reload_speed_name : "Pistolero"
+cd_pistol_reload_speed_desc : "Du lädst Pistolen 50% schneller nach."
 
-cd_bleedout_health_name : "More Blood to Bleed"
-cd_bleedout_health_desc : "50% more bleedout health."
+cd_bleedout_health_name : "Mehr Blut zum verlieren"
+cd_bleedout_health_desc : "Du hast 50% mehr Lebenspunkte, wenn du am Boden bist."
 
-cd_incoming_melee_reduction_name : "Because of Training"
-cd_incoming_melee_reduction_desc : "Take 50% less melee damage."
+cd_incoming_melee_reduction_name : "Hartes Training"
+cd_incoming_melee_reduction_desc : "Du erleidest 50% weniger Nahkampfschaden."
 
 cd_melee_knockdown_name : "Martial Arts"
-cd_melee_knockdown_desc : "50% knockdown bonus (melee)."
+cd_melee_knockdown_desc : "Mit Nahkampfwaffen schlägst du Gegner 50% wahrscheinlicher nieder."
 
-cd_melee_dmg_name : "Pumping Iron"
-cd_melee_dmg_desc : "100% bonus damage (melee)."
+cd_melee_dmg_name : "Pumpen gehen"
+cd_melee_dmg_desc : "Dein Nahkampfschaden ist um 100% erhöht."
 
 # Removed
 cd_cam_shake_name : "Tough Guy"
