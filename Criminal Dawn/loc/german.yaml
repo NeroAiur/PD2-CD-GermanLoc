@@ -636,48 +636,48 @@ cd_no_bag_penalty_desc : "Du bist immun gegen die negativen Effekte von Beutetas
 
 ## PERKS
 # Crew Chief
-cd_chief_dr_name : "Inner Strength"
-cd_chief_dr_desc : "8% damage reduction (crew). You gain an additional 8% below 50% health."
+cd_chief_dr_name : "Die Kraft aus dem Inneren"
+cd_chief_dr_desc : "Du und deine Crewmitglieder erhalten 8% weniger Schaden.\nWenn du weniger als 50% deiner Lebenspunkte hast verdoppelt sich dieser Effekt für dich."
 
-cd_chief_shout_distance_name : "Deep Throat"
-cd_chief_shout_distance_desc : "Shout distance increased by 25%."
+cd_chief_shout_distance_name : "Deepthroat"
+cd_chief_shout_distance_desc : "Die Reichweite deiner Schreie erhöht sich um 25%."
 
-cd_chief_health_name : "Wolf Pack"
-cd_chief_health_desc : "+10 max health (crew)."
+cd_chief_health_name : "Wolfsrudel"
+cd_chief_health_desc : "Die maximalen Lebenspunkte der gesamten Crew erhöhen sich um 10."
 
-cd_chief_armour_name : "Testudo"
-cd_chief_armour_desc : "5% armor bonus (crew)."
+cd_chief_armour_name : "Ninja-Turtles"
+cd_chief_armour_desc : "Die Rüstung der gesamten Crew erhöht sich um 5%."
 
-cd_chief_hostage_1_name : "Hostage Situation"
-cd_chief_hostage_1_desc : "Max health of crew increased by 6 per hostage (up to 4 hostages)."
+cd_chief_hostage_1_name : "Geiselnahme"
+cd_chief_hostage_1_desc : "Die maximalen Lebenspukte der gesamten Crew erhöhen sich um 6 für jede Geisel bis zu 24."
 
-cd_chief_hostage_2_name : "Human Shield"
-cd_chief_hostage_2_desc : "8% damage reduction while you have a hostage."
+cd_chief_hostage_2_name : "Menschliches Schild"
+cd_chief_hostage_2_desc : "Solange mindestens eine Geisel vorhanden ist, verringert sich der erhaltene Schaden um 8%."
 
 # Muscle
-cd_muscle_health_1_name : "Brute Strength Lv1"
-cd_muscle_health_1_desc : "+10 max health."
+cd_muscle_health_1_name : "Reine Muskelmasse Level 1"
+cd_muscle_health_1_desc : "Deine maximalen Lebenspunkte erhöhen sich um 10."
 
-cd_muscle_health_2_name : "Brute Strength Lv2"
-cd_muscle_health_2_desc : "+20 max health."
+cd_muscle_health_2_name : "Reine Muskelmasse Level 2"
+cd_muscle_health_2_desc : "Deine maximalen Lebenspunkte erhöhen sich um 20."
 
-cd_muscle_health_3_name : "Brute Strength Lv3"
-cd_muscle_health_3_desc : "+40 max health."
+cd_muscle_health_3_name : "Reine Muskelmasse Level 3"
+cd_muscle_health_3_desc : "Deine maximalen Lebenspunkte erhöhen sich um 40."
 
-cd_muscle_health_4_name : "Brute Strength Lv4"
-cd_muscle_health_4_desc : "+80 max health."
+cd_muscle_health_4_name : "Reine Muskelmasse Level 4"
+cd_muscle_health_4_desc : "Deine maximalen Lebenspunkte erhöhen sich um 80."
 
-cd_muscle_health_5_name : "Brute Strength Lv5"
-cd_muscle_health_5_desc : "+100 max health."
+cd_muscle_health_5_name : "Reine Muskelmasse Level 5"
+cd_muscle_health_5_desc : "Deine maximalen Lebenspunkte erhöhen sich um 100."
 
-cd_muscle_prio_name : "Meat Shield"
-cd_muscle_prio_desc : "Target priority increased by 15%."
+cd_muscle_prio_name : "Fleischwand"
+cd_muscle_prio_desc : "Gegner haben eine 15% höhere Wahrscheinlichkeit dich als Ziel zu wählen."
 
-cd_muscle_panic_name : "Disturbing the Peace"
-cd_muscle_panic_desc : "Suppressed enemies can panic."
+cd_muscle_panic_name : "Ruhestörung"
+cd_muscle_panic_desc : "Unterdrückte Gegner können in Panic verfallen."
 
-cd_muscle_regen_name : "800-pound Gorilla"
-cd_muscle_regen_desc : "Restore 3 health every 5s."
+cd_muscle_regen_name : "350kg Gorilla"
+cd_muscle_regen_desc : "Du regenerierst alle 5 Sekunden 3 Lebenspunkte."
 
 # Armorer
 cd_armorer_1_name : "Impact Plate Lv1"
