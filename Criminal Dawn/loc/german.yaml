@@ -934,30 +934,30 @@ cd_expres_recovery_name : "Perfekte Linie"
 cd_expres_recovery_desc : "Tötungen beschleunigen die Rüstungsregeneration. Je weniger Rüstung, desto höher die Regenerationsgeschwindigkeit.\nDieser Effekt wird zurückgesetzt, wenn du deine Rüstung regenerierst."
 
 # Maniac
-cd_maniac_base_name : "Excitement"
-cd_maniac_base_desc : "Crew gains 1 damage absorption (up to 20) for every 30 damage you dealt in the last 2 seconds."
+cd_maniac_base_name : "Aufregung"
+cd_maniac_base_desc : "Die gesamte Crew erhält 1 Schadensabsorptions-Punkt pro 30 Schaden, die du in den letzten 2 Sekunden verursacht hast.\nMan kann maximal 20 Schadensabsorptions-Punkte haben."
 
-cd_maniac_cap_name : "Recklessness"
-cd_maniac_cap_desc : "Damage needed for 'Excitement' is reduced to 25 (max 24 absorption)."
+cd_maniac_cap_name : "Tollkühnheit"
+cd_maniac_cap_desc : "Der notwendige Schaden für 'Aufregung' wird um 5 reduziert. Die maximalen Schadensabsorptions-Punkte erhöhen sich um 4."
 
-cd_maniac_boost_name : "Insanity"
-cd_maniac_boost_desc : "Damage absorption from 'Excitement' is doubled."
+cd_maniac_boost_name : "Wahnsinn"
+cd_maniac_boost_desc : "Die Anzahl an Schadensabsorptions-Punkte durch 'Aufregung' wird verdoppelt."
 
 # Anarchist
 cd_anarch_recovery_name : "Blitzkrieg Bop"
-cd_anarch_recovery_desc : "Armor continuously recovers. Weaker armors recover faster."
+cd_anarch_recovery_desc : "Deine Rüstung regeneriert sich dauerhaft. Schwache Rüstung regeneriert sich schneller als schwere."
 
-cd_anarch_armour_1_name : "Rise Above Lv1"
-cd_anarch_armour_1_desc : "+20 max armor, -25 max health."
+cd_anarch_armour_1_name : "Rise Above It Level 1"
+cd_anarch_armour_1_desc : "Deine Rüstung ist um 20 erhöht. Deine maximalen Lebenspunkte sind um 25 reduziert."
 
-cd_anarch_armour_2_name : "Rise Above Lv2"
-cd_anarch_armour_2_desc : "+40 max armor, -50 max health."
+cd_anarch_armour_2_name : "Rise Above It Level 2"
+cd_anarch_armour_2_desc : "Deine Rüstung ist um 40 erhöht. Deine maximalen Lebenspunkte sind um 50 reduziert."
 
-cd_anarch_armour_3_name : "Rise Above Lv3"
-cd_anarch_armour_3_desc : "+60 max armor, -75 max health."
+cd_anarch_armour_3_name : "Rise Above It Level 3"
+cd_anarch_armour_3_desc : "Deine Rüstung ist um 60 erhöht. Deine maximalen Lebenspunkte sind um 75 reduziert."
 
 cd_anarch_bullseye_name : "Lust for Life"
-cd_anarch_bullseye_desc : "+10 armor on damage dealt (1.5s cooldown)."
+cd_anarch_bullseye_desc : "Wenn du Schaden verursachst, regenerierst du 10 Rüstung.\nDieser Effekt hat eine Abklingzeit von 1,5s."
 
 # Biker
 cd_biker_base_name : "Prospect"
