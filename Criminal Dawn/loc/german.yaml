@@ -1018,46 +1018,46 @@ cd_stoic_heal_name : "Ausdauernd"
 cd_stoic_heal_desc : "Wenn durch 'Tugend' gestaffelter Schaden entfernt wird, wirst du um 50% dieses Schadens geheilt."
 
 # Tag Team
-cd_h3h3_base_name : "Soul Mates"
-cd_h3h3_base_desc : "Can equip gas dispenser."
+cd_h3h3_base_name : "Seelenverwandte"
+cd_h3h3_base_desc : "Du kannst den Inhalator ausrüsten."
 
-cd_h3h3_cd_name : "Harmony"
-cd_h3h3_cd_desc : "Gas dispenser tag kills reduce cooldown by 2s on kill."
+cd_h3h3_cd_name : "Harmonie"
+cd_h3h3_cd_desc : "Inhalator-Team-Törungen reduzieren die Abklingzeit des Inhalators um 2s."
 
-cd_h3h3_absorption_name : "Synergy"
-cd_h3h3_absorption_desc : "+1 damage absorption on kill (up to 20) while gas dispenser is active."
+cd_h3h3_absorption_name : "Synergie"
+cd_h3h3_absorption_desc : "Während der Inhalator aktiv ist, erhältst du pro Tötung 1 Schadensabsorptions-Punkt.\nDu kannst maximal 20 Schadensabsorptions-Punkte haben."
 
 # Hacker
-cd_hacker_base_name : "Code Glitch"
-cd_hacker_base_desc : "Can equip pocket ECM."
+cd_hacker_base_name : "Glitch"
+cd_hacker_base_desc : "Du kannst den Taschen-ECM ausrüsten."
 
-cd_hacker_heal_name : "Bit Decay"
-cd_hacker_heal_desc : "+20 health on kill while pocket ECM is active."
+cd_hacker_heal_name : "Buffer Overflow"
+cd_hacker_heal_desc : "Während der Taschen-ECM aktiv ist, erhältst du pro Tötung 20 Lebenspunkte."
 
-cd_hacker_dodge_name : "Kluge"
-cd_hacker_dodge_desc : "+20% dodge chance on kill for 30s while pocket ECM is active."
+cd_hacker_dodge_name : "Bodge"
+cd_hacker_dodge_desc : "Während der Taschen-ECM aktiv ist, erhöht sich bei einer Tötung deine Ausweichchance um 20%."
 
 cd_hacker_team_heal_name : "Botnet"
-cd_hacker_team_heal_desc : "Crew heals 10 health per kill while pocket ECM is active."
+cd_hacker_team_heal_desc : "Während der Taschen-ECM aktiv ist, heilt sich jede Crewmitglied um 10 Lebenspunkte pro Tötung."
 
 # Leech
 cd_leech_base_name : "Momentum"
-cd_leech_base_desc : "Can equip leech ampule."
+cd_leech_base_desc : "Du kannst die Ampulle ausrüsten."
 
-cd_leech_duration_name : "Stalwart"
-cd_leech_duration_desc : "Leech ampule lasts 10 seconds."
+cd_leech_duration_name : "Standhaft"
+cd_leech_duration_desc : "Die Ampulle hält 10s länger an."
 
-cd_leech_segments_name : "Segmentation"
-cd_leech_segments_desc : "Leech ampule splits health into segments of 10%."
+cd_leech_segments_name : "Segmentierung"
+cd_leech_segments_desc : "Die Ampulle teilt deine Lebenspunkte stattdessen in 10 Segmente."
 
-cd_leech_swan_song_name : "Indomitable"
-cd_leech_swan_song_desc : "Going down reduces movement speed by 80% while leech ampule is active."
+cd_leech_swan_song_name : "Unbezwingbar"
+cd_leech_swan_song_desc : "Wenn du zu Boden gehen solltest, während die Ampulle aktiv ist bleibst du stattdessen stehen und dein Bewegungstempo wird um 80% reduziert."
 
-cd_leech_cd_name : "Bloodsucker"
-cd_leech_cd_desc : "Kills reduce leech ampule cooldown by 1s."
+cd_leech_cd_name : "Blutsauger"
+cd_leech_cd_desc : "Tötungen reduzieren die Abklingzeit der Ampulle um 1s."
 
-cd_leech_revive_name : "Symbiosis"
-cd_leech_revive_desc : "Leech ampule can be used while down, but you will go back down unless you revive a teammate or use a doctor bag."
+cd_leech_revive_name : "Symbiose"
+cd_leech_revive_desc : "Du kannst die Ampulle benutzen, wenn du am Boden bist. Du wirst jedoch erneut zu Boden gehen, außer du belebst ein Crewmitglied oder interagierst mit einer Arzttasche."
 
 # Copy Cat
 cd_copycat_health_name : "Thriving"
