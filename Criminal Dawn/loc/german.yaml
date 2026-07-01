@@ -804,57 +804,57 @@ cd_crook_hbv_armour_3_name : "Einschlag - Schwere ballistische Weste Level 1"
 cd_crook_hbv_armour_3_desc : "Deine Rüstung erhöht sich um 65% (Schwere ballistische Weste)."
 
 # Burglar
-cd_burglar_dodge_1_name : "Sneaky Lv1"
-cd_burglar_dodge_1_desc : "+20% dodge chance."
+cd_burglar_dodge_1_name : "Heimlich Level 1"
+cd_burglar_dodge_1_desc : "Deine Ausweichchance erhöht sich um 20%."
 
-cd_burglar_dodge_2_name : "Sneaky Lv2"
-cd_burglar_dodge_2_desc : "+25% dodge chance."
+cd_burglar_dodge_2_name : "Heimlich Level 2"
+cd_burglar_dodge_2_desc : "Deine Ausweichchance erhöht sich um 25%."
 
-cd_burglar_dodge_3_name : "Sneaky Lv3"
-cd_burglar_dodge_3_desc : "+30% dodge chance."
+cd_burglar_dodge_3_name : "Heimlich Level 3"
+cd_burglar_dodge_3_desc : "Deine Ausweichchance erhöht sich um 30%."
 
-cd_burglar_prio_1_name : "Tricksy Lv1"
-cd_burglar_prio_1_desc : "Target priority reduced by 10% while crouching and stationary."
+cd_burglar_prio_1_name : "Gerissen Level 1"
+cd_burglar_prio_1_desc : "Während du still stehst und dich duckst, haben Gegner eine 10% niedrigere Wahrscheinlichkeit dich als Ziel zu wählen."
 
-cd_burglar_prio_2_name : "Tricksy Lv2"
-cd_burglar_prio_2_desc : "Target priority reduced by 15% while crouching and stationary."
+cd_burglar_prio_2_name : "Gerissen Lv2"
+cd_burglar_prio_2_desc : "Während du still stehst und dich duckst, haben Gegner eine 15% niedrigere Wahrscheinlichkeit dich als Ziel zu wählen."
 
-cd_burglar_prio_3_name : "Tricksy Lv3"
-cd_burglar_prio_3_desc : "Target priority reduced by 20% while crouching and stationary."
+cd_burglar_prio_3_name : "Gerissen Lv3"
+cd_burglar_prio_3_desc : "Während du still stehst und dich duckst, haben Gegner eine 20% niedrigere Wahrscheinlichkeit dich als Ziel zu wählen."
 
-cd_burglar_bag_speed_name : "Bagger"
-cd_burglar_bag_speed_desc : "20% faster body bag speed."
+cd_burglar_bag_speed_name : "Einsacker"
+cd_burglar_bag_speed_desc : "Du packst Leichen 20% schneller ein."
 
-cd_burglar_lockpick_speed_name : "Binding"
-cd_burglar_lockpick_speed_desc : "20% faster lockpick speed."
+cd_burglar_lockpick_speed_name : "Knacker"
+cd_burglar_lockpick_speed_desc : "Du knackst Schlösser 20% schneller."
 
-cd_burglar_pager_speed_name : "Dutch Courage"
-cd_burglar_pager_speed_desc : "10% faster pager answering speed."
+cd_burglar_pager_speed_name : "Mut antrinken"
+cd_burglar_pager_speed_desc : "Du beantwortest Pager 10% schneller."
 
-cd_burglar_recovery_name : "Fresh Air"
-cd_burglar_recovery_desc : "20% faster armor recovery while crouching and stationary."
+cd_burglar_recovery_name : "Frische Luft"
+cd_burglar_recovery_desc : "Während du still stehst und dich duckst, regeneriert sich deine Rüstung 20% schneller."
 
 # Infiltrator
 cd_infil_overdog_name : "Overdog"
-cd_infil_overdog_desc : "12% damage reduction when 3+ enemies within 18m."
+cd_infil_overdog_desc : "Wenn sich 3 oder mehr Gegner im Umkreis von 18m um dich befinden, erhältst du 12% weniger Schaden."
 
-cd_infil_single_dog_1_name : "Close Combat Lv1"
-cd_infil_single_dog_1_desc : "8% damage reduction when an enemy is within 18m."
+cd_infil_single_dog_1_name : "Nahkampf Level 1"
+cd_infil_single_dog_1_desc : "Wenn sich mindestens ein Gegner im Umkreis von 18m um dich befindet, erhältst du 8% weniger Schaden."
 
-cd_infil_single_dog_2_name : "Close Combat Lv2"
-cd_infil_single_dog_2_desc : "16% damage reduction when an enemy is within 18m."
+cd_infil_single_dog_2_name : "Nahkampf Level 2"
+cd_infil_single_dog_2_desc : "Wenn sich mindestens ein Gegner im Umkreis von 18m um dich befindet, erhältst du 16% weniger Schaden."
 
-cd_infil_single_dog_3_name : "Close Combat Lv3"
-cd_infil_single_dog_3_desc : "24% damage reduction when an enemy is within 18m."
+cd_infil_single_dog_3_name : "Nahkampf Level 3"
+cd_infil_single_dog_3_desc : "Wenn sich mindestens ein Gegner im Umkreis von 18m um dich befindet, erhältst du 24% weniger Schaden."
 
 cd_infil_melee_boost_name : "Psychopath"
-cd_infil_melee_boost_desc : "10x damage on melee hits performed within 1 second."
+cd_infil_melee_boost_desc : "Nahkampfangriffe, die innerhalb von 1s geschehen verursachen 1000% mehr Schaden."
 
-cd_infil_melee_timer_name : "CBT"
-cd_infil_melee_timer_desc : "'Psychopath' timer increased to 7 seconds."
+cd_infil_melee_timer_name : "Kognitive Verhaltenstherapie"
+cd_infil_melee_timer_desc : "Der Zeitraum von 'Psychopath' wird auf 7s erhöht."
 
-cd_infil_melee_heal_name : "Life Drain"
-cd_infil_melee_heal_desc : "Heal 20% on melee hit (10s cooldown)."
+cd_infil_melee_heal_name : "Lebensraub"
+cd_infil_melee_heal_desc : "Wenn du einen Gegner mit einem Nahkampfangriff triffst, heilst du dich um 20% deiner Lebenspunkte.\nDieser Effekt hat eine Abklingzeit von 10s."
 
 # Sociopath
 cd_socio_armor_1_name : "Tension"
