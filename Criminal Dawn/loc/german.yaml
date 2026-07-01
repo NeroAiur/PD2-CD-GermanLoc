@@ -680,48 +680,48 @@ cd_muscle_regen_name : "350kg Gorilla"
 cd_muscle_regen_desc : "Du regenerierst alle 5 Sekunden 3 Lebenspunkte."
 
 # Armorer
-cd_armorer_1_name : "Impact Plate Lv1"
-cd_armorer_1_desc : "5% armor bonus."
+cd_armorer_1_name : "Schlagplatte Level 1"
+cd_armorer_1_desc : "Deine Rüstung erhöht sich um 5%."
 
-cd_armorer_2_name : "Impact Plate Lv2"
-cd_armorer_2_desc : "10% armor bonus."
+cd_armorer_2_name : "Schlagplatte Level 2"
+cd_armorer_2_desc : "Deine Rüstung erhöht sich um 10%."
 
-cd_armorer_3_name : "Impact Plate Lv3"
-cd_armorer_3_desc : "20% armor bonus."
+cd_armorer_3_name : "Schlagplatte Level 3"
+cd_armorer_3_desc : "Deine Rüstung erhöht sich um 20%."
 
-cd_armorer_4_name : "Impact Plate Lv4"
-cd_armorer_4_desc : "30% armor bonus."
+cd_armorer_4_name : "Schlagplatte Level 4"
+cd_armorer_4_desc : "Deine Rüstung erhöht sich um 30%."
 
-cd_armorer_6_name : "Impact Plate Lv5"
-cd_armorer_6_desc : "35% armor bonus."
+cd_armorer_6_name : "Schlagplatte Level 5"
+cd_armorer_6_desc : "Deine Rüstung erhöht sich um 35%."
 
 cd_armorer_recovery_name : "Tank"
-cd_armorer_recovery_desc : "10% faster armor recovery."
+cd_armorer_recovery_desc : "Deine Rüstung regeneriert sich 10% schneller."
 
-cd_armorer_immunity_name : "Hardy"
-cd_armorer_immunity_desc : "Immunity for 2s on armor break."
+cd_armorer_immunity_name : "Feste Panzerung"
+cd_armorer_immunity_desc : "Nachdem deine Rüstung bricht, erhältst du 2 Sekunden keinen Schaden."
 
-cd_armorer_team_recovery_name : "Liquid Armor"
-cd_armorer_team_recovery_desc : "10% faster armor recovery (crew)."
+cd_armorer_team_recovery_name : "Flüssig-Panzer"
+cd_armorer_team_recovery_desc : "Die Rüstung der der gesamten Crew regeneriert sich 10% schneller."
 
 # Rogue
-cd_rogue_dodge_1_name : "Evasive Lv1"
-cd_rogue_dodge_1_desc : "+15% dodge chance."
+cd_rogue_dodge_1_name : "Entrinnunen Level 1"
+cd_rogue_dodge_1_desc : "Deine Ausweichchance erhöht sich um 15%."
 
-cd_rogue_dodge_2_name : "Evasive Lv2"
-cd_rogue_dodge_2_desc : "+30% dodge chance."
+cd_rogue_dodge_2_name : "Entrinnunen Level 2"
+cd_rogue_dodge_2_desc : "Deine Ausweichchance erhöht sich um 30%."
 
-cd_rogue_dodge_3_name : "Evasive Lv3"
-cd_rogue_dodge_3_desc : "+45% dodge chance."
+cd_rogue_dodge_3_name : "Entrinnunen Level 3"
+cd_rogue_dodge_3_desc : "Deine Ausweichchance erhöht sich um 45%."
 
-cd_rogue_prio_name : "Elusive"
-cd_rogue_prio_desc : "Target priority reduced by 15%."
+cd_rogue_prio_name : "Flüchtigkeit"
+cd_rogue_prio_desc : "Gegner haben eine 15% niedrigere Wahrscheinlichkeit dich als Ziel zu wählen."
 
-cd_rogue_ap_name : "Killer Instinct"
-cd_rogue_ap_desc : "25% chance to pierce enemy armor."
+cd_rogue_ap_name : "Raubtierinstinkt"
+cd_rogue_ap_desc : "Du hast eine 25%ige Chance gegnerische Rüstung zu ignorieren."
 
 cd_rogue_swap_speed_name : "Holster"
-cd_rogue_swap_speed_desc : "80% faster weapon switch speed."
+cd_rogue_swap_speed_desc : "Du wechselst Waffen 80% schneller."
 
 # Hitman
 cd_hitman_recovery_1_name : "Recovery Lv1"
