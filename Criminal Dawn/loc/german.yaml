@@ -960,33 +960,33 @@ cd_anarch_bullseye_name : "Lust for Life"
 cd_anarch_bullseye_desc : "Wenn du Schaden verursachst, regenerierst du 10 Rüstung.\nDieser Effekt hat eine Abklingzeit von 1,5s."
 
 # Biker
-cd_biker_base_name : "Prospect"
-cd_biker_base_desc : "+5 health/armor on crew kill (up to 4 times in 4 seconds)."
+cd_biker_base_name : "Prospekt"
+cd_biker_base_desc : "Wenn jemand in der Crew einen Gegner tötet, erhältst du 5 Lebenspunkte und 5 Rüstung.\nDieser Effekt kann nur 4x in 4s aktiviert werden."
 
 cd_biker_armour_plus_name : "Tail Gunner"
-cd_biker_armour_plus_desc : "+1 armor on crew kill per 10% health lost."
+cd_biker_armour_plus_desc : "Wenn jemand in der Crew einen Gegner tötet, erhältst du pro 10% fehlenden Lebenspunkten 1 Rüstung."
 
 cd_biker_health_cd_name : "Road Captain"
-cd_biker_health_cd_desc : "'Prospect' cooldown reduced by 0.1s per 10% health lost."
+cd_biker_health_cd_desc : "Die Abklingzeit von 'Prospekt' reduziert sich pro 10% fehlenden Lebenspunkten um 0,1s."
 
-cd_biker_health_plus_name : "Sgt-at-Arms"
-cd_biker_health_plus_desc : "+1 health on crew kill per 10% armor lost."
+cd_biker_health_plus_name : "Waffenwart"
+cd_biker_health_plus_desc : "Wenn jemand in der Crew einen Gegner tötet, erhältst du pro 10% fehlender Rüstung 1 Lebenspunkt."
 
-cd_biker_armour_cd_name : "Prez"
-cd_biker_armour_cd_desc : "'Prospect' cooldown reduced by 0.1s per 10% armor lost."
+cd_biker_armour_cd_name : "President"
+cd_biker_armour_cd_desc : "Die Abklingzeit von 'Prospekt' reduziert sich pro 10% fehlender Rüstung um 0,1s."
 
 # Kingpin
-cd_kingpin_base_name : "Bad Guy"
-cd_kingpin_base_desc : "Can equip injector."
+cd_kingpin_base_name : "Böser Bube"
+cd_kingpin_base_desc : "Du kannst den Injektor ausrüsten."
 
-cd_kingpin_prio_name : "Public Enemy"
-cd_kingpin_prio_desc : "Target priority increased while injector is active."
+cd_kingpin_prio_name : "Staatsfeind"
+cd_kingpin_prio_desc : "Während der Injektor aktiv ist, haben Gegner eine höhere Wahrscheinlichkeit dich als Ziel zu wählen."
 
-cd_kingpin_immunity_name : "Balls vs Bullets"
-cd_kingpin_immunity_desc : "Injector heals additional 25% of all damage taken below 50% health while active."
+cd_kingpin_immunity_name : "Eier gegen Kugeln"
+cd_kingpin_immunity_desc : "Wenn du unter 50% Lebenspunkte bist, heilt der Injektor zusätzliche 25% des erlittenen Schadens."
 
-cd_kingpin_cd_name : "Right to the Top"
-cd_kingpin_cd_desc : "Injector cooldown reduced by 1s for every 5 health gained at max health while active."
+cd_kingpin_cd_name : "Ganz nach oben"
+cd_kingpin_cd_desc : "Die Abklingzeit des Injektors reduziert sich pro 5 regenerierter Lebenspunkte, die bei maximalen Lebenspunkten erhalten wurden, um 1s"
 
 # Sicario
 cd_sicario_base_name : "Smoker"
