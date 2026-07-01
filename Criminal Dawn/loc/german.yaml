@@ -989,33 +989,33 @@ cd_kingpin_cd_name : "Ganz nach oben"
 cd_kingpin_cd_desc : "Die Abklingzeit des Injektors reduziert sich pro 5 regenerierter Lebenspunkte, die bei maximalen Lebenspunkten erhalten wurden, um 1s"
 
 # Sicario
-cd_sicario_base_name : "Smoker"
-cd_sicario_base_desc : "Can use smoke bomb."
+cd_sicario_base_name : "Raucher"
+cd_sicario_base_desc : "Du kannst die Rauchbombe ausrüsten."
 
-cd_sicario_dodge_stack_name : "Twitch"
-cd_sicario_dodge_stack_desc : "+20% dodge chance when shot. Resets on dodge (4s cooldown)."
+cd_sicario_dodge_stack_name : "Zuckungen"
+cd_sicario_dodge_stack_desc : "Wenn du getroffen wirst, erhöht sich deine Ausweichchance um 20%.\nDer Effekt setzt sich zurück, wenn du ausweichst.\nDieser Effekt hat eine Abklingzeit von 4s."
 
-cd_sicario_recovery_name : "Agility Shield"
-cd_sicario_recovery_desc : "Restore 1 health on dodge."
+cd_sicario_recovery_name : "Bewegliches Schild"
+cd_sicario_recovery_desc : "Wenn du einem Schuss ausweichst, regenerierst du 1 Lebenspunkt."
 
-cd_sicario_boost_name : "Unseen Shadow"
-cd_sicario_boost_desc : "Smoke bomb effects are doubled."
+cd_sicario_boost_name : "Verborgener Schatten"
+cd_sicario_boost_desc : "Die Effekte der Rauchbombe werden verdoppelt."
 
 # Stoic
-cd_stoic_base_name : "Virtue"
-cd_stoic_base_desc : "Damage is applied over 6 seconds. Can equip hip flask."
+cd_stoic_base_name : "Tugend"
+cd_stoic_base_desc : "Dein erlittener Schaden wird dir im Verlauf von 6 Sekunden zugefügt. Du kannst den Flachmann ausrüsten."
 
-cd_stoic_cd_name : "Imperturbable"
-cd_stoic_cd_desc : "Hip flask cooldown reduced by 2s on kill when below 35% health."
+cd_stoic_cd_name : "Gelassen"
+cd_stoic_cd_desc : "Wenn du einen Gegner tötest, während du weniger als 35% deiner Lebenspunkte hast, reduziert sich die Abklingzeit des Flachmanns um 2s."
 
-cd_stoic_armor_convert_name : "Unmoved"
-cd_stoic_armor_convert_desc : "Armor is converted into health."
+cd_stoic_armor_convert_name : "Unbeeindruckt"
+cd_stoic_armor_convert_desc : "Deine Rüstung wird vollständig in Leben konvertiert."
 
-cd_stoic_negate_name : "Calm"
-cd_stoic_negate_desc : "Lingering damage from 'Virtue' is negated after not taking damage for 1.5s."
+cd_stoic_negate_name : "Ruhig"
+cd_stoic_negate_desc : "Der gestaffelte Schaden von 'Tugend' wird entfernt, wenn du 1,5s lang keinen Schaden bekommst."
 
-cd_stoic_heal_name : "Enduring"
-cd_stoic_heal_desc : "50% of lingering damage from 'Virtue' is healed when damage is negated."
+cd_stoic_heal_name : "Ausdauernd"
+cd_stoic_heal_desc : "Wenn durch 'Tugend' gestaffelter Schaden entfernt wird, wirst du um 50% dieses Schadens geheilt."
 
 # Tag Team
 cd_h3h3_base_name : "Soul Mates"
