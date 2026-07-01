@@ -857,49 +857,49 @@ cd_infil_melee_heal_name : "Lebensraub"
 cd_infil_melee_heal_desc : "Wenn du einen Gegner mit einem Nahkampfangriff triffst, heilst du dich um 20% deiner Lebenspunkte.\nDieser Effekt hat eine Abklingzeit von 10s."
 
 # Sociopath
-cd_socio_armor_1_name : "Tension"
-cd_socio_armor_1_desc : "+30 armor on kill."
+cd_socio_armor_1_name : "Spannung"
+cd_socio_armor_1_desc : "Pro Tötung regenerierst du 30 Rüstungspunkte."
 
-cd_socio_heal_name : "Clean Hit"
-cd_socio_heal_desc : "Heal 10% on melee kill."
+cd_socio_heal_name : "Sauberer Treffer"
+cd_socio_heal_desc : "Wenn du einen Gegner mit einem Nahkampfangriff tötest, heilst du dich um 10% deiner Lebenspunkte."
 
-cd_socio_armor_2_name : "Overdose"
-cd_socio_armor_2_desc : "+30 armor on kills within 18m (1s cooldown)."
+cd_socio_armor_2_name : "Überdosis"
+cd_socio_armor_2_desc : "Wenn du einen Gegner im Umkreis von 18m tötest, regenerierst du 30 Rüstungspunkte.\nDieser Effekt hat eine Abklingzeit von 1s."
 
 cd_socio_panic_name : "Showdown"
-cd_socio_panic_desc : "75% chance to cause panic on kills within 18m (1s cooldown)."
+cd_socio_panic_desc : "Wenn du einen Gegner im Umkreis von 18m tötest, hast du eine 75%ige Chance Panik zu verursachen.\nDieser Effekt hat eine Abklingzeit von 1s."
 
 # Gambler
-cd_gambler_heal_1_name : "Medical Supplies Lv1"
-cd_gambler_heal_1_desc : "Heal crew for 16-24 health on ammo pickup (once per 3s)."
+cd_gambler_heal_1_name : "Medizinische Ausrüstung Level 1"
+cd_gambler_heal_1_desc : "Wenn du Munitionsboxen aufsammelst, wird die gesamte Crew um 16-24 Leben geheilt.\nDieser Effekt hat eine Abklingzeit von 3s."
 
-cd_gambler_heal_2_name : "Medical Supplies Lv2"
-cd_gambler_heal_2_desc : "Heal crew for 24-32 health on ammo pickup (once per 3s)."
+cd_gambler_heal_2_name : "Medizinische Ausrüstung Level 2"
+cd_gambler_heal_2_desc : "Wenn du Munitionsboxen aufsammelst, wird die gesamte Crew um 24-32 Leben geheilt.\nDieser Effekt hat eine Abklingzeit von 3s."
 
-cd_gambler_heal_3_name : "Medical Supplies Lv3"
-cd_gambler_heal_3_desc : "Heal crew for 32-40 health on ammo pickup (once per 3s)."
+cd_gambler_heal_3_name : "Medizinische Ausrüstung Level 3"
+cd_gambler_heal_3_desc : "Wenn du Munitionsboxen aufsammelst, wird die gesamte Crew um 32-40 Leben geheilt.\nDieser Effekt hat eine Abklingzeit von 3s."
 
-cd_gambler_mag_throw_name : "Mag Throw"
-cd_gambler_mag_throw_desc : "Picking up ammo triggers half an ammo pickup for the crew (once per 5s)."
+cd_gambler_mag_throw_name : "Spendabel"
+cd_gambler_mag_throw_desc : "Wenn du Munitionsboxen aufsammelst, erhalten deine Crewmitglieder 50% der aufgesammelten Munition.\nDieser Effekt hat eine Abklingzeit von 5s."
 
 # Grinder
-cd_grind_hot_1_name : "Dopamine Lv1"
-cd_grind_hot_1_desc : "+1 health every 0.3s for 3s on damage dealt (1.5s cooldown, req. suit/lightweight ballistic vest)."
+cd_grind_hot_1_name : "Dopamin Level 1"
+cd_grind_hot_1_desc : "Nachdem du Schaden verursacht hast, erhältst du 3s lang alle 0,3s 1 Lebenspunkt.\nDieser Effekt hat eine Abklingzeit von 1,5s.\nDieser Effekt ist nur aktiv, solange du den Anzug oder die Leichte ballistische Weste trägst."
 
-cd_grind_hot_2_name : "Dopamine Lv2"
-cd_grind_hot_2_desc : "+2 health every 0.3s for 3s on damage dealt (1.5s cooldown, req. suit/lightweight ballistic vest)."
+cd_grind_hot_2_name : "Dopamin Level 2"
+cd_grind_hot_2_desc : "Nachdem du Schaden verursacht hast, erhältst du 3s lang alle 0,3s 2 Lebenspunkt.\nDieser Effekt hat eine Abklingzeit von 1,5s.\nDieser Effekt ist nur aktiv, solange du den Anzug oder die Leichte ballistische Weste trägst."
 
-cd_grind_hot_3_name : "Dopamine Lv3"
-cd_grind_hot_3_desc : "+3 health every 0.3s for 3s on damage dealt (1.5s cooldown, req. suit/lightweight ballistic vest)."
+cd_grind_hot_3_name : "Dopamin Level 3"
+cd_grind_hot_3_desc : "Nachdem du Schaden verursacht hast, erhältst du 3s lang alle 0,3s 3 Lebenspunkt.\nDieser Effekt hat eine Abklingzeit von 1,5s.\nDieser Effekt ist nur aktiv, solange du den Anzug oder die Leichte ballistische Weste trägst."
 
-cd_grind_hot_4_name : "Dopamine Lv4"
-cd_grind_hot_4_desc : "+4 health every 0.3s for 3s on damage dealt (1.5s cooldown, req. suit/lightweight ballistic vest)."
+cd_grind_hot_4_name : "Dopamin Level 4"
+cd_grind_hot_4_desc : "Nachdem du Schaden verursacht hast, erhältst du 3s lang alle 0,3s 4 Lebenspunkt.\nDieser Effekt hat eine Abklingzeit von 1,5s.\nDieser Effekt ist nur aktiv, solange du den Anzug oder die Leichte ballistische Weste trägst."
 
-cd_grind_ap_name : "Endorphins"
-cd_grind_ap_desc : "30% chance to pierce enemy armor."
+cd_grind_ap_name : "Endorphine"
+cd_grind_ap_desc : "Du hast eine 30%ige Chance gegnerische Rüstung zu ignorieren."
 
-cd_grind_hot_duration_name : "Euphoria"
-cd_grind_hot_duration_desc : "'Dopamine' lasts 40% longer."
+cd_grind_hot_duration_name : "Euphorie"
+cd_grind_hot_duration_desc : "Der Effekt von 'Dopamin' hält 40% länger an."
 
 # Yakuza
 cd_yakuza_recovery_1_name : "Yoroi Irezumi Lv1"
