@@ -1093,148 +1093,148 @@ cd_copycat_immunity_desc : "Wenn du unter 50% deiner maximalen Lebenspunkte fäl
 ## STAT BOOSTS
 # Default
 cd_shinobi_speed_name : "Shinobi"
-cd_shinobi_speed_desc : "Walk speed increased by 25%. Crouch speed increased by 10%."
+cd_shinobi_speed_desc : "Lauftempo um 25% erhöht. Geschwindigkeit in der Hocke um 10% erhöht."
 
-cd_fast_hands_1_name : "Fast Hands Lv1"
-cd_fast_hands_1_desc : "Interact with baggable loot 25% faster."
+cd_fast_hands_1_name : "Flinke Hände Level 1"
+cd_fast_hands_1_desc : "Du packst Beute 25% schneller ein."
 
-cd_fast_hands_2_name : "Fast Hands Lv2"
-cd_fast_hands_2_desc : "Interact with baggable loot 75% faster."
+cd_fast_hands_2_name : "Flinke Hände Level 2"
+cd_fast_hands_2_desc : "Du packst Beute 75% schneller ein."
 
 cd_bag_penalty_reduction_name : "Transporter"
-cd_bag_penalty_reduction_desc : "Move 50% faster while carrying a bag."
+cd_bag_penalty_reduction_desc : "Während du eine Tasche trägst, bewegst du dich 50% schneller."
 
-cd_fall_damage_reduction_name : "Feather Fall"
-cd_fall_damage_reduction_desc : "Take 75% less damage from falls."
+cd_fall_damage_reduction_name : "Grazil"
+cd_fall_damage_reduction_desc : "Der erlittene Fallschaden wird um 75% reduziert."
 
 cd_body_bag_capacity_name : "Citizen Bane"
-cd_body_bag_capacity_desc : "Start each heist with 2 body bags."
+cd_body_bag_capacity_desc : "Du beginnst jeden Raubüberfall mit 2 Leichensäcken."
 
 cd_body_bag_max_capacity_name : "Winston Wolfe"
-cd_body_bag_max_capacity_desc : "Can hold an extra body bag."
+cd_body_bag_max_capacity_desc : "Du kannst einen weiteren Leichensack tragen."
 
-cd_striker_reload_speed_name : "Lighter Cylinder"
-cd_striker_reload_speed_desc : "Street Sweeper reloads 15% faster."
+cd_striker_reload_speed_name : "Leichter Zylinder"
+cd_striker_reload_speed_desc : "Die 'Street Sweeper'-Schrotflinte lädt 15% schneller nach."
 
 # Akimbo
-cd_akimbo_recoil_1_name : "Ambidexterity Lv1"
-cd_akimbo_recoil_1_desc : "+8 stability (akimbo)."
+cd_akimbo_recoil_1_name : "Beidhändigkeit Level 1"
+cd_akimbo_recoil_1_desc : "Deine Stabilität mit Akimbo-Waffen erhöht sich um 8."
 
-cd_akimbo_recoil_2_name : "Ambidexterity Lv2"
-cd_akimbo_recoil_2_desc : "+16 stability (akimbo)."
+cd_akimbo_recoil_2_name : "Beidhändigkeit Level 2"
+cd_akimbo_recoil_2_desc : "Deine Stabilität mit Akimbo-Waffen erhöht sich um 16."
 
-cd_akimbo_recoil_3_name : "Ambidexterity Lv3"
-cd_akimbo_recoil_3_desc : "+24 stability (akimbo)."
+cd_akimbo_recoil_3_name : "Beidhändigkeit Level 3"
+cd_akimbo_recoil_3_desc : "Deine Stabilität mit Akimbo-Waffen erhöht sich um 24."
 
 # Mastermind Tree
 cd_revive_speed_name : "Code Blue"
-cd_revive_speed_desc : "100% faster revive speed."
+cd_revive_speed_desc : "Du belebst 100% schneller."
 
-cd_start_cable_ties_1_name : "Cable Ties"
-cd_start_cable_ties_1_desc : "+4."
+cd_start_cable_ties_1_name : "Kabelbinder"
+cd_start_cable_ties_1_desc : "Du beginnst jeden Raubüberfall mit 4 zusätzlichen Kabelbinder"
 
-cd_cable_tie_speed_name : "Rigger"
-cd_cable_tie_speed_desc : "75% faster cable tie speed."
+cd_cable_tie_speed_name : "Fessler"
+cd_cable_tie_speed_desc : "Du fesselst Geiseln 75% schneller."
 
-cd_shout_distance_name : "Confident"
-cd_shout_distance_desc : "Shout distance increased by 50%."
+cd_shout_distance_name : "Selbstbewusst"
+cd_shout_distance_desc : "Die Reichweite deiner Schreie ist um 50% erhöht."
 
-cd_civ_intimidation_time_name : "Frightful"
-cd_civ_intimidation_time_desc : "Civs remain intimidated for 50% longer."
+cd_civ_intimidation_time_name : "Angsteinflößend"
+cd_civ_intimidation_time_desc : "Zivilisten bleiben 50% länger eingeschüchtert."
 
-cd_stability_bonus_1_name : "Stability"
-cd_stability_bonus_1_desc : "+8."
+cd_stability_bonus_1_name : "Stabilität"
+cd_stability_bonus_1_desc : "Deine Stabilität steigt um 8."
 
-cd_static_accuracy_bonus_name : "Accuracy"
-cd_static_accuracy_bonus_desc : "+16 while stationary."
+cd_static_accuracy_bonus_name : "Genauigkeit - Stillstehend"
+cd_static_accuracy_bonus_desc : "Wenn du still stehst, erhöht sich deine Genauigkeit um 16."
 
-cd_ads_speed_name : "Target Acquisition"
-cd_ads_speed_desc : "Faster ADS speed."
+cd_ads_speed_name : "Zielerfassung"
+cd_ads_speed_desc : "Du zielst schneller."
 
-cd_ads_movement_speed_name : "Mobile"
-cd_ads_movement_speed_desc : "Movement speed unaffected by ADS."
+cd_ads_movement_speed_name : "Mobil"
+cd_ads_movement_speed_desc : "Deine Bewegungsgeschwindigkeit wird beim Zielen nicht mehr reduziert."
 
-cd_ads_zoom_name : "Eagle Eye"
-cd_ads_zoom_desc : "ADS zoom increased by 25% (SMGs/LMGs/ARs/snipers/pistols)."
+cd_ads_zoom_name : "Adlerauge"
+cd_ads_zoom_desc : "Der Zoom beim Ziele wird um 25% erhöht.\nDieser Effekt gilt nicht für Schrotflinten und Akimbo-Waffen."
 
-cd_moving_accuracy_bonus_name : "Accuracy"
-cd_moving_accuracy_bonus_desc : "+16 while moving (SMGs/ARs/snipers)."
+cd_moving_accuracy_bonus_name : "Genauigkeit - Bewegung"
+cd_moving_accuracy_bonus_desc : "Während du dich bewegst, erhöht sich deine Genauigkeit um 16.\nDieser Effekt gilt nur für MPs, Sturmgewehren und Scharfschützengewehren."
 
-cd_single_shot_flat_accuracy_name : "Accuracy"
-cd_single_shot_flat_accuracy_desc : "+8 while ADS (single shot SMGs/ARs/snipers)."
+cd_single_shot_flat_accuracy_name : "Genauigkeit - Zielen"
+cd_single_shot_flat_accuracy_desc : "Während du zielst, erhöht sich deine Genauigkeit um 8.\nDieser Effekt gilt nur für Einzelschuss-MPs, Einzelschuss-Sturmgewehren und Scharfschützengewehren."
 
-cd_single_shot_percent_accuracy_name : "Accuracy"
-cd_single_shot_percent_accuracy_desc : "20% bonus while ADS (single shot SMGs/ARs/snipers)."
+cd_single_shot_percent_accuracy_name : "Genaugikeit - Zielen (Prozentual)"
+cd_single_shot_percent_accuracy_desc : "Während du zielst, erhöht sich deine Genauigkeit um 20%.\nDieser Effekt gilt nur für Einzelschuss-MPs, Einzelschuss-Sturmgewehren und Scharfschützengewehren."
 
 cd_kilmer_name : "Kilmer"
-cd_kilmer_desc : "Reload 15% faster (SMGs/ARs/snipers)."
+cd_kilmer_desc : "Du lädst 15% schneller nach.\nDieser Effekt gilt nur für MPs, Sturmgewehren und Scharfschützengewehren."
 
 # Enforcer Tree
-cd_shotgun_reload_1_name : "Shotgun CQB Lv1"
-cd_shotgun_reload_1_desc : "Reload 15% faster (shotguns)."
+cd_shotgun_reload_1_name : "Schrotflinten-CQB Level 1"
+cd_shotgun_reload_1_desc : "Du lädst Schrotflinten 15% schneller nach."
 
-cd_shotgun_reload_2_name : "Shotgun CQB Lv2"
-cd_shotgun_reload_2_desc : "Reload 50% faster (shotguns)."
+cd_shotgun_reload_2_name : "Schrotflinten-CQB Level 2"
+cd_shotgun_reload_2_desc : "Du lädst Schrotflinten 50% schneller nach."
 
-cd_shotgun_stability_name : "Stability"
-cd_shotgun_stability_desc : "+8 (shotguns)."
+cd_shotgun_stability_name : "Stability - Schrotflinten"
+cd_shotgun_stability_desc : "Deine Stabilität mit Schrotflinten erhöht sich um 8."
 
-cd_shotgun_dmg_name : "Collateral"
-cd_shotgun_dmg_desc : "10% damage bonus (shotguns)."
+cd_shotgun_dmg_name : "Kollateral"
+cd_shotgun_dmg_desc : "Dein Schaden mit Schrotflinten erhöht sich um 10%."
 
-cd_shotgun_ads_accuracy_name : "Accuracy"
-cd_shotgun_ads_accuracy_desc : "40% bonus while ADS (shotguns)."
+cd_shotgun_ads_accuracy_name : "Genauigkeit - Schrotflinten"
+cd_shotgun_ads_accuracy_desc : "Beim Zielen erhöht sich deine Genauigkeit mit Schrotflinten um 40%."
 
-cd_shotgun_range_bonus_name : "Far Away"
-cd_shotgun_range_bonus_desc : "50% increased effective range while ADS (shotguns)."
+cd_shotgun_range_bonus_name : "Weit weg"
+cd_shotgun_range_bonus_desc : "Die Effektive Reichweite deiner Schrotflinten erhöht sich beim Zielen um 50%."
 
-cd_shotgun_hip_rof_name : "Slamfire"
-cd_shotgun_hip_rof_desc : "35% fire rate bonus (single shot shotguns)."
+cd_shotgun_hip_rof_name : "Schlagfeuer"
+cd_shotgun_hip_rof_desc : "Deine Feuerrate mit Einzelschuss-Schrotflinten erhöht sich um 35%."
 
-cd_shotgun_mag_capacity_name : "Buck for Buck"
-cd_shotgun_mag_capacity_desc : "+15 mag size (mag-fed shotguns)."
+cd_shotgun_mag_capacity_name : "Patrone für Patrone"
+cd_shotgun_mag_capacity_desc : "Die Magazingröße deiner Schrotflinten erhöht sich um 15."
 
-cd_weapon_switch_speed_name : "Weapon Sling"
-cd_weapon_switch_speed_desc : "80% faster weapon switch speed."
+cd_weapon_switch_speed_name : "Waffenschleuder"
+cd_weapon_switch_speed_desc : "Du wechselst deine Waffen 80% schneller."
 
 cd_recovery_1_name : "Meditation"
-cd_recovery_1_desc : "15% faster armor recovery."
+cd_recovery_1_desc : "Deine Rüstung regeneriert sich 15% schneller."
 
-cd_team_recovery_name : "Herd Mentality"
-cd_team_recovery_desc : "25% faster armor recovery for crew."
+cd_team_recovery_name : "Herdenmentalität"
+cd_team_recovery_desc : "Die Rüstung der gesamten Cre regeneriert sich 25% schneller."
 
-cd_lbv_boost_name : "Thick Skin"
-cd_lbv_boost_desc : "+20 armor (lightweight ballistic vest)."
+cd_lbv_boost_name : "Lederhaut"
+cd_lbv_boost_desc : "Die Rüstung deiner leichten ballisitischen Weste erhöht sich um 20."
 
-cd_vest_boost_name : "Thicker Skin"
-cd_vest_boost_desc : "+20 armor (ballistic vest)."
+cd_vest_boost_name : "Schuppenhaut"
+cd_vest_boost_desc : "Die Rüstung deiner ballisitischen Weste erhöht sich um 20."
 
-cd_hbv_boost_name : "Thickest Skin"
-cd_hbv_boost_desc : "+20 armor (heavy ballistic vest)."
+cd_hbv_boost_name : "Plattenhaut"
+cd_hbv_boost_desc : "Die Rüstung deiner schweren ballisitischen Weste erhöht sich um 20."
 
-cd_bag_throw_distance_name : "Catapult"
-cd_bag_throw_distance_desc : "+50% bag throw distance."
+cd_bag_throw_distance_name : "Tribok"
+cd_bag_throw_distance_desc : "Du wirst Taschen 50% weiter."
 
-cd_bulletproof_name : "Bulletproof"
-cd_bulletproof_desc : "30% armor bonus."
+cd_bulletproof_name : "Kugelsicher"
+cd_bulletproof_desc : "Deine Rüstung erhöht sich um 30%."
 
-cd_ammo_range_name : "Scavenger"
-cd_ammo_range_desc : "Ammo pickup range increased by 50%."
+cd_ammo_range_name : "Containern"
+cd_ammo_range_desc : "Dein Ausammelradius für Munitionsboxen ist um 50% vergrößert."
 
-cd_saw_capacity_name : "Sawmill"
-cd_saw_capacity_desc : "+1 saw blade."
+cd_saw_capacity_name : "Sägewerk"
+cd_saw_capacity_desc : "Du hast 1 zusätzliches Sägeblatt."
 
-cd_saw_speed_name : "Sawverclock"
-cd_saw_speed_desc : "35% fire rate bonus (saw)."
+cd_saw_speed_name : "100 Umdrehnungen/s"
+cd_saw_speed_desc : "Die Feuerrate deiner Säge erhöht sich um 35%."
 
-cd_saw_lock_dmg_name : "Carbon Blade"
-cd_saw_lock_dmg_desc : "Saw deals 40% more damage against locks."
+cd_saw_lock_dmg_name : "Carbonklinge"
+cd_saw_lock_dmg_desc : "Die Säge verursacht mehr 40% Schaden gegen Schlüssers."
 
-cd_saw_efficiency_name : "Slicer"
-cd_saw_efficiency_desc : "Saw is twice as efficient against enemies."
+cd_saw_efficiency_name : "Schnitter"
+cd_saw_efficiency_desc : "Die Säge ist doppelt so stark gegen Gegner."
 
-cd_ammo_capacity_name : "Fully Loaded"
-cd_ammo_capacity_desc : "Ammo capacity increased by 25%."
+cd_ammo_capacity_name : "Volle Ladung"
+cd_ammo_capacity_desc : "Deine maximale Munition erhöht sich um 25."
 
 # Technician Tree
 cd_accuracy_bonus_name : "Accuracy"
