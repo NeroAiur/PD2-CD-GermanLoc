@@ -724,84 +724,84 @@ cd_rogue_swap_speed_name : "Holster"
 cd_rogue_swap_speed_desc : "Du wechselst Waffen 80% schneller."
 
 # Hitman
-cd_hitman_recovery_1_name : "Recovery Lv1"
-cd_hitman_recovery_1_desc : "5% faster armor recovery."
+cd_hitman_recovery_1_name : "Regeneration Level 1"
+cd_hitman_recovery_1_desc : "Deine Rüstung regeneriert sich 5% schneller."
 
-cd_hitman_recovery_2_name : "Recovery Lv2"
-cd_hitman_recovery_2_desc : "15% faster armor recovery."
+cd_hitman_recovery_2_name : "Regeneration Level 2"
+cd_hitman_recovery_2_desc : "Deine Rüstung regeneriert sich 15% schneller."
 
-cd_hitman_recovery_3_name : "Recovery Lv3"
-cd_hitman_recovery_3_desc : "25% faster armor recovery."
+cd_hitman_recovery_3_name : "Regeneration Level 3"
+cd_hitman_recovery_3_desc : "Deine Rüstung regeneriert sich 25% schneller."
 
-cd_hitman_recovery_4_name : "Recovery Lv4"
-cd_hitman_recovery_4_desc : "35% faster armor recovery."
+cd_hitman_recovery_4_name : "Regeneration Level 4"
+cd_hitman_recovery_4_desc : "Deine Rüstung regeneriert sich 35% schneller."
 
-cd_hitman_recovery_5_name : "Recovery Lv5"
-cd_hitman_recovery_5_desc : "45% faster armor recovery."
+cd_hitman_recovery_5_name : "Regeneration Level 5"
+cd_hitman_recovery_5_desc : "Deine Rüstung regeneriert sich 45% schneller."
 
-cd_hitman_recovery_6_name : "Tooth and Claw"
-cd_hitman_recovery_6_desc : "Armor recovers at double speed after breaking (3s minimum), even when taking damage."
+cd_hitman_recovery_6_name : "Klauen und Zähne"
+cd_hitman_recovery_6_desc : "Deine Rüstung regeneriert sich doppel so schnell, nachdem sie gebrochen ist, jedoch über mindestens 3 Sekunden.. Wenn deine Rüstung gebrochen ist regenerierst du sie auch wenn du Schaden nimmst."
 
 # Crook
-cd_crook_recovery_name : "Composure"
-cd_crook_recovery_desc : "10% faster armor recovery."
+cd_crook_recovery_name : "Gelassenheit"
+cd_crook_recovery_desc : "Deine Rüstung regeneriert sich 10% schneller."
 
 # Crook (LBV)
-cd_crook_lbv_dodge_1_name : "LBV Composure Lv1"
-cd_crook_lbv_dodge_1_desc : "+5% dodge chance (lightweight ballistic vest)."
+cd_crook_lbv_dodge_1_name : "Gelassenheit - Leichte ballistische Weste Level 1"
+cd_crook_lbv_dodge_1_desc : "Deine Ausweichchance erhöht sich um 5% (Leichte ballistische Weste)."
 
-cd_crook_lbv_dodge_2_name : "LBV Composure Lv2"
-cd_crook_lbv_dodge_2_desc : "+15% dodge chance (lightweight ballistic vest)."
+cd_crook_lbv_dodge_2_name : "Gelassenheit - Leichte ballistische Weste Level 2"
+cd_crook_lbv_dodge_2_desc : "Deine Ausweichchance erhöht sich um 15% (Leichte ballistische Weste)."
 
-cd_crook_lbv_dodge_3_name : "LBV Composure Lv3"
-cd_crook_lbv_dodge_3_desc : "+25% dodge chance (lightweight ballistic vest)."
+cd_crook_lbv_dodge_3_name : "Gelassenheit - Leichte ballistische Weste Level 3"
+cd_crook_lbv_dodge_3_desc : "Deine Ausweichchance erhöht sich um 25% (Leichte ballistische Weste)."
 
-cd_crook_lbv_armour_1_name : "LBV Impact Lv1"
-cd_crook_lbv_armour_1_desc : "20% armor bonus (lightweight ballistic vest)."
+cd_crook_lbv_armour_1_name : "Einschlag - Leichte ballistische Weste Level 1"
+cd_crook_lbv_armour_1_desc : "Deine Rüstung erhöht sich um 20% (Leichte ballistische Weste)."
 
-cd_crook_lbv_armour_2_name : "LBV Impact Lv2"
-cd_crook_lbv_armour_2_desc : "40% armor bonus (lightweight ballistic vest)."
+cd_crook_lbv_armour_2_name : "Einschlag - Leichte ballistische Weste Level 2"
+cd_crook_lbv_armour_2_desc : "Deine Rüstung erhöht sich um 40% (Leichte ballistische Weste)."
 
-cd_crook_lbv_armour_3_name : "LBV Impact Lv3"
-cd_crook_lbv_armour_3_desc : "65% armor bonus (lightweight ballistic vest)."
+cd_crook_lbv_armour_3_name : "Einschlag - Leichte ballistische Weste Level 3"
+cd_crook_lbv_armour_3_desc : "Deine Rüstung erhöht sich um 65% (Leichte ballistische Weste)."
 
 # Crook (Ballistic Vest)
-cd_crook_vest_dodge_1_name : "Vest Composure Lv1"
-cd_crook_vest_dodge_1_desc : "+5% dodge chance (ballistic vest)."
+cd_crook_vest_dodge_1_name : "Gelassenheit - Ballistische Weste Level 1"
+cd_crook_vest_dodge_1_desc : "Deine Ausweichchance erhöht sich um 5% (Ballistische Weste)."
 
-cd_crook_vest_dodge_2_name : "Vest Composure Lv2"
-cd_crook_vest_dodge_2_desc : "+15% dodge chance (ballistic vest)."
+cd_crook_vest_dodge_2_name : "Gelassenheit - Ballistische Weste Level 2"
+cd_crook_vest_dodge_2_desc : "Deine Ausweichchance erhöht sich um 15% (Ballistische Weste)."
 
-cd_crook_vest_dodge_3_name : "Vest Composure Lv3"
-cd_crook_vest_dodge_3_desc : "+25% dodge chance (ballistic vest)."
+cd_crook_vest_dodge_3_name : "Gelassenheit - Ballistische Weste Level 3"
+cd_crook_vest_dodge_3_desc : "Deine Ausweichchance erhöht sich um 25% (Ballistische Weste)."
 
-cd_crook_vest_armour_1_name : "Vest Impact Lv1"
-cd_crook_vest_armour_1_desc : "20% armor bonus (ballistic vest)."
+cd_crook_vest_armour_1_name : "Einschlag - Ballistische Weste Level 1"
+cd_crook_vest_armour_1_desc : "Deine Rüstung erhöht sich um 20% (Ballistische Weste)."
 
-cd_crook_vest_armour_2_name : "Vest Impact Lv2"
-cd_crook_vest_armour_2_desc : "40% armor bonus (ballistic vest)."
+cd_crook_vest_armour_2_name : "Einschlag - Ballistische Weste Level 2"
+cd_crook_vest_armour_2_desc : "Deine Rüstung erhöht sich um 40% (Ballistische Weste)."
 
-cd_crook_vest_armour_3_name : "Vest Impact Lv3"
-cd_crook_vest_armour_3_desc : "65% armor bonus (ballistic vest)."
+cd_crook_vest_armour_3_name : "Einschlag - Ballistische Weste Level 3"
+cd_crook_vest_armour_3_desc : "Deine Rüstung erhöht sich um 65% (Ballistische Weste)."
 
 # Crook (HBV)
-cd_crook_hbv_dodge_1_name : "HBV Composure Lv1"
-cd_crook_hbv_dodge_1_desc : "+5% dodge chance (heavy ballistic vest)."
+cd_crook_hbv_dodge_1_name : "Gelassenheit - Schwere ballistische Weste Level 1"
+cd_crook_hbv_dodge_1_desc : "Deine Ausweichchance erhöht sich um 5% (Schwere ballistische Weste)."
 
-cd_crook_hbv_dodge_2_name : "HBV Composure Lv2"
-cd_crook_hbv_dodge_2_desc : "+15% dodge chance (heavy ballistic vest)."
+cd_crook_hbv_dodge_2_name : "Gelassenheit - Schwere ballistische Weste Level 2"
+cd_crook_hbv_dodge_2_desc : "Deine Ausweichchance erhöht sich um 15% (Schwere ballistische Weste)."
 
-cd_crook_hbv_dodge_3_name : "HBV Composure Lv3"
-cd_crook_hbv_dodge_3_desc : "+25% dodge chance (heavy ballistic vest)."
+cd_crook_hbv_dodge_3_name : "Gelassenheit - Schwere ballistische Weste Level 3"
+cd_crook_hbv_dodge_3_desc : "Deine Ausweichchance erhöht sich um 25% (Schwere ballistische Weste)."
 
-cd_crook_hbv_armour_1_name : "HBV Impact Lv1"
-cd_crook_hbv_armour_1_desc : "20% armor bonus (heavy ballistic vest)."
+cd_crook_hbv_armour_1_name : "Einschlag - Schwere ballistische Weste Level 1"
+cd_crook_hbv_armour_1_desc : "Deine Rüstung erhöht sich um 20% (Schwere ballistische Weste)."
 
-cd_crook_hbv_armour_2_name : "HBV Impact Lv2"
-cd_crook_hbv_armour_2_desc : "40% armor bonus (heavy ballistic vest)."
+cd_crook_hbv_armour_2_name : "Einschlag - Schwere ballistische Weste Level 1"
+cd_crook_hbv_armour_2_desc : "Deine Rüstung erhöht sich um 40% (Schwere ballistische Weste)."
 
-cd_crook_hbv_armour_3_name : "HBV Impact Lv3"
-cd_crook_hbv_armour_3_desc : "65% armor bonus (heavy ballistic vest)."
+cd_crook_hbv_armour_3_name : "Einschlag - Schwere ballistische Weste Level 1"
+cd_crook_hbv_armour_3_desc : "Deine Rüstung erhöht sich um 65% (Schwere ballistische Weste)."
 
 # Burglar
 cd_burglar_dodge_1_name : "Sneaky Lv1"
