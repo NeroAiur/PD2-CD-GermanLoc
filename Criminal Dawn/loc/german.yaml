@@ -139,15 +139,15 @@ crimdawn_chat_no_time_left : "Zeit abgelaufen!"
 
 ### POINT OF NO RETURN ###
 crimdawn_ponr_default: "Sonnenuntergang in"
-crimdawn_ponr_rare1: "Bain goont und stirbt in"
-crimdawn_ponr_rare2: "Garrett wischt in"
-crimdawn_ponr_rare3: "Vlad wacht auf in"
+crimdawn_ponr_rare1: "Bain stirbt in"
+crimdawn_ponr_rare2: "Garrett wischt in"!
+crimdawn_ponr_rare3: "Vlad wacht auf in"!
 crimdawn_ponr_rare4: "Weihnachten kommt in"
 crimdawn_ponr_rare5: "Vermögen wird eingefroren in"
 crimdawn_ponr_rare6: "Atombombe explodiert in"
-crimdawn_ponr_rare7: "Tag des jüngsten Gerichts in"
-crimdawn_ponr_rare8: "Zeitreisejoint fertiggeraucht in"
-crimdawn_ponr_rare9: "PAYDAY 3 wird gut in"
+crimdawn_ponr_rare7: "Entrückung in"
+crimdawn_ponr_rare8: "Zeitreise in"
+crimdawn_ponr_rare9: "PAYDAY 3 wird endlich gut in"
 crimdawn_ponr_rare10: "Gage steht auf in"
 crimdawn_ponr_rare11: "Behauptungen werden gestellt in"
 crimdawn_ponr_rare12: "Dallas furzt in"
@@ -281,8 +281,8 @@ bm_menu_skill_locked_damage_control : "Requires the 'Virtue' perk!"
 bm_menu_skill_locked_pocket_ecm_jammer : "Requires the 'Code Glitch' perk!"
 bm_menu_skill_locked_smoke_screen_grenade : "Requires the 'Smoker' perk!"
 bm_menu_skill_locked_tag_team : "Requires the 'Soul Mates' perk!"
-menu_asset_lock_buy_bodybags_asset : "Requires the 'Inside Man' skill!"
-menu_asset_lock_additional_assets : "Requires the 'Inside Man' skill!"
+menu_asset_lock_buy_bodybags_asset : "Benötigt den 'Insider' Skill!"
+menu_asset_lock_additional_assets : "Benötigt den 'Insider' Skill!"
 
 # Consumable Descriptions
 bm_ability_chico_injector_desc: "Wurwaffen-Taste drücken um zu aktivieren. Während dieses Item aktiv ist wird 75% des erlittenen Schadens in Heilung umgewandelt.\nDieser Effekt hält 6 Sekunden an."
@@ -370,7 +370,7 @@ cd_player_additional_lives_8_name : "Neun Leben"
 cd_player_additional_lives_8_desc : "Du bist zwar keine Katze, aber dafür startest du jede Runde mit 9 Niederschlägen."
 
 # Perma-Perks
-cd_permaperks1_name : "Mit der Umgebung verschmelzen"
+cd_permaperks1_name : "Chamäleon"
 cd_permaperks1_desc : "+1 Tarnung."
 
 cd_permaperks2_name : "Zweite Haut"
@@ -462,7 +462,7 @@ cd_joker_stats_desc : "Solange mindestens ein konvertierter Polizist aktiv ist, 
 cd_underdog_name : "Underdog"
 cd_underdog_desc : "Wenn sich 3 oder mehr Gegner im Umkreis von 18m um dich befinden verursachst du 15% mehr und erleidest 15 weniger Schaden."
 
-cd_shotgun_sprint_shoot_name : "Nah Dran"
+cd_shotgun_sprint_shoot_name : "Nah dran"
 cd_shotgun_sprint_shoot_desc : "Du kannst mit Schrotflinten aus der Hüfte schießen, während du sprintest."
 
 cd_overkill_name : "Overkill"
@@ -487,152 +487,152 @@ cd_throwable_pickup_name : "Schnorrer"
 cd_throwable_pickup_desc : "Jedes Mal wenn du Munition aufsammelst hast du eine Chance eine Wurfwaffe aufzusammeln. Diese Chance erhöht sich jedes Mal um 1% und setzt sich zurück sobald du eine Wurfwaffe erhalten hast. Jede 6. Tötung lässt eine zusätzliche Munitionsbox fallen."
 
 # Technician Tree
-cd_silent_drill_name : "Silent Drilling"
-cd_silent_drill_desc : "Drills are silent."
+cd_silent_drill_name : "Stille Bohrung"
+cd_silent_drill_desc : "Bohrer sind leise."
 
-cd_drill_autorepair_name : "Repair System"
-cd_drill_autorepair_desc : "Drills will automatically repair themselves when broken."
+cd_drill_autorepair_name : "Reperatursystem"
+cd_drill_autorepair_desc : "Bohrer reparieren sich selbst, wenn sie klemmen."
 
-cd_drill_melee_repair_name : "Kickstarter"
-cd_drill_melee_repair_desc : "Instantly fix drill on melee."
+cd_drill_melee_repair_name : "Schnellstarter"
+cd_drill_melee_repair_desc : "Ein klemmender Bohrer kann mit einem Nahkampfangriff sofort repariert werden."
 
-cd_weapon_knock_down_name : "Heavy Impact"
-cd_weapon_knock_down_desc : "20% chance to stagger enemies on hit."
+cd_weapon_knock_down_name : "Schwerer Einschlag"
+cd_weapon_knock_down_desc : "Bei einem Nahkampfangriff besteht eine 20%ige Chance Gegner wegzustoßen."
 
-cd_sprint_shoot_name : "From the Hip"
-cd_sprint_shoot_desc : "Hipfire while sprinting."
+cd_sprint_shoot_name : "Aus der Hüfte"
+cd_sprint_shoot_desc : "Du kannst aus der Hüfte schießen, während du sprintest."
 
-cd_lock_n_load_name : "Lock n' Load"
-cd_lock_n_load_desc : "40% to 100% faster reload after 2 kills with automatic weapons (reduced by 1% for each bullet above 20 in mag)."
+cd_lock_n_load_name : "Geladen und Entsichert"
+cd_lock_n_load_desc : "Die Nachladegeschwidigkeit erhöht sich um 40% - 100% nach zwei Tötungen mit vollautomatischen Waffen. Dieser Effekt reduziert sich um 1% für jede Kugel über 20 im Magazin."
 
-cd_ap_bullets_full_name : "Spear"
-cd_ap_bullets_full_desc : "Weapons pierce enemy armor."
+cd_ap_bullets_full_name : "Speer"
+cd_ap_bullets_full_desc : "Waffen ignorieren die Rüstung von Gegnern."
 
-cd_body_expertise_1_name : "Body Expertise Lv1"
-cd_body_expertise_1_desc : "30% headshot damage bonus on body shots with automatic weapons."
+cd_body_expertise_1_name : "Anatomie Level 1"
+cd_body_expertise_1_desc : "Bei Körpertreffern mit vollautomatischen Waffen wird 30% des Kopfschuss-Schadensbonus verursacht."
 
-cd_body_expertise_2_name : "Body Expertise Lv2"
-cd_body_expertise_2_desc : "90% headshot damage bonus on body shots with automatic weapons."
+cd_body_expertise_2_name : "Anatomie Level 2"
+cd_body_expertise_2_desc : "Bei Körpertreffern mit vollautomatischen Waffen wird 90% des Kopfschuss-Schadensbonus verursacht."
 
 # Ghost Tree
 cd_mark_unmasked_name : "Spotter"
-cd_mark_unmasked_desc : "Mark in casing mode."
+cd_mark_unmasked_desc : "Du kannst im Ausspähmodus markieren."
 
-cd_unmasked_pickup_name : "Sleight of Hand"
-cd_unmasked_pickup_desc : "Pickup small items in casing mode."
+cd_unmasked_pickup_name : "Fingerfertigkeit"
+cd_unmasked_pickup_desc : "Du kannst kleine Gegenstände im Ausspähmodus aufsammeln."
 
-cd_sixth_sense_name : "Sixth Sense"
-cd_sixth_sense_desc : "Stand still for 3.5s to mark everyone in 10m."
+cd_sixth_sense_name : "Sechster Sinn"
+cd_sixth_sense_desc : "Wenn du für 3,5 Sekunden stehen bleibst wird jeder im Umkreis von 10m um dich markiert."
 
-cd_additional_assets_name : "Inside Man"
-cd_additional_assets_desc : "Can buy additional assets."
+cd_additional_assets_name : "Insider"
+cd_additional_assets_desc : "Du kannst Insider-Vorteile im Planungsbildschirm kaufen."
 
-cd_cam_loop_name : "Camera Loop"
-cd_cam_loop_desc : "Loop a camera for 25 seconds."
+cd_cam_loop_name : "Kameraschleife"
+cd_cam_loop_desc : "Du kannst Kameras für 25 Sekunden in eine Schleife bringen."
 
-cd_pick_safes_name : "Unsafe"
-cd_pick_safes_desc : "Lockpick safes."
+cd_pick_safes_name : "Tresorknacker"
+cd_pick_safes_desc : "Du kannst Tresore knacken."
 
-cd_strafe_sprint_name : "Moving Target Lv1"
-cd_strafe_sprint_desc : "Sprint sideways."
+cd_strafe_sprint_name : "Beweglich Level 1"
+cd_strafe_sprint_desc : "Du kannst seitwärts sprinten."
 
-cd_free_sprint_name : "Moving Target Lv2"
-cd_free_sprint_desc : "Sprint in any direction."
+cd_free_sprint_name : "Beweglich Level 2"
+cd_free_sprint_desc : "Du kannst in alle Richtungen sprinten."
 
 cd_sprint_reload_name : "Sprint Loaded"
-cd_sprint_reload_desc : "Sprint and reload."
+cd_sprint_reload_desc : "Du kannst nachladen während du sprintest."
 
-cd_armor_broken_stagger_name : "Dire Need"
-cd_armor_broken_stagger_desc : "Dealing damage inflicts stagger while armor is broken and up to 6s after recovery."
+cd_armor_broken_stagger_name : "Vergeltung"
+cd_armor_broken_stagger_desc : "Wenn deine Rüstung kaputt ist, stößt dein verursachter Schaden Gegner zurück. Dieser Effekt hält bis 6 Sekunden nachdem deine Rüstung regeneriert ist."
 
-cd_shockproof_1_name : "Shockproof"
-cd_shockproof_1_desc : "30% chance to break taser stun every second.\nGetting tased doesn't force you to shoot."
+cd_shockproof_1_name : "Halbleiter"
+cd_shockproof_1_desc : "Während du geschockt wirst, schießt du nicht mehr automatisch.\nDu hast jede Sekunde, die du geschockt bist eine 30%ige Chance dich von dem Zustand zu befreien."
 
-cd_shockproof_2_name : "Reverse Card"
-cd_shockproof_2_desc : "Interact with taser while stunned to break free."
+cd_shockproof_2_name : "Uno-Reverse"
+cd_shockproof_2_desc : "Während du von einem Taser geschockt wirst, kannst du mit ihm interagieren um dich von dem Schockzustand zu befreien."
 
-cd_sneaky_bastard_name : "Sneaky Bastard"
-cd_sneaky_bastard_desc : "+1% dodge chance every point of det. risk below 35 (up to 10%)."
+cd_sneaky_bastard_name : "Hinterhältiger Bastard"
+cd_sneaky_bastard_desc : "Für jeden Punkt Entdeckungsrisiko unter 35 erhöht sich deine Ausweichchance um 1% bis zu maximal 10%."
 
-cd_second_wind_name : "Second Wind"
-cd_second_wind_desc : "Move 30% faster for 5s after armor breaks."
+cd_second_wind_name : "Leichtigkeit"
+cd_second_wind_desc : "Nachdem deine Rüstung bricht bewegst du dich für 5 Sekunden 30% schneller."
 
-cd_low_blow_name : "Low Blow"
-cd_low_blow_desc : "+3% crit chance every point of det. risk below 35 (up to 30%)."
+cd_low_blow_name : "Tiefschlag"
+cd_low_blow_desc : "Für jeden Punkt Entdeckungssrisiko unter 35 erhöht sich deine kritische Trefferchance um 3% bi zu maximal 30%."
 
-cd_hvt_1_name : "High Value Target"
-cd_hvt_1_desc : "ADSing marks enemies. Marked enemies take 15% more damage."
+cd_hvt_1_name : "Wichtiges Ziel"
+cd_hvt_1_desc : "Zielen markiert Gegner.\nMarkierte Gegner erhalten 15% mehr Schaden."
 
-cd_hvt_2_name : "Long Distance Target"
-cd_hvt_2_desc : "Marked enemies further than 10m away take 50% more damage."
+cd_hvt_2_name : "Fernes Ziel"
+cd_hvt_2_desc : "Markierte Ziele, die weiter als 10 Meter von dir entfernt sind, erhalten 50% mehr Schaden."
 
-cd_unseen_strike_name : "Unseen Strike"
-cd_unseen_strike_desc : "Gain 35% crit chance for 18s after not taking damage for 4s."
+cd_unseen_strike_name : "Verborgener Schlag"
+cd_unseen_strike_desc : "Wenn du 4 Sekunden lang keinen Schaden erhalten hast, erhöht sich deine kritische Trefferchance für 18 Sekunden um 35%."
 
 # Fugitive Tree
 cd_pistol_acc_stack_name : "Desperado"
-cd_pistol_acc_stack_desc : "+10% accuracy bonus on pistol hit (up to 40%) for 10s."
+cd_pistol_acc_stack_desc : "Für jeden Treffer mit Pistolen erhöht sich deine Genauigkeit für 10 Sekunden um 10% bis zu maximal 40%."
 
-cd_pistol_damage_on_hit_name : "Trigger Happy"
-cd_pistol_damage_on_hit_desc : "120% damage bonus on pistol hit for 4s."
+cd_pistol_damage_on_hit_name : "Schießwütig"
+cd_pistol_damage_on_hit_desc : "Wenn du mit einer Pistole triffst, erhöht sich dein verursachter Schaden für 4 Sekunden um 120%."
 
-cd_revive_swap_reload_speed_name : "On The Brink"
-cd_revive_swap_reload_speed_desc : "Reload and switch weapons 100% faster for 10s after being revived."
+cd_revive_swap_reload_speed_name : "Am Abgrund"
+cd_revive_swap_reload_speed_desc : "Nachdem du wiederbelebt wurdest erhöht sich deine Waffenwechsel und -nachladegeschwidigkeit für 10 Sekunden um 100%."
 
-cd_revive_dr_movement_name : "Running From Death"
-cd_revive_dr_movement_desc : "30% damage reduction and movement speed bonus for 10s after being revived."
+cd_revive_dr_movement_name : "Dem Tod entkommen"
+cd_revive_dr_movement_desc : "Nachdem du wiederbelebt wurdest erhöht sich deine Bewegungsgeschwindigkeit um 30% und dein erlittener Schaden reduziert sich um 30%. Dieser Effekt hält 10 Sekunden an."
 
-cd_swan_song_name : "Swan Song"
-cd_swan_song_desc : "Keep standing for 6s after going down."
+cd_swan_song_name : "Schwanengesang"
+cd_swan_song_desc : "Wenn du niedergeschlagen wirst, bleibst du für 6 Sekunden stehen bevor du zu Boden gehst."
 
-cd_swan_song_inf_name : "Vengeful Swan"
-cd_swan_song_inf_desc : "Infinite ammo while 'Swan Song' is active."
+cd_swan_song_inf_name : "Rachsüchtiger Schwan"
+cd_swan_song_inf_desc : "Während 'Schwanengesang' aktiv ist, verbrauchst du keine Munition."
 
-cd_messiah_name : "Messiah"
-cd_messiah_desc : "Can revive self on kill once per doctor bag use."
+cd_messiah_name : "Messias"
+cd_messiah_desc : "Wenn du am Boden bist, kannst du dich selbst wiederbeleben indem du einen Gegner tötest. Dieser Effekt kann nur einmal pro Raubüberfall genutzt werden und wird zurückgesetzt, wenn du mit einer Arzttasche interagierst"
 
-cd_feign_death_name : "Feign Death"
-cd_feign_death_desc : "45% chance to revive self."
+cd_feign_death_name : "Totstellen"
+cd_feign_death_desc : "Du hast eine 45%ige Chance dich selbst wiederzubeleben."
 
-cd_melee_dmg_stack_name : "Bloodthirst"
-cd_melee_dmg_stack_desc : "+100% melee damage on weapon kill (up to 1600%). Resets on melee kill."
+cd_melee_dmg_stack_name : "Blutdurst."
+cd_melee_dmg_stack_desc : "Für jede Tötung, die mit einer NICHT-Nahkampfwaffe getätigt wurde, erhöht sich dein Nahkampfschaden um 100% bis zu maximal 1600%. Dieser Effekt setzt sich zurück, wenn du einen Gegner mit einer Nahkampfwaffe getötet hast."
 
-cd_melee_reload_speed_name : "Mag Steal"
-cd_melee_reload_speed_desc : "50% faster reload for 10s on melee kill."
+cd_melee_reload_speed_name : "Magazin-Diebstahl"
+cd_melee_reload_speed_desc : "Wenn du einen Gegner mit einer Nahkampfwaffe getötet hast, erhöht sich deine Nachladegeschwidigkeit für 10 Sekunden um 50%."
 
-cd_drop_soap_name : "Counterstrike"
-cd_drop_soap_desc : "Charging melee blocks enemy melee attacks."
+cd_drop_soap_name : "Gegenschlag"
+cd_drop_soap_desc : "Während du einen Nahkampfangriff auflädst, blockst du alle gegnerischen Nahkampfangriffe."
 
-cd_berserker_1_name : "Berserker"
-cd_berserker_1_desc : "Melee and saw damage scales with health lost."
+cd_berserker_1_name : "Prügelserker"
+cd_berserker_1_desc : "Je weniger Lebenspunkte du hast, desto mehr Schaden verursachst du mit Nahkampfwaffen oder Sägen."
 
-cd_berserker_2_name : "Gunserker"
-cd_berserker_2_desc : "Weapon damage scales with health lost."
+cd_berserker_2_name : "Knarrenserker"
+cd_berserker_2_desc : "Je weniger Lebenspunkte du hast, desto mehr Schaden verursachst du mit Schusswaffen."
 
-cd_frenzy_name : "Frenzy"
-cd_frenzy_desc : "25% damage reduction but health caps at 30%."
+cd_frenzy_name : "Raserei"
+cd_frenzy_desc : "Du erhältst 25% weniger Schaden, du hast jedoch maximal 30% deiner maximalen Lebenspunkte."
 
 # Unused
-cd_old_stockholm_name : "Oldholm Syndrome"
-cd_old_stockholm_desc : "Civilians can revive you."
+cd_old_stockholm_name : "Stockholm Syndrom 1973"
+cd_old_stockholm_desc : "Zivilisten können dich wiederbeleben."
 
-cd_harmless_bullets_name : "Blanks"
-cd_harmless_bullets_desc : "First bullet doesn't kill civilians."
+cd_harmless_bullets_name : "Platzpatronen"
+cd_harmless_bullets_desc : "Die erste Kugel tötet keine Zivilisten."
 
-cd_loud_and_proud_name : "Loud and Proud"
-cd_loud_and_proud_desc : "+5% damage bonus every 7 points of det. risk above 40 (up to 25%)."
+cd_loud_and_proud_name : "Laut und Stolz"
+cd_loud_and_proud_desc : "Für alle 7 Punkte Erkennungsrisiko über 40 erhöht sich dein verursachter Schaden um 5%."
 
-cd_pager_snatch_name : "Pager Snatch"
-cd_pager_snatch_desc : "25% chance for no pager on melee kill."
+cd_pager_snatch_name : "Pager-Diebstahl"
+cd_pager_snatch_desc : "Bei einer Tötung mit einer Nahkampfwaffe besteht eine 25%ige Chance, dass kein Pageranruf kommt."
 
-cd_hostage_boost_name : "Hostage Boost"
-cd_hostage_boost_desc : "Hostage stat bonuses are increased by 25% when within 10m of a hostage."
+cd_hostage_boost_name : "Geisel-Boost"
+cd_hostage_boost_desc : "Während du dich im Umkreis von 10m von mindestens einer Geisel befindest erhöht sich der Effekt deiner Geisel-Boni um 25%."
 
-cd_shotgun_no_consume_name : "Shell Dimension"
-cd_shotgun_no_consume_desc : "3% chance to not consume ammo (shotguns)."
+cd_shotgun_no_consume_name : "Patronen-Dimension"
+cd_shotgun_no_consume_desc : "Schrotflinten haben eine 3%ig Chance keine Munition zu verbrauchen."
 
-cd_no_bag_penalty_name : "Beast of Burden"
-cd_no_bag_penalty_desc : "No bag movement penalty."
+cd_no_bag_penalty_name : "Nutztier"
+cd_no_bag_penalty_desc : "Du bist immun gegen die negativen Effekte von Beutetaschen."
 
 ## PERKS
 # Crew Chief
