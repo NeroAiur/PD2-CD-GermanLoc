@@ -1357,86 +1357,86 @@ cd_silencer_ap_name : "Silent Killer"
 cd_silencer_ap_desc : "40% chance to pierce enemy armor (silencers)."
 
 # Unused
-cd_crit_chance_name : "Hypocritical"
-cd_crit_chance_desc : "+25% crit chance."
+cd_crit_chance_name : "Scheinheilig"
+cd_crit_chance_desc : "Deine kritische Trefferchance ist um 25% erhöht."
 
-cd_health_bonus_name : "Protector"
-cd_health_bonus_desc : "+10 max health."
+cd_health_bonus_name : "Schützer"
+cd_health_bonus_desc : "Deine maximalen Lebenspunkte werden um 10 erhöht."
 
-cd_armour_bonus_name : "Grit"
-cd_armour_bonus_desc : "25% armor bonus."
+cd_armour_bonus_name : "Rückgrat"
+cd_armour_bonus_desc : "Deine Rüstung erhöht sich um 25%."
 
-cd_recovery_2_name : "Adaptable"
-cd_recovery_2_desc : "15% faster armor recovery."
+cd_recovery_2_name : "Anpassungsfähig"
+cd_recovery_2_desc : "Deine Rüstung regeneriert sich 15% schneller."
 
-cd_concealment_name : "Concealment"
-cd_concealment_desc : "+5."
+cd_concealment_name : "Tarnung"
+cd_concealment_desc : "Deine Tarnung erhöht sich um 5."
 
-cd_sharp_melee_dmg_name : "Taste My Steel"
-cd_sharp_melee_dmg_desc : "200% damage bonus (sharp melee)."
+cd_sharp_melee_dmg_name : "Friss meinen Stahl"
+cd_sharp_melee_dmg_desc : "Dein Schaden mit scharfen Nahkampfwaffen erhöht sich um 200%."
 
-cd_threat_big_name : "Oppressor"
-cd_threat_big_desc : "95% threat bonus."
+cd_threat_big_name : "Unterdrücker"
+cd_threat_big_desc : "Du bist 95% bedrohlicher."
 
-cd_damage_reduction_name : "Couple of Three Things"
-cd_damage_reduction_desc : "5% damage reduction."
+cd_damage_reduction_name : "Ein paar Dinge"
+cd_damage_reduction_desc : "Du erhältst 5% weniger Schaden."
 
 cd_nebula_plus_name : "Nebula Plus"
-cd_nebula_plus_desc : "Assets cost 87.5% less."
+cd_nebula_plus_desc : "Vorteile kosten 87,5% weniger."
 
-cd_cam_loop_distance_name : "Remote Loop"
-cd_cam_loop_distance_desc : "Can loop cameras from 40% further away."
+cd_cam_loop_distance_name : "Fernschleife"
+cd_cam_loop_distance_desc : "Du kannst Kameraschleifen 40% weiter entfernt aktivieren."
 
-cd_start_cable_ties_2_name : "Cable Ties"
-cd_start_cable_ties_2_desc : "+4."
+cd_start_cable_ties_2_name : "Kabelbinder"
+cd_start_cable_ties_2_desc : "Du beginnst jeden Raubüberfall mit 4 zusätzlichen Kabelbinder."
 
-cd_saw_rof_name : "Saw Overdrive"
-cd_saw_rof_desc : "50% fire rate bonus (saw)."
+cd_saw_rof_name : "100 Umdrehnungen/s"
+cd_saw_rof_desc : "Die Feuerrate deiner Säge erhöht sich um 50%."
 
-cd_saw_swap_speed_name : "Saw Bag"
-cd_saw_swap_speed_desc : "80% faster saw switch speed."
+cd_saw_swap_speed_name : "Sägenkoffer"
+cd_saw_swap_speed_desc : "Du wechselst schneller 80% schneller von und zur Säge."
 
-cd_saw_reload_speed_name : "OSHA Violation"
-cd_saw_reload_speed_desc : "Reload saws 50% faster."
+cd_saw_reload_speed_name : "Überarbeitung"
+cd_saw_reload_speed_desc : "Du lädst Sägen 50% schneller nach."
 
-cd_ar_stability_name : "Stability"
-cd_ar_stability_desc : "+8 (ARs)."
+cd_ar_stability_name : "Stabilität - Sturmgewehre"
+cd_ar_stability_desc : "Deine Stabilität mit Sturmgewehren erhöht sich um 8."
 
-cd_lmg_stability_name : "Stability"
-cd_lmg_stability_desc : "+4 (LMGs)."
+cd_lmg_stability_name : "Stabilität- Maschinengewehre"
+cd_lmg_stability_desc : "Deine Stabilität mit Maschinengewehren erhöht sich um 4."
 
-cd_snp_stability_name : "Stability"
-cd_snp_stability_desc : "+8 (snipers)."
+cd_snp_stability_name : "Stabilität - Scharfschützengewehre"
+cd_snp_stability_desc : "Deine Stabilität mit Scharfschützengewehren erhöht sich um 8."
 
-cd_modded_bonus_name : "Refurbished Parts"
-cd_modded_bonus_desc : "10% damage/accuracy/stability bonus if weapon has any mods."
+cd_modded_bonus_name : "Ersatzteile"
+cd_modded_bonus_desc : "Wenn deine Waffe einen Mod ausgerüstet hat, erhöhen sich ein Schaden, deine Stabilität und Genauigkeit um 10%."
 
-cd_single_shot_accuracy_name : "Accuracy"
-cd_single_shot_accuracy_desc : "20% bonus (single shot)."
+cd_single_shot_accuracy_name : "Genauigkeit - Einzelschusswaffen"
+cd_single_shot_accuracy_desc : "Deine Genauigkeit mit Einzelschusswaffen ist um 20% erhöht."
 
-cd_silencer_accuracy_percent_name : "Accuracy"
-cd_silencer_accuracy_percent_desc : "50% bonus (silencers)."
+cd_silencer_accuracy_percent_name : "Genauigkeit - Schalldämpfer"
+cd_silencer_accuracy_percent_desc : "Deine Genauigkeit mit Schalldämpfern ist um 50% erhöht."
 
-cd_silencer_stability_percent_name : "Stability"
-cd_silencer_stability_percent_desc : "50% bonus (silencers)."
+cd_silencer_stability_percent_name : "Stabilität - Schalldämpfer"
+cd_silencer_stability_percent_desc : "Deine Stabilität mit Schalldämpfern ist um 50% erhöht."
 
-cd_reload_speed_name : "Speed Reloader"
-cd_reload_speed_desc : "Reload 10% faster."
+cd_reload_speed_name : "Schnelllader"
+cd_reload_speed_desc : "Deine Nachladegeschwidigkeit ist um 10% erhöht."
 
-cd_stability_bonus_percent_name : "Stability"
-cd_stability_bonus_percent_desc : "10% bonus."
+cd_stability_bonus_percent_name : "Stabilität"
+cd_stability_bonus_percent_desc : "Deine Stabilität ist um 10% erhöht."
 
-cd_accuracy_bonus_percent_name : "Sharpshooter"
-cd_accuracy_bonus_percent_desc : "10% accuracy bonus."
+cd_accuracy_bonus_percent_name : "Scharfschütze"
+cd_accuracy_bonus_percent_desc : "Deine Genauigkeit ist um 10% erhöht."
 
-cd_rof_bonus_name : "Illegal Parts"
-cd_rof_bonus_desc : "100% fire rate bonus."
+cd_rof_bonus_name : "Illegale Waffenteile"
+cd_rof_bonus_desc : "Deine Feurrate wird um 100% erhöht."
 
-cd_pistol_damage_name : "Damage"
-cd_pistol_damage_desc : "50% bonus (pistols)."
+cd_pistol_damage_name : "Schaden - Pistolen"
+cd_pistol_damage_desc : "Dein Schaden mit Pistolen ist um 50% erhöht."
 
-cd_pistol_accuracy_percent_name : "Accuracy"
-cd_pistol_accuracy_percent_desc : "10% bonus (pistols)."
+cd_pistol_accuracy_percent_name : "Genauigkeit - Pistolen"
+cd_pistol_accuracy_percent_desc : "Deine Genauigkeit mit Pistolen ist um 10% erhöht."
 
 cd_pistol_sprint_end_name : "Readiness"
 cd_pistol_sprint_end_desc : "Stop sprinting 25% faster (pistols)."
