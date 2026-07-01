@@ -1060,35 +1060,35 @@ cd_leech_revive_name : "Symbiose"
 cd_leech_revive_desc : "Du kannst die Ampulle benutzen, wenn du am Boden bist. Du wirst jedoch erneut zu Boden gehen, außer du belebst ein Crewmitglied oder interagierst mit einer Arzttasche."
 
 # Copy Cat
-cd_copycat_health_name : "Thriving"
-cd_copycat_health_desc : "+80 max health."
+cd_copycat_health_name : "Gedeihend"
+cd_copycat_health_desc : "Deine maximalen Lebenspunkte werden um 80 erhöht."
 
-cd_copycat_armour_name : "Toughen Up"
-cd_copycat_armour_desc : "20% armor bonus."
+cd_copycat_armour_name : "Abhörten"
+cd_copycat_armour_desc : "Deine Rüstung erhöht sich um 20%."
 
-cd_copycat_dodge_name : "Cat-Like Reflex"
-cd_copycat_dodge_desc : "+20% dodge chance."
+cd_copycat_dodge_name : "Katzenartige Reflexe"
+cd_copycat_dodge_desc : "Deine Ausweichchance erhöht sich um 20%."
 
-cd_copycat_crouch_name : "Fleet Footed"
-cd_copycat_crouch_desc : "Crouch speed increased by 40%."
+cd_copycat_crouch_name : "Flinke Füße"
+cd_copycat_crouch_desc : "Deine Geschwindigkeit im Ducken wird um 40% erhöht."
 
-cd_copycat_bag_name : "Haul Ass"
-cd_copycat_bag_desc : "Move 40% faster while carrying a bag."
+cd_copycat_bag_name : "Abzischen"
+cd_copycat_bag_desc : "Du bewegst dich 40% schneller, wenn du eine Tasche trägst."
 
-cd_copycat_tactical_reload_name : "Tactical Reload"
-cd_copycat_tactical_reload_desc : "Unequipped weapon automatically reloads after 10 kills."
+cd_copycat_tactical_reload_name : "Taktisches Nachladen"
+cd_copycat_tactical_reload_desc : "Die nicht ausgerüstete Waffe lädt sich nach 10 Tötungen automatisch nach."
 
-cd_copycat_reload_switch_name : "Tactical Switch"
-cd_copycat_reload_switch_desc : "160% faster weapon switch speed for 3s after 'Tactical Reload' is triggered."
+cd_copycat_reload_switch_name : "Taktischer Wechsel"
+cd_copycat_reload_switch_desc : "Nachdem 'Taktisches Nachladen' ausgelöst wurde, erhöht sich deine Waffenwechsel-Geschwindigkeit um 160%."
 
-cd_copycat_bullseye_name : "Head Game"
-cd_copycat_bullseye_desc : "+10 health on headshot (2s cooldown)."
+cd_copycat_bullseye_name : "Spiel mit Köpfchen"
+cd_copycat_bullseye_desc : "Du regenerierst 10 Lebenspunkte, wenn du einen Kopfschuss triffst.\nDieser Effekt hat eine Abklingzeit von 2s."
 
 cd_copycat_ricochet_name : "Ricochet"
-cd_copycat_ricochet_desc : "Dodged bullets damage the enemy that fired them."
+cd_copycat_ricochet_desc : "Kugeln, denen du ausgewichen bist, fügen dem Schützen Schaden zu."
 
-cd_copycat_immunity_name : "Grace Period"
-cd_copycat_immunity_desc : "Immunity for 2s when health goes below 50% (15s cooldown)."
+cd_copycat_immunity_name : "Schonfrist"
+cd_copycat_immunity_desc : "Wenn du unter 50% deiner maximalen Lebenspunkte fällst, erleidest du 2s lang keinen Schaden.\nDieser Effekt hat eine Abklingzeit von 15s."
 
 ## STAT BOOSTS
 # Default
