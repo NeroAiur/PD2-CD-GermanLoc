@@ -40,7 +40,7 @@ crimdawn_lethal_deathlink : "An mit Tödlichen Death Links"
 crimdawn_lethal_deathlink_desc : "Regelt ob Death Links dich direkt in Haft schicken, wenn sie bei 0 übringen Niederschlägen geschehen."
 
 crimdawn_inf_time : "Unendliche Zeit"
-crimdawn_inf_time_desc : "Timer wird nach erhalt aller Progressions-Items deaktiviert."
+crimdawn_inf_time_desc : "Timer wird nach erhalt aller für den Sieg notwendigen Progressions-Items deaktiviert."
 
 # Heist Tiers
 crimdawn_heist1_settings_name : "Raubüberfälle (Stufe 1)"
