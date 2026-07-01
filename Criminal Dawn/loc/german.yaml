@@ -903,35 +903,35 @@ cd_grind_hot_duration_desc : "Der Effekt von 'Dopamin' hält 40% länger an."
 
 # Yakuza
 cd_yakuza_recovery_1_name : "Yoroi Irezumi Lv1"
-cd_yakuza_recovery_1_desc : "Armor recovery scales with health lost (up to 20% faster)."
+cd_yakuza_recovery_1_desc : "Je niedriger deine Lebenspunkte sind, desto schneller regeneriert sich deine Rüstung bis zu maximal 20%.\nDieser Effekt beginnt bei 25% Lebenspunkten."
 
 cd_yakuza_recovery_2_name : "Yoroi Irezumi Lv2"
-cd_yakuza_recovery_2_desc : "Armor recovery scales with health lost (up to 40% faster)."
+cd_yakuza_recovery_2_desc : "Je niedriger deine Lebenspunkte sind, desto schneller regeneriert sich deine Rüstung bis zu maximal 40%.\nDieser Effekt beginnt bei 25% Lebenspunkten."
 
 cd_yakuza_recovery_3_name : "Yoroi Irezumi Lv3"
-cd_yakuza_recovery_3_desc : "Armor recovery scales with health lost (up to 60% faster)."
+cd_yakuza_recovery_3_desc : "Je niedriger deine Lebenspunkte sind, desto schneller regeneriert sich deine Rüstung bis zu maximal 60%.\nDieser Effekt beginnt bei 25% Lebenspunkten."
 
 cd_yakuza_speed_name : "Sokudo Irezumi"
-cd_yakuza_speed_desc : "Movement speed scales with health lost (up to 20% faster)."
+cd_yakuza_speed_desc : "Je niedriger deine Lebenspunkte sind, desto höher ist deine Bewegungsgeschwindigkeit bis zu maximal 20%.\nDieser Effekt beginnt bei 25% Lebenspunkten."
 
 cd_yakuza_threshold_name : "Ageru Irezumi"
-cd_yakuza_threshold_desc : "'Irezumi' effects start from 50% health instead of 25%."
+cd_yakuza_threshold_desc : "Deine 'Irezumi'-Effekte starten bei 50% Lebenspunkte."
 
 # Ex-President
-cd_expres_1_name : "Break Lv1"
-cd_expres_1_desc : "Store 4 health per crew kill that is consumed on armor recovery."
+cd_expres_1_name : "Bruch Level 1"
+cd_expres_1_desc : "Jede Tötung speichert 4 Lebenspunkte. Diese Lebenspunkte werden regeneriert, wenn sich deine Rüstung regeneriert."
 
-cd_expres_2_name : "Break Lv2"
-cd_expres_2_desc : "Store 8 health per crew kill that is consumed on armor recovery."
+cd_expres_2_name : "Bruch Level 2"
+cd_expres_2_desc : "Jede Tötung speichert 8 Lebenspunkte. Diese Lebenspunkte werden regeneriert, wenn sich deine Rüstung regeneriert."
 
-cd_expres_3_name : "Break Lv3"
-cd_expres_3_desc : "Store 12 health per crew kill that is consumed on armor recovery."
+cd_expres_3_name : "Bruch Level 3"
+cd_expres_3_desc : "Jede Tötung speichert 12 Lebenspunkte. Diese Lebenspunkte werden regeneriert, wenn sich deine Rüstung regeneriert."
 
-cd_expres_cap_name : "Life of Ice"
-cd_expres_cap_desc : "'Break' can store 50% more health."
+cd_expres_cap_name : "Eiskalt"
+cd_expres_cap_desc : "'Burch' speichert 50% mehr Lebenspunkte."
 
-cd_expres_recovery_name : "Perfect Line"
-cd_expres_recovery_desc : "Kills increase speed of next armor recovery. Weaker armors give more speed."
+cd_expres_recovery_name : "Perfekte Linie"
+cd_expres_recovery_desc : "Tötungen beschleunigen die Rüstungsregeneration. Je weniger Rüstung, desto höher die Regenerationsgeschwindigkeit.\nDieser Effekt wird zurückgesetzt, wenn du deine Rüstung regenerierst."
 
 # Maniac
 cd_maniac_base_name : "Excitement"
