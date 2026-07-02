@@ -1596,5 +1596,5 @@ cd_ecm_feedback_name : "ECM-Rückkopplung"
 cd_ecm_feedback_desc : "Du kannst mit deinen ECM-Störsendern interagieren um eine Rückkopplung auszulösen.\nEine ECM-Rückkopplung betäubt Gegner im Umkreis um den Störsender."
 
 # Body Bag
-cd_bodybag_capacity_name : "Deep Pockets"
-cd_bodybag_capacity_desc : "+1 body bag case."
+cd_bodybag_capacity_name : "Saubermann"
+cd_bodybag_capacity_desc : "Du kannst einen zusätzlichen Leichensackkoffer tragen."
