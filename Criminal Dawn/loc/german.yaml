@@ -1329,32 +1329,32 @@ cd_melee_dmg_name : "Pumpen gehen"
 cd_melee_dmg_desc : "Dein Nahkampfschaden ist um 100% erhöht."
 
 # Removed
-cd_cam_shake_name : "Tough Guy"
-cd_cam_shake_desc : "50% less camera shake from damage."
+cd_cam_shake_name : "Harter Kerl"
+cd_cam_shake_desc : "Deine Kamera zuckt 50% weniger, wenn du Schaden bekommst."
 
-cd_shotgun_hip_accuracy_name : "Accuracy"
-cd_shotgun_hip_accuracy_desc : "20% hipfire bonus (shotguns)."
+cd_shotgun_hip_accuracy_name : "Genauigkeit - Schrotflinten, aus der Hüfte"
+cd_shotgun_hip_accuracy_desc : "Wenn du mit Schrotflinten aus der Hüfte schießt, erhöht sich deine Genauigkeit um 20%."
 
-cd_hip_accuracy_name : "Accuracy"
-cd_hip_accuracy_desc : "20% hipfire bonus."
+cd_hip_accuracy_name : "Genaugikeit - aus der Hüfte"
+cd_hip_accuracy_desc : "Wenn du aus der Hüfte schießt, erhöht sich deine Genauigkeit um 20%."
 
-cd_mag_plus_name : "Mag Plus"
-cd_mag_plus_desc : "+15 mag size (weapons with box magazines except snipers)."
+cd_mag_plus_name : "Größerer Kasten"
+cd_mag_plus_desc : "Deine Magazingröße Mit Box-Magazinwaffen erhöht sich um 15.\n Dieser Effekt gilt nicht für Scharfschützengewehre."
 
-cd_smg_rof_name : "SMG Specialist"
-cd_smg_rof_desc : "20% fire rate bonus (SMGs)."
+cd_smg_rof_name : "MP-Spezialist"
+cd_smg_rof_desc : "Deine Feuerrate mit Maschinenpistolen erhöht sich um 20%."
 
-cd_custody_time_name : "Master Trader"
-cd_custody_time_desc : "Custody timer is halved."
+cd_custody_time_name : "Meisterhändler"
+cd_custody_time_desc : "Deine Haftzeit dauer nur halb so lange."
 
-cd_zipline_dodge_name : "Daredevil"
-cd_zipline_dodge_desc : "+15% dodge chance while ziplining."
+cd_zipline_dodge_name : "Draufgänger"
+cd_zipline_dodge_desc : "Wenn du an einer Seilrutsche hängst, erhöht sich deine Ausweichchance um 15%."
 
-cd_crouch_dodge_name : "Duck and Cover"
-cd_crouch_dodge_desc : "+15% dodge chance while crouched."
+cd_crouch_dodge_name : "In Deckung"
+cd_crouch_dodge_desc : "Wenn du in der Hocke bist, erhöht sich deine Ausweichchance um15%."
 
-cd_silencer_ap_name : "Silent Killer"
-cd_silencer_ap_desc : "40% chance to pierce enemy armor (silencers)."
+cd_silencer_ap_name : "Stiller Mörder"
+cd_silencer_ap_desc : "Wenn du Schalldämpfer benutzt, ignorierst du 40% der gegnerischen Rüstung."
 
 # Unused
 cd_crit_chance_name : "Scheinheilig"
