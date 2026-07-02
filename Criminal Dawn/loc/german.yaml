@@ -305,7 +305,7 @@ menu_cs_upgrade_cost : "Es kostet ##1## Münze um einen Raum aufzuwerten."
 menu_cs_fully_upgraded : "Dieser Raum kann nicht weiter aufgewertet werden!"
 
 # Infamy
-menu_infamy_banner_already_unlocked : "Berüchtigt-Belohnungen sind standardmäßig freigeschaltet.\nBerüchtigt werden, ist also nur zum angeben!"
+menu_infamy_banner_already_unlocked : "Alle Berüchtigt-Belohnungen sind standardmäßig freigeschaltet.\nDas hier ist also nur zum angeben."
 menu_infamy_go_infamous_error_money : "Du benötigst mindestens $200,000,000 im Offshore."
 
 # Pause Menu
@@ -314,8 +314,8 @@ dialog_abort_mission_text : "Du bist dabei in die Lobby zurückzukehren.\n\nDas 
 menu_end_game : "Es gibt kein Entkommen"
 
 ### CUSTOM HEISTS ###
-heist_cd_28stores_name: "Vierundzwanzig Plus Vier Läden"
-heist_cd_28stores_brief: "Okay... das ist was ganz Großes!\n\nIch glaube an euch Leute. Mach Vlad stolz!"
+heist_cd_28stores_name: "Zwanzig Plus Zwei Mal Vier Läden"
+heist_cd_28stores_brief: "Das sind echt viele Läden... ich hab mich auch nicht verzählt ja?\n\nIch glaube an euch Leute! Vlad wird sich freuen!"
 
 ### UPGRADES ###
 ## PROGRESSION
@@ -346,76 +346,76 @@ cd_faster_objectives_desc : "Missionsziele sind $SPEED% schneller (wird im letzt
 
 # Nine Lives
 cd_player_additional_lives_1_name : "Zwei Leben"
-cd_player_additional_lives_1_desc : "Starte jede Runde mit 2 Niederschlägen."
+cd_player_additional_lives_1_desc : "Starte jede Runde mit 2 Downs."
 
 cd_player_additional_lives_2_name : "Drei Leben"
-cd_player_additional_lives_2_desc : "Starte jede Runde mit 3 Niederschlägen."
+cd_player_additional_lives_2_desc : "Starte jede Runde mit 3 Downs."
 
 cd_player_additional_lives_3_name : "Vier Leben"
-cd_player_additional_lives_3_desc : "Starte jede Runde mit 4 Niederschlägen."
+cd_player_additional_lives_3_desc : "Starte jede Runde mit 4 Downs."
 
 cd_player_additional_lives_4_name : "Fünf Leben"
-cd_player_additional_lives_4_desc : "Starte jede Runde mit 5 Niederschlägen."
+cd_player_additional_lives_4_desc : "Starte jede Runde mit 5 Downs."
 
 cd_player_additional_lives_5_name : "Sechs Leben"
-cd_player_additional_lives_5_desc : "Starte jede Runde mit 6 Niederschlägen."
+cd_player_additional_lives_5_desc : "Starte jede Runde mit 6 Downs."
 
 cd_player_additional_lives_6_name : "Sieben Leben"
-cd_player_additional_lives_6_desc : "Starte jede Runde mit 7 Niederschlägen."
+cd_player_additional_lives_6_desc : "Starte jede Runde mit 7 Downs."
 
 cd_player_additional_lives_7_name : "Acht Leben"
-cd_player_additional_lives_7_desc : "Starte jede Runde mit 8 Niederschlägen."
+cd_player_additional_lives_7_desc : "Starte jede Runde mit 8 Downs."
 
 cd_player_additional_lives_8_name : "Neun Leben"
-cd_player_additional_lives_8_desc : "Du bist zwar keine Katze, aber dafür startest du jede Runde mit 9 Niederschlägen."
+cd_player_additional_lives_8_desc : "Du bist zwar keine Katze, aber dafür startest du jede Runde mit 9 Downs."
 
 # Perma-Perks
 cd_permaperks1_name : "Chamäleon"
-cd_permaperks1_desc : "+1 Tarnung."
+cd_permaperks1_desc : "Deine Tarnung steigt um 1."
 
 cd_permaperks2_name : "Zweite Haut"
-cd_permaperks2_desc : "15% reduzierter Geschwindigkeitsmalus durch Rüstung."
+cd_permaperks2_desc : "Dein Geschwindigkeitsmalus durch Rüstungen wird um 15% reduziert."
 
 cd_permaperks3_name : "Aggressor"
-cd_permaperks3_desc : "5% Schadensbonus."
+cd_permaperks3_desc : "Dein Schaden erhöht sich um 5%."
 
-cd_permaperks4_name : "Wandschrank Level 1"
-cd_permaperks4_desc : "Menge an Munition, die du aufsammelst um 35% erhöht."
+cd_permaperks4_name : "Einbauschrank"
+cd_permaperks4_desc : "Die Menge an Munition, die du aufsammelst ist um 35% erhöht."
 
 cd_permaperks5_name : "Helm-Popping"
-cd_permaperks5_desc : "25% Kopfschuss-Schadensbonus."
+cd_permaperks5_desc : "Deine Kopfschüsse verursachen 25% mehr Schaden.\nLass die Hüte fliegen!"
 
 cd_permaperks6_name : "Triage"
-cd_permaperks6_desc : "20% schnellere Interaktion mit der Arzttasche."
+cd_permaperks6_desc : "Du interagierst 20% schneller mit Arzttaschen."
 
-cd_permaperks7_name : "Wandschrank Level 2"
-cd_permaperks7_desc : "Menge an Munition, die du aufsammelst um 75% erhöht."
+cd_permaperks7_name : "Begehbarer Kleiderschrank"
+cd_permaperks7_desc : "Die Menge an Munition, die du aufsammelst ist um 75% erhöht."
 
 # Perma-Skills
 cd_permaskills1_name : "Katzenartig"
-cd_permaskills1_desc : "Fallschaden verursacht Rüstungsschaden."
+cd_permaskills1_desc : "Du landest auf deinen 4 Pfoten. Erlittener Fallschaden verursacht zuerst Rüstungsschaden."
 
 cd_permaskills2_name : "Der Tatortreiniger"
-cd_permaskills2_desc : "Leichen können eingesackt werden."
+cd_permaskills2_desc : "Du kannst Leichensäcke benutzen."
 
 cd_permaskills3_name : "Dominant"
-cd_permaskills3_desc : "Nicht-Spezialgegner können eingeschüchtert werden."
+cd_permaskills3_desc : "Du kannst Gegner anschreien um sie einzuschüchtern.\nSpezialeinheiten sind davon unbeeindruckt."
 
-cd_permaskills4_name : "Abdecktuch"
-cd_permaskills4_desc : "Reduziert die Reichweite der Todesgeräusche von Gegnern um 95%."
+cd_permaskills4_name : "Shhhh..."
+cd_permaskills4_desc : "Die Todesgeräusche von Gegner sind schwerer zu hören. Die Reichweite verringert sich um 95%."
 
 cd_permaskills5_name : "Werkzeugkasten"
-cd_permaskills5_desc : "Bohrer werden 25% schneller repariert."
+cd_permaskills5_desc : "Du reparierst Bohrer 25% schneller."
 
-cd_permaskills6_name : "Hochkonzentriert"
-cd_permaskills6_desc : "Reduziert den erlittenen Schaden um 50% wenn du mit etwas interagierst."
+cd_permaskills6_name : "Hyperfokussierung"
+cd_permaskills6_desc : "Während du mit etwas interagierst, erleidest du 50% weniger Schaden."
 
 cd_permaskills7_name : "Tausendsassa"
-cd_permaskills7_desc : "Du kannst zwei Ausrüstungen mitnehmen. Du interagierst mit Ausrüstungen doppelt so schnell."
+cd_permaskills7_desc : "Du kannst zwei verschiedene Ausrüstungen mitnehmen. Du interagierst mit Ausrüstungen doppelt so schnell."
 
 ## SKILLS
 # Default
-cd_harmless_melee_name : "Klaps"
+cd_harmless_melee_name : "Knuff"
 cd_harmless_melee_desc : "Der erste Nahkampf-Treffer tötet Zivilisten nicht mehr."
 
 cd_downed_primary_name : "Action-Held"
