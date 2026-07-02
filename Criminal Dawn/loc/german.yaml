@@ -1438,64 +1438,64 @@ cd_pistol_damage_desc : "Dein Schaden mit Pistolen ist um 50% erhöht."
 cd_pistol_accuracy_percent_name : "Genauigkeit - Pistolen"
 cd_pistol_accuracy_percent_desc : "Deine Genauigkeit mit Pistolen ist um 10% erhöht."
 
-cd_pistol_sprint_end_name : "Readiness"
-cd_pistol_sprint_end_desc : "Stop sprinting 25% faster (pistols)."
+cd_pistol_sprint_end_name : "Allzeit bereit"
+cd_pistol_sprint_end_desc : "Wenn du Pistolen benutzt, stoppst du deinen Sprint 25% schneller."
 
-cd_pistol_hip_accuracy_name : "Accuracy"
-cd_pistol_hip_accuracy_desc : "20% hipfire bonus (pistols)."
+cd_pistol_hip_accuracy_name : "Genauigkeit - Pistolen, aus der Hüfte"
+cd_pistol_hip_accuracy_desc : "Wenn du mit Pistolen aus der Hüfte schießt, erhöht sich deine Genaugikeit um 20%."
 
-cd_ar_stability_percent_name : "Stability"
-cd_ar_stability_percent_desc : "25% bonus (ARs)."
+cd_ar_stability_percent_name : "Stabilität - Sturmgewehre"
+cd_ar_stability_percent_desc : "Deine Stabilität mit Sturmgewehren erhöht sich um 25%."
 
-cd_ar_accuracy_moving_name : "Accuracy"
-cd_ar_accuracy_moving_desc : "50% bonus while moving (ARs)."
+cd_ar_accuracy_moving_name : "Genauigkeit - Sturmgewehre, in Bewegung"
+cd_ar_accuracy_moving_desc : "Während du dich bewegst, erhöht sich deine Genauigkeit mit Sturmgewehren um 50%."
 
-cd_ar_hip_accuracy_name : "Accuracy"
-cd_ar_hip_accuracy_desc : "20% hipfire bonus (ARs)."
+cd_ar_hip_accuracy_name : "Genauigkeit - Sturmgewehre, aus der Hüfte"
+cd_ar_hip_accuracy_desc : "Wenn du aus der Hüfte schießt, erhöht sich deine Genauigkeit mit Sturmgwehren um 20%."
 
-cd_lmg_stability_percent_name : "Stability"
-cd_lmg_stability_percent_desc : "25% bonus (LMGs)."
+cd_lmg_stability_percent_name : "Stabilität - Maschinengewehre"
+cd_lmg_stability_percent_desc : "Deine Stabilität mit Maschinengewehren ist um 25% erhöht."
 
-cd_lmg_reload_name : "Lighter Belts"
-cd_lmg_reload_desc : "Reload 25% faster (LMGs)."
+cd_lmg_reload_name : "Leichte Bänder"
+cd_lmg_reload_desc : "Du lädst Maschinengewehre 25% schneller nach."
 
-cd_lmg_accuracy_moving_name : "Accuracy"
-cd_lmg_accuracy_moving_desc : "50% bonus while moving (LMGs)."
+cd_lmg_accuracy_moving_name : "Genauigkeit - Maschinengewehre, in Bewegung"
+cd_lmg_accuracy_moving_desc : "Während du dich bewegst erhöht sich deine Genauigkeit mit Maschinengewehren um 50%."
 
-cd_lmg_hip_accuracy_name : "Accuracy"
-cd_lmg_hip_accuracy_desc : "20% hipfire bonus (LMGs)."
+cd_lmg_hip_accuracy_name : "Genauigkeit - Maschinengewehre, aus der Hüfte"
+cd_lmg_hip_accuracy_desc : "Du bist mit Maschinengewehren 20% genauer, wenn du aus der Hüfte schießt."
 
-cd_snp_accuracy_moving_name : "Accuracy"
-cd_snp_accuracy_moving_desc : "50% bonus while moving (snipers)."
+cd_snp_accuracy_moving_name : "Genauigkeit - Scharfschützengewehre, in Bewegung"
+cd_snp_accuracy_moving_desc : "Du bist mit Scharfschützengewehren 50% genauer, wenn du in Bewegung bist."
 
-cd_snp_hip_accuracy_name : "Accuracy"
-cd_snp_hip_accuracy_desc : "20% hipfire bonus (snipers)."
+cd_snp_hip_accuracy_name : "Genauigkeit - Scharfschützengewehre, aus der Hüfte"
+cd_snp_hip_accuracy_desc : "Du bist mit Scharfschützengewehren 20% genauer, wenn du aus der Hüfte schießt."
 
-cd_smg_hip_accuracy_name : "Accuracy"
-cd_smg_hip_accuracy_desc : "20% hipfire bonus (SMGs)."
+cd_smg_hip_accuracy_name : "Genauigkeit - Maschinenpistolen, aus der Hüfte"
+cd_smg_hip_accuracy_desc : "Du bist mit Maschinenpistolen 20% genauer, wenn du aus der Hüfte schießt."
 
-cd_shotgun_stability_percent_name : "Stability"
-cd_shotgun_stability_percent_desc : "25% bonus (shotguns)."
+cd_shotgun_stability_percent_name : "Stabilität - Schrotflinten"
+cd_shotgun_stability_percent_desc : "Du hast 25% Bonus-Stabilität, wenn du mit Schrotflinten schießt."
 
-cd_shotgun_hip_accuracy_percent_name : "Accuracy"
-cd_shotgun_hip_accuracy_percent_desc : "20% hipfire bonus (shotguns)."
+cd_shotgun_hip_accuracy_percent_name : "Genauigkeit - Schrotflinten"
+cd_shotgun_hip_accuracy_percent_desc : "Du bist mit Schrotflinten 20% genauer, wenn du aus der Hüfte schießt."
 
-cd_akimbo_dmg_name : "Damage"
-cd_akimbo_dmg_desc : "50% bonus (akimbo)."
+cd_akimbo_dmg_name : "Schaden - Akimbo"
+cd_akimbo_dmg_desc : "Du verursachst mit Akimbo-Waffen 50% mehr Schaden."
 
 ### DEPLOYABLES
-cd_health_deployable_buff_name : "Quick Fix"
-cd_health_deployable_buff_desc : "Your FAKs and doctor bags give 10% damage reduction for 2 mins on use. Deploy FAKs and doctor bags 50% faster."
+cd_health_deployable_buff_name : "Ersthelfer"
+cd_health_deployable_buff_desc : "Wenn du mit deinen Erste-Hilfe-Kits oder Arzttaschen interagierst, erhältst du für 2min 10% weniger Schaden.\nDu platzierst Erste-Hilfe-Kits und Arzttaschen 50% schneller."
 
 # Doctor Bag
-cd_doctor_bag_capacity_1_name : "Field Surgeon Lv1"
-cd_doctor_bag_capacity_1_desc : "2 doctor bags."
+cd_doctor_bag_capacity_1_name : "Feldarzt"
+cd_doctor_bag_capacity_1_desc : "Du kannst 2 Arzttaschen tragen."
 
-cd_doctor_bag_capacity_2_name : "Field Surgeon Lv2"
-cd_doctor_bag_capacity_2_desc : "4 doctor bags."
+cd_doctor_bag_capacity_2_name : "Feldchirurg"
+cd_doctor_bag_capacity_2_desc : "Du kannst 4 Arzttaschen tragen."
 
-cd_doctor_bag_charges_name : "Blood Bank"
-cd_doctor_bag_charges_desc : "Doctor bags get one additional charge."
+cd_doctor_bag_charges_name : "Blutkonserven"
+cd_doctor_bag_charges_desc : "Deine Arzttaschen erhalten eine weitere Aufladung."
 
 # FAK
 cd_fak_capacity_1_name : "Walking Pharmacy Lv1"
