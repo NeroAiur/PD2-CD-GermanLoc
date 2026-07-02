@@ -1511,36 +1511,36 @@ cd_fak_autoheal_name : "Adrenalin-Spritze"
 cd_fak_autoheal_desc : "Falls du zu Boden gehen solltest, wird ein Erste-Hilfe-Kit im Umkreis von 5m verbraucht um dies zu verhindern.\nDieser Effekt hat eine Abklingzeit von 20s."
 
 # Ammo Bag
-cd_ammo_bag_capacity_1_name : "Deep Pockets Lv1"
-cd_ammo_bag_capacity_1_desc : "2 ammo bags."
+cd_ammo_bag_capacity_1_name : "Tiefe Taschen"
+cd_ammo_bag_capacity_1_desc : "Du kannst 2 Munitionstaschen tragen."
 
-cd_ammo_bag_capacity_2_name : "Deep Pockets Lv2"
-cd_ammo_bag_capacity_2_desc : "4 ammo bags."
+cd_ammo_bag_capacity_2_name : "Tiefere Taschen"
+cd_ammo_bag_capacity_2_desc : "Du kannst 4 Munitionstaschen tragen."
 
-cd_ammo_bag_charges_name : "Stockpile"
-cd_ammo_bag_charges_desc : "Ammo bags hold 50% more ammo."
+cd_ammo_bag_charges_name : "Bis zu den Zähnen bewaffnet"
+cd_ammo_bag_charges_desc : "Deine Munitionstaschen beinhalten 50% mehr Munition."
 
-cd_ammo_bag_inf_name : "Bulletstorm"
-cd_ammo_bag_inf_desc : "Infinite ammo after using ammo bag (min 15s)."
+cd_ammo_bag_inf_name : "Kugelhagel"
+cd_ammo_bag_inf_desc : "Nachdem du mit einer Munitionstasche interagiert hast, verbrauchst du 15s lang keine Munition."
 
 # Sentry
-cd_sentry_capacity_1_name: "Tower Defense Lv1"
-cd_sentry_capacity_1_desc: "2 sentries."
+cd_sentry_capacity_1_name: "Tower Defense"
+cd_sentry_capacity_1_desc: "Du kannst zwei 2 Geschütztürme tragen."
 
-cd_sentry_capacity_2_name: "Tower Defense Lv2"
-cd_sentry_capacity_2_desc: "4 sentries."
+cd_sentry_capacity_2_name: "Dome Keeper"
+cd_sentry_capacity_2_desc: "Du kannst zwei 4 Geschütztürme tragen."
 
-cd_sentry_cost_name: "Eco Sentry"
-cd_sentry_cost_desc: "Sentry ammo cost reduced by 10%. Place sentries 50% faster."
+cd_sentry_cost_name: "Öko-Geschütze"
+cd_sentry_cost_desc: "Das Aufstellen von Geschütztürmen kosten 10% weniger Munition.\nDu kannst Geschütztürme 50% schneller aufstellen."
 
-cd_sentry_accuracy_name: "Targeting Package"
-cd_sentry_accuracy_desc: "Sentry gains a 100% accuracy bonus, rotates 150% faster, and holds 50% more ammo."
+cd_sentry_accuracy_name: "Nächste Generation"
+cd_sentry_accuracy_desc: "Geschütztürme sind 100% genauer, drehen sich 150% schneller und haben 50% mehr Munition."
 
-cd_sentry_health_name: "Armor Plating"
-cd_sentry_health_desc: "Sentry gains a shield and 150% health bonus."
+cd_sentry_health_name: "Panzerplatten"
+cd_sentry_health_desc: "Geschütztürme erhalten einen Schild und 150% mehr Lebenspunkte."
 
-cd_sentry_ap_name: "AP Sentry"
-cd_sentry_ap_desc: "Sentry gains 150% damage bonus and toggleable AP rounds, decreasing fire rate by 75% but increasing damage by another 250%."
+cd_sentry_ap_name: "Schwere Geschütze"
+cd_sentry_ap_desc: "Geschütztürme verursachen 150% mehr Schaden.\nDu kannst mit deinen Geschütztürmen interagieren um den Schussmodus zwischen 'Panzerbrechend' und 'Standard' zu wechseln.\nIm 'Panzerbrechend'-Modus verringert sich die Feuerrate des Geschützturms um 75%, der Schaden wird aber um 250% erhöht."
 
 # Trip Mine
 cd_charge_capacity_1_name : "Shaped Charge Lv1"
