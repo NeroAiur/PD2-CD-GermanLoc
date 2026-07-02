@@ -1568,32 +1568,32 @@ cd_trip_sensor_name : "Bewegungssensor"
 cd_trip_sensor_desc : "Du kannst mit deinen Sensor-Minen interagieren um zwischen 'Explosions-Modus' und 'Sensor-Modus' zu wechseln.\nIm 'Sensor-Modus' markieren deine Sensor-Minen Gegner, die sich durch ihren Laser bewegt haben."
 
 # ECM
-cd_ecm_capacity_1_name : "Interference Lv1"
-cd_ecm_capacity_1_desc : "2 ECM jammers."
+cd_ecm_capacity_1_name : "Störungen"
+cd_ecm_capacity_1_desc : "Du kannst 2 ECM-Störsender tragen."
 
-cd_ecm_capacity_2_name : "Interference Lv2"
-cd_ecm_capacity_2_desc : "4 ECM jammers."
+cd_ecm_capacity_2_name : "Interferenzen"
+cd_ecm_capacity_2_desc : "Du kannst 4 ECM-Störsender tragen."
 
-cd_ecm_jam_duration_1_name : "ECM Specialist Lv1"
-cd_ecm_jam_duration_1_desc : "ECM jamming duration increased by 25%."
+cd_ecm_jam_duration_1_name : "Persistente Bedrohung"
+cd_ecm_jam_duration_1_desc : "Deine ECM-Störsender halten 25% länger an."
 
-cd_ecm_jam_duration_2_name : "ECM Specialist Lv2"
-cd_ecm_jam_duration_2_desc : "ECM jamming duration increased by 50%."
+cd_ecm_jam_duration_2_name : "Strukturelle Probleme"
+cd_ecm_jam_duration_2_desc : "Deine ECM-Störsender halten 50% länger an."
 
-cd_ecm_feedback_duration_1_name : "ECM Overdrive Lv1"
-cd_ecm_feedback_duration_1_desc : "ECM feedback duration increased by 25%."
+cd_ecm_feedback_duration_1_name : "Synapsen-Überladung"
+cd_ecm_feedback_duration_1_desc : "Deine ECM-Rückkopplung hält 25% länger an."
 
-cd_ecm_feedback_duration_2_name : "ECM Overdrive Lv2"
-cd_ecm_feedback_duration_2_desc : "ECM feedback duration increased by 50%."
+cd_ecm_feedback_duration_2_name : "System-Zusammenbruch"
+cd_ecm_feedback_duration_2_desc : "Deine ECM-Rückkopplung hält 25% länger an."
 
-cd_ecm_doors_name : "Open Sesame"
-cd_ecm_doors_desc : "ECMs can open doors."
+cd_ecm_doors_name : "Sesam Öffne Dich!"
+cd_ecm_doors_desc : "Deine ECM-Störsender können elektronische Türen öffnen."
 
-cd_ecm_pagers_name : "Radio Jammer"
-cd_ecm_pagers_desc : "ECMs block pagers and cameras."
+cd_ecm_pagers_name : "Radiostörung"
+cd_ecm_pagers_desc : "Deine ECM-Störsender blockieren Pager und deaktivieren Kameras."
 
-cd_ecm_feedback_name : "ECM Feedback"
-cd_ecm_feedback_desc : "ECMs can activate feedback."
+cd_ecm_feedback_name : "ECM-Rückkopplung"
+cd_ecm_feedback_desc : "Du kannst mit deinen ECM-Störsendern interagieren um eine Rückkopplung auszulösen.\nEine ECM-Rückkopplung betäubt Gegner im Umkreis um den Störsender."
 
 # Body Bag
 cd_bodybag_capacity_name : "Deep Pockets"
