@@ -1498,17 +1498,17 @@ cd_doctor_bag_charges_name : "Blutkonserven"
 cd_doctor_bag_charges_desc : "Deine Arzttaschen erhalten eine weitere Aufladung."
 
 # FAK
-cd_fak_capacity_1_name : "Walking Pharmacy Lv1"
-cd_fak_capacity_1_desc : "7 FAKs."
+cd_fak_capacity_1_name : "Rettungssanitäter"
+cd_fak_capacity_1_desc : "Du kannst 7 Erste-Hilfe-Kits tragen."
 
-cd_fak_capacity_2_name : "Walking Pharmacy Lv2"
-cd_fak_capacity_2_desc : "14 FAKs."
+cd_fak_capacity_2_name : "Notfallsanitäter"
+cd_fak_capacity_2_desc : "Du kannst 14 Erste-Hilfe-Kits tragen."
 
-cd_fak_restore_down_name : "Life Saving Drugs"
-cd_fak_restore_down_desc : "Your FAKs have a 50% chance to restore a down on use." 
+cd_fak_restore_down_name : "Lebensretter"
+cd_fak_restore_down_desc : "Deine Erste-Hilfe-Kits haben eine 50%ige Chance einen Down wiederherzustellen." 
 
-cd_fak_autoheal_name : "Uppers"
-cd_fak_autoheal_desc : "FAKs in 5m are consumed when going down (20s cooldown)."
+cd_fak_autoheal_name : "Adrenalin-Spritze"
+cd_fak_autoheal_desc : "Falls du zu Boden gehen solltest, wird ein Erste-Hilfe-Kit im Umkreis von 5m verbraucht um dies zu verhindern.\nDieser Effekt hat eine Abklingzeit von 20s."
 
 # Ammo Bag
 cd_ammo_bag_capacity_1_name : "Deep Pockets Lv1"
