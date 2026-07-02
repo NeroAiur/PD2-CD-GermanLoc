@@ -276,11 +276,11 @@ bm_wpn_money_event_ended : "Noch nicht freigeschaltet!"
 bm_global_value_gage_pack_jobs_unlock : "Benötigt das Gage Mod Courier DLC um freigeschaltet zu werden"
 
 # Upgrade Requirements
-bm_menu_skill_locked_copr_ability : "Requires the 'Momentum' perk!"
-bm_menu_skill_locked_damage_control : "Requires the 'Virtue' perk!"
-bm_menu_skill_locked_pocket_ecm_jammer : "Requires the 'Code Glitch' perk!"
-bm_menu_skill_locked_smoke_screen_grenade : "Requires the 'Smoker' perk!"
-bm_menu_skill_locked_tag_team : "Requires the 'Soul Mates' perk!"
+bm_menu_skill_locked_copr_ability : "Benötigt den 'Momentum'-Vorteil!"
+bm_menu_skill_locked_damage_control : "Benötigt den 'Tugend'-Vorteil!"
+bm_menu_skill_locked_pocket_ecm_jammer : "Benötigt den 'Glitch'-Vorteil!"
+bm_menu_skill_locked_smoke_screen_grenade : "Benötigt den 'Raucher'-Vorteil!"
+bm_menu_skill_locked_tag_team : "Benötigt den 'Seelenverwandte'-Vorteil!"
 menu_asset_lock_buy_bodybags_asset : "Benötigt den 'Insider' Skill!"
 menu_asset_lock_additional_assets : "Benötigt den 'Insider' Skill!"
 
