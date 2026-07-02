@@ -1543,29 +1543,29 @@ cd_sentry_ap_name: "Schwere Geschütze"
 cd_sentry_ap_desc: "Geschütztürme verursachen 150% mehr Schaden.\nDu kannst mit deinen Geschütztürmen interagieren um den Schussmodus zwischen 'Panzerbrechend' und 'Standard' zu wechseln.\nIm 'Panzerbrechend'-Modus verringert sich die Feuerrate des Geschützturms um 75%, der Schaden wird aber um 250% erhöht."
 
 # Trip Mine
-cd_charge_capacity_1_name : "Shaped Charge Lv1"
-cd_charge_capacity_1_desc : "6 shaped charges."
+cd_charge_capacity_1_name : "Sprengungsberechtigt"
+cd_charge_capacity_1_desc : "Du kannst 6 Sprengladungen tragen."
 
-cd_charge_capacity_2_name : "Shaped Charge Lv2"
-cd_charge_capacity_2_desc : "9 shaped charges."
+cd_charge_capacity_2_name : "Sprengmeister"
+cd_charge_capacity_2_desc : "Du kannst 9 Sprengladungen tragen."
 
-cd_trip_capacity_1_name : "More Firepower Lv1"
-cd_trip_capacity_1_desc : "7 trip mines."
+cd_trip_capacity_1_name : "Fallensteller"
+cd_trip_capacity_1_desc : "Du kannst 7 Sensor-Minen tragen."
 
-cd_trip_capacity_2_name : "More Firepower Lv2"
-cd_trip_capacity_2_desc : "14 trip mines."
+cd_trip_capacity_2_name : "Kevin McCallister"
+cd_trip_capacity_2_desc : "Du kannst 14 Sensor-Minen tragen."
 
 cd_trip_radius_1_name : "Demolition Man"
-cd_trip_radius_1_desc : "Trip mine explosions are 30% bigger. Deploy trip mines 20% faster."
+cd_trip_radius_1_desc : "Der Explosionsradius deiner Sensor-Minen ist 30% größer.\nDu platzierst Sensor-Minen 20% schneller."
 
-cd_trip_radius_2_name : "Tactical Mines"
-cd_trip_radius_2_desc : "Trip mine explosions are 70% bigger and deal 50% more damage."
+cd_trip_radius_2_name : "Sprengkraft"
+cd_trip_radius_2_desc : "Der Explosionsradius deiner Sensor-Minen ist 70% größer und ihr Schaden ist um 50% erhöht."
 
-cd_trip_fire_name : "Fire Trap"
-cd_trip_fire_desc : "Trip mines create fire on detonation."
+cd_trip_fire_name : "Brandmittel"
+cd_trip_fire_desc : "Die Explosion deiner Sensor-Minen hinterlässt eine Feuerfläche."
 
-cd_trip_sensor_name : "Motion Sensor"
-cd_trip_sensor_desc : "Trip mines can activate sensor mode."
+cd_trip_sensor_name : "Bewegungssensor"
+cd_trip_sensor_desc : "Du kannst mit deinen Sensor-Minen interagieren um zwischen 'Explosions-Modus' und 'Sensor-Modus' zu wechseln.\nIm 'Sensor-Modus' markieren deine Sensor-Minen Gegner, die sich durch ihren Laser bewegt haben."
 
 # ECM
 cd_ecm_capacity_1_name : "Interference Lv1"
