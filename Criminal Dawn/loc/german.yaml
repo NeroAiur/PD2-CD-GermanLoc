@@ -293,11 +293,11 @@ bm_grenade_copr_ability_desc: "Wurwaffen-Taste drücken um zu aktivieren. Bei Ak
 bm_grenade_damage_control_desc: "Wurwaffen-Taste drücken um zu aktivieren. Negiert gestapelten Schaden."
 
 # Perk Effects
-bm_menu_armor_max_health_store : "Break: can store up to $amount health."
-bm_menu_disables_damage_to_hot : "'Dopamine' perk is disabled while wearing this armor!"
+bm_menu_armor_max_health_store : "Bruch: Kann bis zu $amount Lebenspunkte speichern."
+bm_menu_disables_damage_to_hot : "'Dopamin'-Vorteil ist deaktiviert, wenn du diese Rüstung trägst."
 
 # Black Market
-bm_menu_stamina : "Recovery Time"
+bm_menu_stamina : "Erholungsdauer"
 menu_bm_total_cost : ""
 
 # Safehouse
