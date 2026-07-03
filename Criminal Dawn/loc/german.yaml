@@ -138,63 +138,63 @@ crimdawn_chat_final_minute : "Weniger als eine Minuten übrig!"
 crimdawn_chat_no_time_left : "Zeit abgelaufen!"
 
 ### POINT OF NO RETURN ###
-crimdawn_ponr_default: "Sonnenuntergang in"
+crimdawn_ponr_default: "Sonnenuntergang in"!
 crimdawn_ponr_rare1: "Bain stirbt in"
-crimdawn_ponr_rare2: "Moon Lord erscheint in"
-crimdawn_ponr_rare3: "Ziegen wachen auf in"
-crimdawn_ponr_rare4: "Weihnachten kommt in"
-crimdawn_ponr_rare5: "Dein Geld verschwindet in"
-crimdawn_ponr_rare6: "Zündung in"
+crimdawn_ponr_rare2: "Moon Lord erscheint in" # Terraria
+crimdawn_ponr_rare3: "Tagesschau in" # best known german news broadcast
+crimdawn_ponr_rare4: "Weihnachten in"
+crimdawn_ponr_rare5: "Uuuund es ist weg in" # South Park
+crimdawn_ponr_rare6: "Zündung in" # Detonation/Ignition
 crimdawn_ponr_rare7: "Engel erscheinen in"
-crimdawn_ponr_rare8: "Zeitreise in"
+crimdawn_ponr_rare8: "Zeitreise in"!
 crimdawn_ponr_rare9: "PAYDAY 3 wird endlich gut in"
 crimdawn_ponr_rare10: "Gage steht auf in"
-crimdawn_ponr_rare11: "Ich klag dich an in"
+crimdawn_ponr_rare11: "Ich klag dich an in"!
 crimdawn_ponr_rare12: "Dallas furzt in"
 crimdawn_ponr_rare13: "Durchfall in"
 crimdawn_ponr_rare14: "Ultimate bereit in"
-crimdawn_ponr_rare15: "MaxTec erscheint in"
+crimdawn_ponr_rare15: "MaxTec erscheint in" # Cyberpunk 2077
 crimdawn_ponr_rare16: "Ice-T erscheint in"
-crimdawn_ponr_rare17: "Beckett wird geboren in"
-crimdawn_ponr_rare18: "Star Citizen erscheint in"
-crimdawn_ponr_rare19: "Game crasht in"
-crimdawn_ponr_rare20: "Alle kriegen eine Waffe in"
-crimdawn_ponr_rare21: "Dragan klaut ein Auto in"
-crimdawn_ponr_rare22: "Cthulhu fhtagn"
-crimdawn_ponr_rare23: "Dritter Weltkrieg startet in"
-crimdawn_ponr_rare24: "Panikattacke in"
-crimdawn_ponr_rare25: "Ich raste aus in"
-crimdawn_ponr_rare26: "Discord-Crashout in"
-crimdawn_ponr_rare27: "Die Finale Form wird erreicht in"
+crimdawn_ponr_rare17: "Beckett wird geboren in"!
+crimdawn_ponr_rare18: "Star Citizen erscheint in" # Both insider and critique
+crimdawn_ponr_rare19: "Spiel crasht in"
+crimdawn_ponr_rare20: "Alle kriegen eine Waffe in"!
+crimdawn_ponr_rare21: "Dragan klaut dein Auto in" # changed to "your car" because it sounds better
+crimdawn_ponr_rare22: "Cthulhu fhtagn" # hail the great old one
+crimdawn_ponr_rare23: "Dritter Weltkrieg startet in"!
+crimdawn_ponr_rare24: "Panikattacke in" # changed to panic attack
+crimdawn_ponr_rare25: "Ich raste aus in"!
+crimdawn_ponr_rare26: "Discord-Crashout in" # I liked it, so I didn't change it, also makes sense in german
+crimdawn_ponr_rare27: "Die Finale Form wird erreicht in"!
 crimdawn_ponr_rare28: "Jiro findet Kento in"
 crimdawn_ponr_rare29: "Chuck Norris kommt in"
-crimdawn_ponr_rare30: "John Wick kehrt zurück in"
-crimdawn_ponr_rare31: "PewDiePie kommt zurück in"
-crimdawn_ponr_rare32: "Neuer DLC in"
+crimdawn_ponr_rare30: "John Wick 5 erscheint in" # changed to chapter, makes more sense in german
+crimdawn_ponr_rare31: "PewDiePie kommt zurück in"!
+crimdawn_ponr_rare32: "Neues DLC in"
 crimdawn_ponr_rare33: "Starbreeze geht bankrott in"
 crimdawn_ponr_rare34: "Kknowley twerkt in"!
 crimdawn_ponr_rare35: "Du gewinnst in"
-crimdawn_ponr_rare36: "Wolf sucht Therapie in"
-crimdawn_ponr_rare37: "GTFO in"
-crimdawn_ponr_rare38: "Houston trinkt in"
-crimdawn_ponr_rare39: "Jimmy nimmt Fentanyl in"
-crimdawn_ponr_rare40: "Jacket holt sich einen runter in"
-crimdawn_ponr_rare41: "Clover wird ignoriert in"
-crimdawn_ponr_rare42: "Gott übernimmt die Kontrolle in"
+crimdawn_ponr_rare36: "Wolf sucht Therapie in"!
+crimdawn_ponr_rare37: "GTFO in"!
+crimdawn_ponr_rare38: "Houston besäuft sich in"!
+crimdawn_ponr_rare39: "Jimmy nimmt Fentanyl in"!
+crimdawn_ponr_rare40: "Jacket spricht in" # changed to "speaks", as he never speaks
+crimdawn_ponr_rare41: "Clover wird ignoriert in"!
+crimdawn_ponr_rare42: "Gott übernimmt die Kontrolle in"!
 crimdawn_ponr_rare43: "Scarface wird erschossen in"
 crimdawn_ponr_rare44: "Ethan's Karriere endet in"
 crimdawn_ponr_rare45: "Touchdown verteidigt in"!
 crimdawn_ponr_rare46: "Sangres erstickt in"
 crimdawn_ponr_rare47: "Sydney ertrinkt in"
-crimdawn_ponr_rare48: "Duke hat Leberversagen in"
-crimdawn_ponr_rare49: "Touchdown verteidigt in"!
+crimdawn_ponr_rare48: "Duke's Leber versagt in"
+crimdawn_ponr_rare49: "Nebel zieht auf in"!
 crimdawn_ponr_rare50: "Hila zieht in den Krieg in"!
 crimdawn_ponr_rare51: "Shade ersetzt Bain in"
 crimdawn_ponr_rare52: "Bodhi wird waterboarded in"!
 crimdawn_ponr_rare53: "Rust's Motorrad bleibt stecken in"!
 crimdawn_ponr_rare54: "Joy lernt Python in"
 crimdawn_ponr_rare55: "Bonnie dreht völlig frei in"
-crimdawn_ponr_rare56: "Sokol rusht B in"
+crimdawn_ponr_rare56: "Sokol rusht B in" # moved to CS, because this meme is bigger in germany
 crimdawn_ponr_rare57: "Hoxton wird hingerichtet in"
 crimdawn_ponr_rare58: "Chains ist ein Gürkchen in"!
 crimdawn_ponr_rare59: "Locke mannt das Boot in"
@@ -202,41 +202,41 @@ crimdawn_ponr_rare60: "Herzversagen in"
 crimdawn_ponr_rare61: "Wir werden zum Core-Spiel in"
 crimdawn_ponr_rare62: "Bile trifft einen Spatz in"!
 crimdawn_ponr_rare63: "Twitch fährt gegen die Wand in"
-crimdawn_ponr_rare64: "Alex verpasst den Absprung in"
+crimdawn_ponr_rare64: "Alex verpasst den Absprung in"!
 crimdawn_ponr_rare65: "BK in"
 crimdawn_ponr_rare66: "Der Zahnarzt wird wiederbelebt in"
-crimdawn_ponr_rare67: "Lustiges Meme"!
+crimdawn_ponr_rare67: "67!!!!!!!!!1111elf" # went for full absurdity
 crimdawn_ponr_rare68: "Steam-Sale in"
 crimdawn_ponr_rare69: "Training Montage"!
 crimdawn_ponr_rare70: "Bo flüchtet das Land in"!
 crimdawn_ponr_rare71: "Schwierigkeitsgrad reduziert in"
-crimdawn_ponr_rare72: "Tja"
+crimdawn_ponr_rare72: "Tja" # this is the german reaction to the apocalypse, dawn of the gods, alien attacks or having no bread in the house
 crimdawn_ponr_rare73: "HAHAHAHAHAHAHAHAHAHAHA"
 crimdawn_ponr_rare74: "Jemand stirbt in"
 crimdawn_ponr_rare75: "Psync schlägt fehl in"!
-crimdawn_ponr_rare76: "Ragnarok in"
-crimdawn_ponr_rare77: "Zeit bis Zusammenstoß:"
-crimdawn_ponr_rare78: "1.0.7 wird released in"
+crimdawn_ponr_rare76: "Ragnarök in"!
+crimdawn_ponr_rare77: "Zeit bis Zusammenstoß:"!
+crimdawn_ponr_rare78: "0.7.0 Release in"
 crimdawn_ponr_rare79: "Der größte Bankraub aller"!
 crimdawn_ponr_rare80: "Versteck wird gefunden in"
-crimdawn_ponr_rare81: "Triforce wird gestohlen in"
+crimdawn_ponr_rare81: "Triforce komplett in" # changed to completed, as it feels more natural
 crimdawn_ponr_rare82: "Die Schattenkönigin wird freigelassen in"!
-crimdawn_ponr_rare83: "Massives Disaster in"
+crimdawn_ponr_rare83: "Massives Disaster in" # kept it because it's one of your favourite games :)
 crimdawn_ponr_rare84: "Ratten fressen den Mond in"!
 crimdawn_ponr_rare85: "Morrslieb geht auf in"!
-crimdawn_ponr_rare86: "Zeit für ein Knoppers in"
-crimdawn_ponr_rare87: "Der Zug verspätet sich um"
+crimdawn_ponr_rare86: "Zeit für ein Knoppers in" # Knoppers is a german snack (try it if you have the chance) with a meme that you should only eat it at 9:30 AM
+crimdawn_ponr_rare87: "Der Zug verspätet sich um" # Deutsch Bahn!
 crimdawn_ponr_rare88: "Mavericks greifen an in"!
 crimdawn_ponr_rare89: "Model W verschlingt"!
 crimdawn_ponr_rare90: "T-Virus bricht aus in"
 crimdawn_ponr_rare91: "Anbruch eines neuen Tages"!
-crimdawn_ponr_rare92: "Erste Flamme verbunden in"
+crimdawn_ponr_rare92: "Erste Flamme verbunden in"!
 crimdawn_ponr_rare93: "Dracula wird wiederbelebt in"
 crimdawn_ponr_rare94: "Gandhi erklärt Krieg in"
 crimdawn_ponr_rare95: "King K. Rool entkommt in"
 crimdawn_ponr_rare96: "Höllenportale öffnen sich in"
 crimdawn_ponr_rare97: "Resonanz-Kaskade in"
-crimdawn_ponr_rare98: "Der Spaß ist vorbei in"
+crimdawn_ponr_rare98: "Der Spaß ist vorbei in" # South Park (S06 Asspen "you're gonna have a bad time")
 crimdawn_ponr_rare99: "Zerg-Rush in"
 crimdawn_ponr_rare100: "Deadline:"
 crimdawn_ponr_rare: ""
