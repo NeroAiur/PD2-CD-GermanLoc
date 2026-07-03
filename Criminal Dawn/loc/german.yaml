@@ -419,131 +419,131 @@ cd_harmless_melee_name : "Knuff"
 cd_harmless_melee_desc : "Der erste Nahkampf-Treffer tötet Zivilisten nicht mehr."
 
 cd_downed_primary_name : "Action-Held"
-cd_downed_primary_desc : "Du kannst deine Primärwaffe nutzen und Zielen während du am Boden liegst."
+cd_downed_primary_desc : "Du kannst deine Primärwaffe nutzen und Zielen während du am Boden liegst.\nZiemlich Badass."
 
 # Mastermind Tree
 cd_revive_damage_reduction_name : "Feldsanitäter"
-cd_revive_damage_reduction_desc : "Reduziert den erlittenen Schaden um 30% wenn du jemanden wiederbelebst."
+cd_revive_damage_reduction_desc : "Während du jemanden wiederbelebst, erleidest du 30% weniger Schaden."
 
 cd_inspire_shout_name : "Anfeuern"
-cd_inspire_shout_desc : "Schreie niedergeschlagene Crewmitglieder an um sie wiederzubeleben. Dieser Effekt hat eine Abklingzeit von 20 Sekunden.\n Schreie Crewmitglieder an um die Bewegungs- und Nachladegeschwindigkeit um 20% zu erhöhen. Dieser Effekt hält 10 Sekunden an."
+cd_inspire_shout_desc : "Du kannst deine Crewmitglieder anschreien um ihre Bewegungs- und Nachladegeschwindigkeit um 20% zu erhöhen.\nDieser Effekt hält 10 Sekunden an.\n\nWenn du niedergeschlagene Crewmitglieder anschreist, belebst du sie wieder.\nDieser Effekt hat eine Abklingzeit von 20s."
 
 cd_hostage_absorption_name : "Zwangsfreundschaft"
-cd_hostage_absorption_desc : "+0.5 Schadensreduktion pro Geisel. Dieser Effekt profitiert von maximal 8 Geiseln."
+cd_hostage_absorption_desc : "Du erhältst pro Geisel 0,5 Schadensreduktion bis maximal 4."
 
 cd_intimidate_sounds_name : "Kontroll-Freak"
-cd_intimidate_sounds_desc : "Laute Geräusche schüchtern Zivilisten ein.\nEingeschüchterte Zivilisten innerhalb von 10m Umkreis bleiben eingschüchtert."
+cd_intimidate_sounds_desc : "Laute Geräusche schüchtern Zivilisten ein.\nEingeschüchterte Zivilisten innerhalb von 10m Umkreis von dir bleiben eingschüchtert."
 
 cd_stockholm_syndrome_name : "Stockholm-Syndrom"
-cd_stockholm_syndrome_desc : "Springe während du in Gefangenschaft bist um sofort eine Gesel zu handeln. Dieser Effekt kann nur einmal pro Raubüberfall eingesetzt werden."
+cd_stockholm_syndrome_desc : "Während du in Gefangenschaft bist kannst du springen um sofort eine Gesel zu handeln. Dieser Effekt kann nur einmal pro Raubüberfall eingesetzt werden."
 
 cd_hostage_taker_name : "Geiselnehmer"
-cd_hostage_taker_desc : "Regeneriere 5 Lebenspunkte pro 5 Sekunden, solange du mindestens eine Geisel hast."
+cd_hostage_taker_desc : "Solange du mindestens eine Geisel hast, regenerierst du alle 5s 5 Lebenspunkte."
 
 cd_headshot_faster_reload_name : "Aggressives Nachladen"
-cd_headshot_faster_reload_desc : "Kopfschuss-Tötungen erhöhen deine Nachladegeschwindigkeit um 100% für 4 Sekunden.\nDies gilt nur für Einzelschuss MP/Sturmgewehre/Scharfschützengewehre."
+cd_headshot_faster_reload_desc : "Wenn du mit Einzelschuss MPs/Sturmgewehren/Scharfschützengewehren eine Kopfschuss-Tötungen erzielst, erhöht sich deine Nachladegeschwindigkeit für 4s um 100%"
 
-cd_headshot_ammo_return_name : "Munitionseffizienz"
-cd_headshot_ammo_return_desc : "Stellt eine Kugel wieder her, wenn du 2 Kopfschüsse innerhalb von 6 Sekunden triffst.\nDies gilt nur für Einzelschuss MP/Sturmgewehre/Scharfschützengewehre."
+cd_headshot_ammo_return_name : "Magisches Magazin"
+cd_headshot_ammo_return_desc : "Wenn du mit Einzelschuss MPs/Sturmgewehren/Scharfschützengewehren 2 Kopfschüsse innerhalb von 6s triffst erhältst du ein Kugel in dein Magazin zurück."
 
 cd_graze_name : "Streifschuss"
-cd_graze_desc : "Scharfschützengewehre verursachen 20% ihres Schadens (100%, bei einer Kopfschuss-Tötung) auf alle Gegner im Umkreis von 1 Meter um den Schusspfad."
+cd_graze_desc : "Scharfschützengewehre verursachen 20% ihres Schadens auf alle Gegner im Umkreis von 1 Meter um den Schusspfad. Bei einer Kopfschuss-Tötung erhöht sich der Schaden auf 100% des verursachten Schadens."
 
 cd_joker_1_name : "Joker"
-cd_joker_1_desc : "Konvertiere eingeschüchterte Polizisten."
+cd_joker_1_desc : "Du kannst eingeschüchterte Polizisten konvertieren."
 
 cd_joker_2_name : "Personenkult"
 cd_joker_2_desc : "Konvertierte Polizisten verursachen 35% mehr und erleiden 54% weniger Schaden.\nDu kannst zwei konvertierte Polzisten gleichzeitig aktiv haben."
 
 cd_joker_stats_name : "Partners in Crime"
-cd_joker_stats_desc : "Solange mindestens ein konvertierter Polizist aktiv ist, sind deine Lebenspunkte um 30% und deine Bewegungsgeschwindigkeit um 10% erhöht."
+cd_joker_stats_desc : "Solange mindestens ein konvertierter Polizist aktiv ist, erhöhen sich deine Lebenspunkte um 30% und deine Bewegungsgeschwindigkeit um 10%."
 
 # Enforcer Tree
 cd_underdog_name : "Underdog"
-cd_underdog_desc : "Wenn sich 3 oder mehr Gegner im Umkreis von 18m um dich befinden verursachst du 15% mehr und erleidest 15 weniger Schaden."
+cd_underdog_desc : "Solange sich 3 oder mehr Gegner im Umkreis von 18m um dich befinden verursachst du 15% mehr Schaden und erleidest 15 weniger Schaden."
 
-cd_shotgun_sprint_shoot_name : "Nah dran"
+cd_shotgun_sprint_shoot_name : "Dran bleiben"
 cd_shotgun_sprint_shoot_desc : "Du kannst mit Schrotflinten aus der Hüfte schießen, während du sprintest."
 
 cd_overkill_name : "Overkill"
-cd_overkill_desc : "Wenn du einen Gegner mit einer Schrotflinte oder Säge tötest, verursachst du 75% zusätzlichen Schaden. Dieser Effekt hält 20 Sekunden an."
+cd_overkill_desc : "Wenn du einen Gegner mit einer Schrotflinte oder Säge tötest, verursachst du 20s lang 75% mehr Schaden."
 
 cd_bag_penalty_armour_reduction_name : "Packesel"
-cd_bag_penalty_armour_reduction_desc : "Reduziert den Geschwindigkeitsmalus durch Taschen pro 10 Rüstungspunkte um 1%."
+cd_bag_penalty_armour_reduction_desc : "Pro 10 Rüstungspunkte reduziert sich der Geschwindigkeitsmalus beim Tragen von Taschen um 1%."
 
-cd_shield_knock_name : "Schock und Entsetzen"
-cd_shield_knock_desc : "Schilde von Polizisten können bei Treffern weggestoßen werden."
+cd_shield_knock_name : "Mit Wucht"
+cd_shield_knock_desc : "Wenn du Schilde triffst, besteht die Chance sie wegzustoßen."
 
 cd_bullseye_name : "Volltreffer"
-cd_bullseye_desc : "+25 Rüstungspunkte bei einem Kopfschusstreffer.\nDieser Effekt hat eine Abklingzeit von 2 Sekunden(2s cooldown)."
+cd_bullseye_desc : "Bei einem Kopfschusstreffer regenerierst du 25 Rüstung.\nDieser Effekt hat eine Abklingzeit von 2s."
 
 cd_saw_ap_name : "Zerstörung"
 cd_saw_ap_desc : "Die Säge ignoriert Schilde und Rüstung."
 
-cd_saw_panic_name : "Sägen-Psychopath"
+cd_saw_panic_name : "Sägen-Mörder"
 cd_saw_panic_desc : "Tötungen mit der Säge haben eine 50%ige Chance Panik im Umkreis von 10m zu verursachen."
 
 cd_throwable_pickup_name : "Schnorrer"
-cd_throwable_pickup_desc : "Jedes Mal wenn du Munition aufsammelst hast du eine Chance eine Wurfwaffe aufzusammeln. Diese Chance erhöht sich jedes Mal um 1% und setzt sich zurück sobald du eine Wurfwaffe erhalten hast. Jede 6. Tötung lässt eine zusätzliche Munitionsbox fallen."
+cd_throwable_pickup_desc : "Jedes Mal wenn du Munition aufsammelst, hast du eine Chance eine Wurfwaffe aufzusammeln. Diese Chance erhöht sich jedes Mal um 1% und setzt sich zurück sobald du eine Wurfwaffe erhalten hast.\nJede 6. Tötung lässt eine zusätzliche Munitionsbox fallen."
 
 # Technician Tree
-cd_silent_drill_name : "Stille Bohrung"
+cd_silent_drill_name : "Verbohrgen"
 cd_silent_drill_desc : "Bohrer sind leise."
 
 cd_drill_autorepair_name : "Reperatursystem"
-cd_drill_autorepair_desc : "Bohrer reparieren sich selbst, wenn sie klemmen."
+cd_drill_autorepair_desc : "Klemmende Bohrer haben eine Chance sich selbst zu reparieren."
 
 cd_drill_melee_repair_name : "Schnellstarter"
 cd_drill_melee_repair_desc : "Ein klemmender Bohrer kann mit einem Nahkampfangriff sofort repariert werden."
 
-cd_weapon_knock_down_name : "Schwerer Einschlag"
-cd_weapon_knock_down_desc : "Bei einem Nahkampfangriff besteht eine 20%ige Chance Gegner wegzustoßen."
+cd_weapon_knock_down_name : "40cm Bizeps"
+cd_weapon_knock_down_desc : "Nahkampfangriffe haben eine 20%ige Chance Gegner wegzustoßen."
 
 cd_sprint_shoot_name : "Aus der Hüfte"
 cd_sprint_shoot_desc : "Du kannst aus der Hüfte schießen, während du sprintest."
 
 cd_lock_n_load_name : "Geladen und Entsichert"
-cd_lock_n_load_desc : "Die Nachladegeschwidigkeit erhöht sich um 40% - 100% nach zwei Tötungen mit vollautomatischen Waffen. Dieser Effekt reduziert sich um 1% für jede Kugel über 20 im Magazin."
+cd_lock_n_load_desc : "Nach zwei Tötungen mit vollautomatischen Waffen erhöht sich deine Nachladegeschwidigkeit um 100% - 40%.\nDieser Effekt für jede Kugel über 20 im Magazin um 1%."
 
-cd_ap_bullets_full_name : "Speer"
-cd_ap_bullets_full_desc : "Waffen ignorieren die Rüstung von Gegnern."
+cd_ap_bullets_full_name : "Durchschlag"
+cd_ap_bullets_full_desc : "Deine Waffen ignorieren die Rüstung von Gegnern."
 
-cd_body_expertise_1_name : "Anatomie Level 1"
-cd_body_expertise_1_desc : "Bei Körpertreffern mit vollautomatischen Waffen wird 30% des Kopfschuss-Schadensbonus verursacht."
+cd_body_expertise_1_name : "Anatomie Grundkurs"
+cd_body_expertise_1_desc : "Deine Körpertreffer mit vollautomatischen Waffen verursachen zusätzlich 30% ihres Kopfschuss-Schadens."
 
-cd_body_expertise_2_name : "Anatomie Level 2"
-cd_body_expertise_2_desc : "Bei Körpertreffern mit vollautomatischen Waffen wird 90% des Kopfschuss-Schadensbonus verursacht."
+cd_body_expertise_2_name : "Anatomie Leistungskurs"
+cd_body_expertise_2_desc : "Deine Körpertreffer mit vollautomatischen Waffen verursachen zusätzlich 90% ihres Kopfschuss-Schadens."
 
 # Ghost Tree
 cd_mark_unmasked_name : "Spotter"
 cd_mark_unmasked_desc : "Du kannst im Ausspähmodus markieren."
 
-cd_unmasked_pickup_name : "Fingerfertigkeit"
-cd_unmasked_pickup_desc : "Du kannst kleine Gegenstände im Ausspähmodus aufsammeln."
+cd_unmasked_pickup_name : "Langfinger"
+cd_unmasked_pickup_desc : "Du kannst im Ausspähmodus kleine Gegenstände aufsammeln."
 
 cd_sixth_sense_name : "Sechster Sinn"
-cd_sixth_sense_desc : "Wenn du für 3,5 Sekunden stehen bleibst wird jeder im Umkreis von 10m um dich markiert."
+cd_sixth_sense_desc : "Wenn du für 3,5s stehen bleibst wird jeder im Umkreis von 10m um dich markiert."
 
 cd_additional_assets_name : "Insider"
-cd_additional_assets_desc : "Du kannst Insider-Vorteile im Planungsbildschirm kaufen."
+cd_additional_assets_desc : "Du kannst in der Planungsphase Insider-Vorteile kaufen."
 
 cd_cam_loop_name : "Kameraschleife"
-cd_cam_loop_desc : "Du kannst Kameras für 25 Sekunden in eine Schleife bringen."
+cd_cam_loop_desc : "Du kannst Kameras 25s lang in eine Schleife bringen.\nDu kannst nur eine Kamera gleichzeitg in einer Schleife haben."
 
-cd_pick_safes_name : "Tresorknacker"
+cd_pick_safes_name : "Panzerknacker"
 cd_pick_safes_desc : "Du kannst Tresore knacken."
 
-cd_strafe_sprint_name : "Beweglich Level 1"
+cd_strafe_sprint_name : "Beweglich"
 cd_strafe_sprint_desc : "Du kannst seitwärts sprinten."
 
-cd_free_sprint_name : "Beweglich Level 2"
+cd_free_sprint_name : "Äußerst Beweglich"
 cd_free_sprint_desc : "Du kannst in alle Richtungen sprinten."
 
-cd_sprint_reload_name : "Sprint Loaded"
-cd_sprint_reload_desc : "Du kannst nachladen während du sprintest."
+cd_sprint_reload_name : "Multitasker"
+cd_sprint_reload_desc : "Du kannst während du sprintest nachladen."
 
 cd_armor_broken_stagger_name : "Vergeltung"
-cd_armor_broken_stagger_desc : "Wenn deine Rüstung kaputt ist, stößt dein verursachter Schaden Gegner zurück. Dieser Effekt hält bis 6 Sekunden nachdem deine Rüstung regeneriert ist."
+cd_armor_broken_stagger_desc : "Wenn deine Rüstung bricht, stößt dein verursachter Schaden Gegner weg.\nDieser Effekt hält bis zu 6s nachdem deine Rüstung regeneriert ist an."
 
 cd_shockproof_1_name : "Halbleiter"
 cd_shockproof_1_desc : "Während du geschockt wirst, schießt du nicht mehr automatisch.\nDu hast jede Sekunde, die du geschockt bist eine 30%ige Chance dich von dem Zustand zu befreien."
