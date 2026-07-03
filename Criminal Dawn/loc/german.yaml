@@ -546,7 +546,7 @@ cd_armor_broken_stagger_name : "Vergeltung"
 cd_armor_broken_stagger_desc : "Wenn deine Rüstung bricht, stößt dein verursachter Schaden Gegner weg.\nDieser Effekt hält bis zu 6s nachdem deine Rüstung regeneriert ist an."
 
 cd_shockproof_1_name : "Halbleiter"
-cd_shockproof_1_desc : "Während du geschockt wirst, schießt du nicht mehr automatisch.\nDu hast jede Sekunde, die du geschockt bist eine 30%ige Chance dich von dem Zustand zu befreien."
+cd_shockproof_1_desc : "Während du geschockt wirst, schießt du nicht mehr automatisch.\nWährend du geschockt wirst besteht jede Sekunde eine 30%ige Chance dich davon zu befreien."
 
 cd_shockproof_2_name : "Uno-Reverse"
 cd_shockproof_2_desc : "Während du von einem Taser geschockt wirst, kannst du mit ihm interagieren um dich von dem Schockzustand zu befreien."
@@ -561,10 +561,10 @@ cd_low_blow_name : "Tiefschlag"
 cd_low_blow_desc : "Für jeden Punkt Entdeckungssrisiko unter 35 erhöht sich deine kritische Trefferchance um 3% bi zu maximal 30%."
 
 cd_hvt_1_name : "Wichtiges Ziel"
-cd_hvt_1_desc : "Zielen markiert Gegner.\nMarkierte Gegner erhalten 15% mehr Schaden."
+cd_hvt_1_desc : "Wenn du auf Gegner zielst, werden sie markiert.\nMarkierte Gegner erleiden aus allen Quellen 15% mehr Schaden."
 
 cd_hvt_2_name : "Fernes Ziel"
-cd_hvt_2_desc : "Markierte Ziele, die weiter als 10 Meter von dir entfernt sind, erhalten 50% mehr Schaden."
+cd_hvt_2_desc : "Du fügst markierten Zielen, die mehr als 10m von dir entfernt sind 50% mehr Schaden zu."
 
 cd_unseen_strike_name : "Verborgener Schlag"
 cd_unseen_strike_desc : "Wenn du 4 Sekunden lang keinen Schaden erhalten hast, erhöht sich deine kritische Trefferchance für 18 Sekunden um 35%."
