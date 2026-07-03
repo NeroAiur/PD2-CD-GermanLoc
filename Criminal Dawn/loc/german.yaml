@@ -567,29 +567,29 @@ cd_hvt_2_name : "Fernes Ziel"
 cd_hvt_2_desc : "Du fügst markierten Zielen, die mehr als 10m von dir entfernt sind 50% mehr Schaden zu."
 
 cd_unseen_strike_name : "Verborgener Schlag"
-cd_unseen_strike_desc : "Wenn du 4 Sekunden lang keinen Schaden erhalten hast, erhöht sich deine kritische Trefferchance für 18 Sekunden um 35%."
+cd_unseen_strike_desc : "Wenn du 4s lang keinen Schaten erlitten hast, erhöht sich deine kritische Trefferchance für 18s um 35%."
 
 # Fugitive Tree
 cd_pistol_acc_stack_name : "Desperado"
-cd_pistol_acc_stack_desc : "Für jeden Treffer mit Pistolen erhöht sich deine Genauigkeit für 10 Sekunden um 10% bis zu maximal 40%."
+cd_pistol_acc_stack_desc : "Treffer mit Pistolen erhöhen deine Genauigkeit für 10s um 10% bis zu maximal 40%."
 
 cd_pistol_damage_on_hit_name : "Schießwütig"
-cd_pistol_damage_on_hit_desc : "Wenn du mit einer Pistole triffst, erhöht sich dein verursachter Schaden für 4 Sekunden um 120%."
+cd_pistol_damage_on_hit_desc : "Treffer Pistoln erhöhen deinen verursachten Schaden für 4s um 120%."
 
 cd_revive_swap_reload_speed_name : "Am Abgrund"
-cd_revive_swap_reload_speed_desc : "Nachdem du wiederbelebt wurdest erhöht sich deine Waffenwechsel und -nachladegeschwidigkeit für 10 Sekunden um 100%."
+cd_revive_swap_reload_speed_desc : "Nachdem du wiederbelebt wurdest erhöht sich deine Waffenwechsel- und Nachladegeschwidigkeit für 10s um 100%."
 
 cd_revive_dr_movement_name : "Dem Tod entkommen"
-cd_revive_dr_movement_desc : "Nachdem du wiederbelebt wurdest erhöht sich deine Bewegungsgeschwindigkeit um 30% und dein erlittener Schaden reduziert sich um 30%. Dieser Effekt hält 10 Sekunden an."
+cd_revive_dr_movement_desc : "Nachdem du wiederbelebt wurdest erhöht sich deine Bewegungsgeschwindigkeit 10s um 30% und dein erlittener Schaden reduziert sich 10s um 30%."
 
 cd_swan_song_name : "Schwanengesang"
-cd_swan_song_desc : "Wenn du niedergeschlagen wirst, bleibst du für 6 Sekunden stehen bevor du zu Boden gehst."
+cd_swan_song_desc : "Wenn du niedergeschlagen wirst, gehst du erst nach 6s zu Boden."
 
 cd_swan_song_inf_name : "Rachsüchtiger Schwan"
 cd_swan_song_inf_desc : "Während 'Schwanengesang' aktiv ist, verbrauchst du keine Munition."
 
 cd_messiah_name : "Messias"
-cd_messiah_desc : "Wenn du am Boden bist, kannst du dich selbst wiederbeleben indem du einen Gegner tötest. Dieser Effekt kann nur einmal pro Raubüberfall genutzt werden und wird zurückgesetzt, wenn du mit einer Arzttasche interagierst"
+cd_messiah_desc : "Wenn du am Boden bist, kannst du dich selbst wiederbeleben indem du einen Gegner tötest. Dieser Effekt kann nur einmal pro Raubüberfall genutzt werden und wird zurückgesetzt, wenn du mit einer Arzttasche interagierst."
 
 cd_feign_death_name : "Totstellen"
 cd_feign_death_desc : "Du hast eine 45%ige Chance dich selbst wiederzubeleben."
