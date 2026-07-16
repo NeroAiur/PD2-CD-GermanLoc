@@ -138,6 +138,9 @@ crimdawn_chat_final_minute : "Weniger als eine Minuten übrig!"
 crimdawn_chat_no_time_left : "Zeit abgelaufen!"
 
 ### POINT OF NO RETURN ###
+# About 22 letters are the cutoff
+# it was about "t wird wiederbelebt in" which was shown in my test run
+# so yeah there will be some cutting here and there, np tho
 crimdawn_ponr_default: "Sonnenuntergang in"
 crimdawn_ponr_rare1: "Bain stirbt in"
 crimdawn_ponr_rare2: "Moon Lord erscheint in" # Terraria
